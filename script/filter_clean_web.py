@@ -1,5 +1,6 @@
 import json
 import re
+import os
 
 def remove_links(text):
     if not isinstance(text, str):
@@ -13,8 +14,15 @@ def remove_links(text):
 
     return text
 
-input_file = "openai_batch_output.json"
-output_file = "openai_batch_output_clean.json"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+candidate_inputs = [
+    os.path.join(script_dir, "openai_batch_output.filtered.json"),
+    os.path.join(script_dir, "openai_batch_output.json"),
+]
+input_file = next((p for p in candidate_inputs if os.path.exists(p)), None)
+if not input_file:
+    raise FileNotFoundError("未找到输入文件：openai_batch_output.filtered.json 或 openai_batch_output.json")
+output_file = os.path.join(script_dir, "openai_batch_output_clean.json")
 
 with open(input_file, "r", encoding="utf-8") as f:
     data = json.load(f)
@@ -27,4 +35,6 @@ for item in data:
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-print("✔ 已完成：锚文本 + URL 均已删除，输出为", output_file)
+print("✔ 已完成：锚文本 + URL 均已删除")
+print("输入：", input_file)
+print("输出：", output_file)

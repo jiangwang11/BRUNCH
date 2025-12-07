@@ -36,7 +36,7 @@ def process_text(s, letter):
     return pre + "".join(out) if changed else s
 def main():
     base = os.path.dirname(os.path.abspath(__file__))
-    inp = sys.argv[1] if len(sys.argv)>=2 else os.path.join(base,"openai_batch_output.json")
+    inp = sys.argv[1] if len(sys.argv)>=2 else os.path.join(base,"openai_batch_output.filtered.json")
     outp = sys.argv[2] if len(sys.argv)>=3 else inp
     if not os.path.exists(inp):
         print(f"文件不存在: {inp}"); return
