@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "field": "Bionic Meta-Heuristic Optimization Techniques",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\alibaba_tongyi-deepresearch-30b-a3b\\01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "tokens_total": 2949,
+    "tokens_prompt": 229,
+    "tokens_completion": 2720,
+    "references": 11,
+    "duration_sec": 21.956969738006592,
+    "length_chars": 4532
+  },
+  {
+    "id": 2,
+    "field": "Image Quality Assessment Techniques Using Structural Similarity Metrics",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\alibaba_tongyi-deepresearch-30b-a3b\\02_Survey_Image Quality Assessment Techniques Using Structural Similarity Metrics.md",
+    "tokens_total": 3173,
+    "tokens_prompt": 230,
+    "tokens_completion": 2943,
+    "references": 3,
+    "duration_sec": 22.09480619430542,
+    "length_chars": 6541
+  },
+  {
+    "id": 3,
+    "field": "Multi-label Learning Systems and Extensions",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\alibaba_tongyi-deepresearch-30b-a3b\\03_Survey_Multi-label Learning Systems and Extensions.md",
+    "tokens_total": 2497,
+    "tokens_prompt": 227,
+    "tokens_completion": 2270,
+    "references": 4,
+    "duration_sec": 17.421600341796875,
+    "length_chars": 3685
+  }
+]
