@@ -179,7 +179,7 @@ def main():
 
     CSV_FILE_PATH = "papers1.csv"
     PAPER_NAME_COLUMN = "title"
-    NUM_TO_PROCESS = 50  # 手动控制选择前几篇
+    NUM_TO_PROCESS = 300  # 手动控制选择前几篇
 
     papers_to_process = []
 

@@ -293,4 +293,4 @@ def evaluate_from_json(json_path: str, filtered_output_path: str = "openai_batch
 # ================== 入口 ==================
 
 if __name__ == "__main__":
-    evaluate_from_json("openai_batch_output.json")
+    evaluate_from_json("openai_batch_output_clean.json")

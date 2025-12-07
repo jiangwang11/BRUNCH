@@ -1,46 +1,310 @@
 [
   {
     "id": 1,
-    "field": "短语基统计机器翻译中的连续空间（向量）翻译模型"
+    "field": "Bionic Meta-Heuristic Optimization Techniques"
   },
   {
     "id": 2,
-    "field": "近年新兴的仿生群体智能元启发式算法的比较与工程应用"
+    "field": "图像质量评估方法与测量技术。"
   },
   {
     "id": 3,
-    "field": "多标签/多目标学习的开源工具与软件框架"
+    "field": "Multi-label Learning Algorithms and Tools"
   },
   {
     "id": 4,
-    "field": "标签空间变换与输出编码方法（含基于CCA的多标记学习）"
+    "field": "Tabular Data Modeling with Foundation Models"
   },
   {
     "id": 5,
-    "field": "情感与对话行为标注的多轮对话数据集"
+    "field": "Medical Image Segmentation Techniques"
   },
   {
     "id": 6,
-    "field": "多尺度与中心视野（foveal）结合的局部感知视觉Transformer架构"
+    "field": "Multi-label Learning with Canonical Correlation Analysis"
   },
   {
     "id": 7,
-    "field": "基于联邦学习的无线传感器网络入侵检测与隐私保护"
+    "field": "Dialogue Systems and Datasets"
   },
   {
     "id": 8,
-    "field": "零知识证明驱动的区块链自我主权身份（SSI）与选择性披露机制"
+    "field": "Data Augmentation Techniques in Machine Learning"
   },
   {
     "id": 9,
-    "field": "插值式数据增强（Mixup 与变体）"
+    "field": "Blockchain Applications for Healthcare Data Security"
   },
   {
     "id": 10,
-    "field": "基于区块链的云环境医疗设备完整性与数据可追溯性解决方案"
+    "field": "Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices Using AI and ML Techniques"
   },
   {
     "id": 11,
-    "field": "跨物种组学数据的程序化检索与元数据整合平台"
+    "field": "Bioinformatics Tools for Sequence and Metadata Retrieval"
+  },
+  {
+    "id": 12,
+    "field": "Filter-based Feature Selection in Machine Learning"
+  },
+  {
+    "id": 13,
+    "field": "AI辅助教育技术与学生自主学习。"
+  },
+  {
+    "id": 14,
+    "field": "图像去雾算法及其在深度学习中的应用与优化"
+  },
+  {
+    "id": 15,
+    "field": "Human Motion Synthesis Using Generative Models"
+  },
+  {
+    "id": 16,
+    "field": "Recommendation Systems with Large Language Models"
+  },
+  {
+    "id": 17,
+    "field": "优化算法与生物启发计算方法。"
+  },
+  {
+    "id": 18,
+    "field": "Network Intrusion Detection Systems for Big Data"
+  },
+  {
+    "id": 19,
+    "field": "In-context Learning Methods and Applications"
+  },
+  {
+    "id": 20,
+    "field": "News Summarization with Large Language Models"
+  },
+  {
+    "id": 21,
+    "field": "Generative Adversarial Networks and Their Applications"
+  },
+  {
+    "id": 22,
+    "field": "Interpretability Techniques in Machine Learning Models"
+  },
+  {
+    "id": 23,
+    "field": "Protocol Fuzzing with AI-driven Language Models"
+  },
+  {
+    "id": 24,
+    "field": "Vision Transformers in Medical Image Analysis"
+  },
+  {
+    "id": 25,
+    "field": "Open-Vocabulary Object Detection Methods"
+  },
+  {
+    "id": 26,
+    "field": "I’m sorry, but I am unable to read specific papers, including PubChem 2025 update. However, based on what you might expect from an update related to PubChem, which is a chemical substance and information database, a plausible medium-grained research area might be:\n\nAdvancements in Chemical Databases and Their Applications in Drug Discovery"
+  },
+  {
+    "id": 27,
+    "field": "Metaheuristic Optimization Techniques in Engineering Applications"
+  },
+  {
+    "id": 28,
+    "field": "Human-based Metaheuristics in Optimization"
+  },
+  {
+    "id": 29,
+    "field": "Search Behavior and Preference Prediction Using Language Models"
+  },
+  {
+    "id": 30,
+    "field": "Intrusion Detection Systems for Industrial Internet of Things (IIoT)"
+  },
+  {
+    "id": 31,
+    "field": "Deep neural network model compression and pruning techniques."
+  },
+  {
+    "id": 32,
+    "field": "Prompt Engineering for Clinical NLP Applications"
+  },
+  {
+    "id": 33,
+    "field": "State Space Models for Image Fusion"
+  },
+  {
+    "id": 34,
+    "field": "Image Encryption Techniques Using Hyperchaotic Maps and Pixel Fusion Strategies"
+  },
+  {
+    "id": 35,
+    "field": "智能工业物联网的数据融合与优化技术"
+  },
+  {
+    "id": 36,
+    "field": "Metaheuristic Optimization Algorithms in Medical Applications"
+  },
+  {
+    "id": 37,
+    "field": "Intermediate-Level Problem Solving with Large Language Models"
+  },
+  {
+    "id": 38,
+    "field": "Spectral Analysis for Soil Organic Carbon in Mining Areas"
+  },
+  {
+    "id": 39,
+    "field": "Adaptive Algorithms in Robotic Path Planning"
+  },
+  {
+    "id": 40,
+    "field": "Cancer Diagnosis and Prognosis Using Foundation Models in Pathology"
+  },
+  {
+    "id": 41,
+    "field": "Unsupervised Image Dehazing Techniques"
+  },
+  {
+    "id": 42,
+    "field": "Improving computational approaches for ligand-binding prediction in molecular docking studies."
+  },
+  {
+    "id": 43,
+    "field": "AI-Driven Academic Peer Review and Feedback Systems"
+  },
+  {
+    "id": 44,
+    "field": "动态故障检测与恢复机制"
+  },
+  {
+    "id": 45,
+    "field": "Personalized Machine Learning in Healthcare"
+  },
+  {
+    "id": 46,
+    "field": "Metaheuristic Algorithms for UAV Path Planning"
+  },
+  {
+    "id": 47,
+    "field": "患者中心临床文档生成中的生成式 AI 应用与挑战"
+  },
+  {
+    "id": 48,
+    "field": "Chatbot Human-Likeness Assessment"
+  },
+  {
+    "id": 49,
+    "field": "Nature-Inspired Metaheuristic Algorithms for Optimization Problems"
+  },
+  {
+    "id": 50,
+    "field": "Generative AI applications in creative industries"
+  },
+  {
+    "id": 51,
+    "field": "Visuomotor policy learning with diffusion models."
+  },
+  {
+    "id": 52,
+    "field": "Nature-inspired metaheuristic algorithms for optimization problems"
+  },
+  {
+    "id": 53,
+    "field": "Random Forest Proximity Measures and Their Applications"
+  },
+  {
+    "id": 54,
+    "field": "Video Generation with Diffusion Models"
+  },
+  {
+    "id": 55,
+    "field": "视觉感知中的深度学习模型增强技术研究"
+  },
+  {
+    "id": 56,
+    "field": "Teacher Perceptions and Attitudes Towards Artificial Intelligence in Education"
+  },
+  {
+    "id": 57,
+    "field": "Deep Learning for Image Segmentation and Object Annotation"
+  },
+  {
+    "id": 58,
+    "field": "Diffusion-based Methods in Object Detection"
+  },
+  {
+    "id": 59,
+    "field": "Latent Diffusion Models and Their Blending Techniques"
+  },
+  {
+    "id": 60,
+    "field": "Guided image manipulation using diffusion models"
+  },
+  {
+    "id": 61,
+    "field": "Multi-scale object detection in transportation systems"
+  },
+  {
+    "id": 62,
+    "field": "3D Reconstruction and Image Inpainting with Diffusion Models"
+  },
+  {
+    "id": 63,
+    "field": "情感分析与深度学习结合方法综述"
+  },
+  {
+    "id": 64,
+    "field": "Knowledge Distillation in Object Detection Models"
+  },
+  {
+    "id": 65,
+    "field": "Representations for Dynamic 3D Scene Reconstruction"
+  },
+  {
+    "id": 66,
+    "field": "Personalized Medicine through Computational Drug Discovery Techniques"
+  },
+  {
+    "id": 67,
+    "field": "智能物联网应用中的安全与隐私问题综述。"
+  },
+  {
+    "id": 68,
+    "field": "Human Motion Prediction Using Neural Networks"
+  },
+  {
+    "id": 69,
+    "field": "Attention Mechanisms in Medical Image Segmentation"
+  },
+  {
+    "id": 70,
+    "field": "Explainability in Machine Learning Feature Selection Methods"
+  },
+  {
+    "id": 71,
+    "field": "Bioinformatics Tools for Sequence Data Retrieval"
+  },
+  {
+    "id": 72,
+    "field": "Image Denoising Techniques and Applications"
+  },
+  {
+    "id": 73,
+    "field": "Monocular Dynamic Scene Reconstruction Techniques"
+  },
+  {
+    "id": 74,
+    "field": "Explainable AI Techniques in Autonomous Vehicle Systems"
+  },
+  {
+    "id": 75,
+    "field": "Graph-Based Augmented Recommendation Systems"
+  },
+  {
+    "id": 76,
+    "field": "个人化学习系统中的认知机制与技术应用"
+  },
+  {
+    "id": 77,
+    "field": "Anomaly Detection Techniques in IoT Security"
   }
 ]

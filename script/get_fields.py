@@ -22,8 +22,8 @@ if not API_KEY:
     print("请先设置环境变量：export API_KEY='sk-...'")
     exit(1)
 
-AHM_BASE_URL = "https://api.aihubmix.com/v1"
-MODEL_NAME = "gpt-5-mini"
+AHM_BASE_URL = "https://aihubmix.com/v1"
+MODEL_NAME = "gpt-4o"
 
 # 初始化客户端
 try:
