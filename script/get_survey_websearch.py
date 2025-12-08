@@ -17,7 +17,7 @@ if not API_KEY:
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # ✅ 你指定的单一模型（不做自动降级）
-MODEL_NAME = "deepseek/deepseek-chat:online"
+MODEL_NAME = "google/gemini-2.5-pro:online"
 HEALTH_CHECK_MODEL = "deepseek/deepseek-chat"
 
 BATCH_SIZE = 2
@@ -63,7 +63,6 @@ def health_check():
 # ================== ✅ 核心安全生成函数（不自动降级） ==================
 
 def get_survey_from_deep_research(prompt_text: str) -> dict:
-
     try:
         response = client.chat.completions.create(
             model=MODEL_NAME,
@@ -71,49 +70,44 @@ def get_survey_from_deep_research(prompt_text: str) -> dict:
                 {"role": "system", "content": "你是一个严谨的科研助手，必须基于真实联网搜索生成学术综述。"},
                 {"role": "user", "content": prompt_text}
             ],
-            max_tokens=12000,
+            max_tokens=15000,
             extra_body={
+                "transform": "middle-out",
                 "plugins": [
-                    {"id": "web", "engine": "exa", "max_results": 5}
+                    {"id": "web", "engine": "exa", "max_results": 10}
                 ]
             }
         )
     except Exception as e:
-        raise RuntimeError(f"API 调用失败: {e}")
+        raise RuntimeError(f"API 调用直接异常（网络/节点级错误）: {e}")
 
-    if not response or not getattr(response, "choices", None):
-        raise RuntimeError("API 未返回有效的 choices")
+    # ✅ ✅ ✅ 关键修复：完整打印 OpenRouter 的异常结构
+    if not response:
+        raise RuntimeError("API 返回了 None response（非常罕见）")
+
+    # ✅ OpenRouter 错误有时是 dict 结构，不是 completion
+    if isinstance(response, dict) and "error" in response:
+        raise RuntimeError(f"OpenRouter 原始错误返回: {response}")
+
+    if not hasattr(response, "choices") or not response.choices:
+        raise RuntimeError(f"API 未返回 choices，原始 response = {response}")
 
     first_choice = response.choices[0]
+
     if not hasattr(first_choice, "message") or first_choice.message is None:
-        raise RuntimeError("API choice 中无 message")
+        raise RuntimeError(f"API choice 中无 message，原始 choice = {first_choice}")
 
     message = first_choice.message
     content = (getattr(message, "content", "") or "").strip()
+
     if not content:
-        raise RuntimeError("模型返回了空 content")
+        raise RuntimeError("模型返回 content 为空")
 
-    used_web_plugin = False
-    citation_count = 0
+    # ✅ 引用统计
+    url_pattern = re.compile(r"https?://\S+")
+    citation_count = len(url_pattern.findall(content))
 
-    annotations = getattr(message, "annotations", None)
-    if annotations:
-        for ann in annotations:
-            if getattr(ann, "type", "") == "url_citation":
-                used_web_plugin = True
-                citation_count += 1
-
-    if not used_web_plugin:
-        url_pattern = re.compile(r"https?://\S+")
-        citation_count = len(url_pattern.findall(content))
-        if citation_count > 0:
-            used_web_plugin = True
-
-    if used_web_plugin:
-        print(f">>> ✅ 已检测到真实联网引用，数量 ≈ {citation_count}")
-    else:
-        print("⚠️ 未检测到真实网页引用（模型可能未真正联网）")
-
+    # ✅ token 统计（OpenRouter 不稳定，可能为空）
     usage = getattr(response, "usage", None)
     prompt_tokens = getattr(usage, "prompt_tokens", None) if usage else None
     completion_tokens = getattr(usage, "completion_tokens", None) if usage else None
@@ -130,6 +124,7 @@ def get_survey_from_deep_research(prompt_text: str) -> dict:
         },
         "references": citation_count,
     }
+
 
 # ================== 主逻辑 ==================
 

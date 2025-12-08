@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": 4,
+    "field": "Tabular Data Foundation Models in Machine Learning",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\deepseek_deepseek-chat_online\\04_Survey_Tabular Data Foundation Models in Machine Learning.md",
+    "tokens_total": 19742,
+    "tokens_prompt": 18628,
+    "tokens_completion": 1114,
+    "references": 10,
+    "duration_sec": 23.42360782623291,
+    "length_chars": 2428
+  },
+  {
+    "id": 5,
+    "field": "Medical Image Segmentation Techniques and Applications",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\deepseek_deepseek-chat_online\\05_Survey_Medical Image Segmentation Techniques and Applications.md",
+    "tokens_total": 14934,
+    "tokens_prompt": 13635,
+    "tokens_completion": 1299,
+    "references": 9,
+    "duration_sec": 26.94580888748169,
+    "length_chars": 3413
+  }
+]

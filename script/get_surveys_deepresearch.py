@@ -81,7 +81,7 @@ def get_survey_from_deep_research(prompt_text: str) -> dict:
             {"role": "system", "content": "你是一个专业的科研助手。必须使用联网搜索检索并核对信息，优先引用权威来源（顶会/顶刊、arXiv、官方资料）。在输出中给出参考文献列表（含标题、作者、年份、来源链接），并确保正文关键论断至少附一条引用。"},
             {"role": "user", "content": prompt_text}
         ],
-        max_tokens=12000
+        max_tokens=40000,
     )
     content = (getattr(response.choices[0].message, "content", "") or "").strip()
 
