@@ -20,7 +20,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 MODEL_NAME = "google/gemini-2.5-pro:online"
 HEALTH_CHECK_MODEL = "deepseek/deepseek-chat"
 
-BATCH_SIZE = 2
+BATCH_SIZE = 1
 
 # ================== 初始化客户端 ==================
 
