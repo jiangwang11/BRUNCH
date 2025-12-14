@@ -17,7 +17,7 @@ if not API_KEY:
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # ✅ 你指定的单一模型（不做自动降级）
-MODEL_NAME = "google/gemini-2.5-pro:online"
+MODEL_NAME = "google/gemini-2.5-flash:online"
 HEALTH_CHECK_MODEL = "deepseek/deepseek-chat"
 
 BATCH_SIZE = 100
