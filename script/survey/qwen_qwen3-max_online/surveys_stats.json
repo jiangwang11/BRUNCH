@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "field": "Bionic Meta-Heuristic Optimization Techniques",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "tokens_total": 146561,
+    "tokens_prompt": 143786,
+    "tokens_completion": 2775,
+    "references": 16,
+    "duration_sec": 136.43087458610535,
+    "length_chars": 4628
+  },
+  {
+    "id": 2,
+    "field": "Image Quality Assessment Techniques Using Structural Similarity Metrics",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\02_Survey_Image Quality Assessment Techniques Using Structural Similarity Metrics.md",
+    "tokens_total": 138738,
+    "tokens_prompt": 136218,
+    "tokens_completion": 2520,
+    "references": 0,
+    "duration_sec": 135.1958522796631,
+    "length_chars": 5367
+  },
+  {
+    "id": 4,
+    "field": "Tabular Data Foundation Models in Machine Learning",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\04_Survey_Tabular Data Foundation Models in Machine Learning.md",
+    "tokens_total": 73596,
+    "tokens_prompt": 70907,
+    "tokens_completion": 2689,
+    "references": 0,
+    "duration_sec": 85.84970092773438,
+    "length_chars": 5325
+  },
+  {
+    "id": 5,
+    "field": "Medical Image Segmentation Techniques and Applications",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\05_Survey_Medical Image Segmentation Techniques and Applications.md",
+    "tokens_total": 110838,
+    "tokens_prompt": 107807,
+    "tokens_completion": 3031,
+    "references": 10,
+    "duration_sec": 110.91790461540222,
+    "length_chars": 5301
+  },
+  {
+    "id": 6,
+    "field": "Multilabel Classification Using Canonical Correlation Analysis",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\06_Survey_Multilabel Classification Using Canonical Correlation Analysis.md",
+    "tokens_total": 175183,
+    "tokens_prompt": 172890,
+    "tokens_completion": 2293,
+    "references": 0,
+    "duration_sec": 168.35161066055298,
+    "length_chars": 4368
+  },
+  {
+    "id": 7,
+    "field": "Dialog Systems and Dialogue Generation",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\07_Survey_Dialog Systems and Dialogue Generation.md",
+    "tokens_total": 59045,
+    "tokens_prompt": 56009,
+    "tokens_completion": 3036,
+    "references": 16,
+    "duration_sec": 75.84231781959534,
+    "length_chars": 5972
+  },
+  {
+    "id": 8,
+    "field": "Data Augmentation Techniques in Deep Learning",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\08_Survey_Data Augmentation Techniques in Deep Learning.md",
+    "tokens_total": 113370,
+    "tokens_prompt": 111530,
+    "tokens_completion": 1840,
+    "references": 1,
+    "duration_sec": 96.73309636116028,
+    "length_chars": 3411
+  },
+  {
+    "id": 9,
+    "field": "Blockchain Applications in Healthcare Security",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\09_Survey_Blockchain Applications in Healthcare Security.md",
+    "tokens_total": 40067,
+    "tokens_prompt": 37022,
+    "tokens_completion": 3045,
+    "references": 15,
+    "duration_sec": 66.70053339004517,
+    "length_chars": 4962
+  },
+  {
+    "id": 11,
+    "field": "Sequence and Metadata Retrieval Tools and Techniques in Computational Biology",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\11_Survey_Sequence and Metadata Retrieval Tools and Techniques in Computational Biology.md",
+    "tokens_total": 99449,
+    "tokens_prompt": 96722,
+    "tokens_completion": 2727,
+    "references": 12,
+    "duration_sec": 109.78402471542358,
+    "length_chars": 5208
+  },
+  {
+    "id": 12,
+    "field": "Feature Selection in Machine Learning for Classification Tasks",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\12_Survey_Feature Selection in Machine Learning for Classification Tasks.md",
+    "tokens_total": 104172,
+    "tokens_prompt": 101913,
+    "tokens_completion": 2259,
+    "references": 0,
+    "duration_sec": 93.01842594146729,
+    "length_chars": 3577
+  },
+  {
+    "id": 13,
+    "field": "AI in Education and Self-Regulated Learning",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\13_Survey_AI in Education and Self-Regulated Learning.md",
+    "tokens_total": 55760,
+    "tokens_prompt": 52968,
+    "tokens_completion": 2792,
+    "references": 21,
+    "duration_sec": 83.85162734985352,
+    "length_chars": 5241
+  },
+  {
+    "id": 14,
+    "field": "单图像去雾技术与深度学习结合的增强方法。",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\14_Survey_单图像去雾技术与深度学习结合的增强方法。.md",
+    "tokens_total": 126725,
+    "tokens_prompt": 123997,
+    "tokens_completion": 2728,
+    "references": 6,
+    "duration_sec": 126.63593578338623,
+    "length_chars": 4817
+  },
+  {
+    "id": 15,
+    "field": "Text-Driven Human Motion Synthesis with Deep Learning Models",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\15_Survey_Text-Driven Human Motion Synthesis with Deep Learning Models.md",
+    "tokens_total": 31498,
+    "tokens_prompt": 28569,
+    "tokens_completion": 2929,
+    "references": 17,
+    "duration_sec": 71.69189143180847,
+    "length_chars": 5983
+  },
+  {
+    "id": 17,
+    "field": "Bio-inspired Metaheuristic Algorithms for Engineering Optimization",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\17_Survey_Bio-inspired Metaheuristic Algorithms for Engineering Optimization.md",
+    "tokens_total": 138031,
+    "tokens_prompt": 135703,
+    "tokens_completion": 2328,
+    "references": 6,
+    "duration_sec": 124.33719038963318,
+    "length_chars": 3659
+  },
+  {
+    "id": 18,
+    "field": "Intrusion Detection in Imbalanced Big Data Networks",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\18_Survey_Intrusion Detection in Imbalanced Big Data Networks.md",
+    "tokens_total": 87858,
+    "tokens_prompt": 85082,
+    "tokens_completion": 2776,
+    "references": 7,
+    "duration_sec": 88.41027450561523,
+    "length_chars": 4619
+  },
+  {
+    "id": 19,
+    "field": "In-context Learning in Natural Language Processing",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\19_Survey_In-context Learning in Natural Language Processing.md",
+    "tokens_total": 110365,
+    "tokens_prompt": 107882,
+    "tokens_completion": 2483,
+    "references": 1,
+    "duration_sec": 106.84495949745178,
+    "length_chars": 5541
+  },
+  {
+    "id": 21,
+    "field": "Advancements and Applications of Generative Adversarial Networks (GANs)",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\21_Survey_Advancements and Applications of Generative Adversarial Networks (GANs).md",
+    "tokens_total": 71894,
+    "tokens_prompt": 69640,
+    "tokens_completion": 2254,
+    "references": 4,
+    "duration_sec": 135.885338306427,
+    "length_chars": 4275
+  },
+  {
+    "id": 23,
+    "field": "Protocol Fuzzing Techniques and Applications",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\23_Survey_Protocol Fuzzing Techniques and Applications.md",
+    "tokens_total": 59770,
+    "tokens_prompt": 56922,
+    "tokens_completion": 2848,
+    "references": 15,
+    "duration_sec": 87.39533686637878,
+    "length_chars": 5300
+  }
+]
