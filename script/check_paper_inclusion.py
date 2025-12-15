@@ -9,16 +9,16 @@ from openai import OpenAI
 # ================== 用户配置区域 (超参数) ==================
 
 # 1. 这里填写 survey 文件夹下那个具体的模型文件夹名字
-TARGET_SURVEY_DIR_NAME = "alibaba_tongyi-deepresearch-30b-a3b"
+TARGET_SURVEY_DIR_NAME = "google_gemini-2.5-pro_online"
 
 # 2. JSON 文件路径
 JSON_FILE_PATH = "openai_batch_output.filtered.json"
 
 # 3. 结果保存路径
-OUTPUT_FILE_PATH = "survey_check_result.json"
+OUTPUT_FILE_PATH = "survey_check_result_gemini.json"
 
 # 4. 测试数量限制 (0 或 None 为全量)
-TEST_LIMIT = 10
+TEST_LIMIT = 0
 
 # ================== API 基础配置 ==================
 
