@@ -8,12 +8,12 @@ from openai import OpenAI
 
 # ================== 用户配置区域 ==================
 
-TARGET_SURVEY_DIR_NAME = "alibaba_tongyi-deepresearch-30b-a3b"
+TARGET_SURVEY_DIR_NAME = "qwen_qwen3-max_online"
 JSON_FILE_PATH = "openai_batch_output.filtered.json"
-OUTPUT_FILE_PATH = "survey_direct_compare_result.json"  # 改个名，防止搞混
+OUTPUT_FILE_PATH = "survey_direct_compare_result_qwen_qwen3-max_online.json"  # 改个名，防止搞混
 
 # 设置为 0 或 None 跑全量
-TEST_LIMIT = 3
+TEST_LIMIT = 0
 
 # ================== Prompt 模板 ==================
 SOLVE_PROMPT_TEMPLATE = """
