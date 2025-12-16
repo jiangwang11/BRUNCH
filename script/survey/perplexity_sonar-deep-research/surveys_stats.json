@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "field": "Bionic Meta-Heuristic Optimization Techniques",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\perplexity_sonar-deep-research\\01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "tokens_total": 241084,
+    "tokens_prompt": 288,
+    "tokens_completion": 240796,
+    "references": 0,
+    "duration_sec": 91.13162398338318,
+    "length_chars": 23776
+  }
+]

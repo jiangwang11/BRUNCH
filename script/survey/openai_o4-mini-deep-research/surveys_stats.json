@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "field": "Bionic Meta-Heuristic Optimization Techniques",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_o4-mini-deep-research\\01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "tokens_total": 96328,
+    "tokens_prompt": 70363,
+    "tokens_completion": 25965,
+    "references": 53,
+    "duration_sec": 615.8203344345093,
+    "length_chars": 14505
+  },
+  {
+    "id": 2,
+    "field": "Image Quality Assessment Techniques Using Structural Similarity Metrics",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_o4-mini-deep-research\\02_Survey_Image Quality Assessment Techniques Using Structural Similarity Metrics.md",
+    "tokens_total": 62595,
+    "tokens_prompt": 37687,
+    "tokens_completion": 24908,
+    "references": 42,
+    "duration_sec": 296.4113039970398,
+    "length_chars": 11394
+  },
+  {
+    "id": 3,
+    "field": "Multi-label Learning Systems and Extensions",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_o4-mini-deep-research\\03_Survey_Multi-label Learning Systems and Extensions.md",
+    "tokens_total": 84595,
+    "tokens_prompt": 61597,
+    "tokens_completion": 22998,
+    "references": 40,
+    "duration_sec": 362.1764018535614,
+    "length_chars": 10550
+  }
+]
