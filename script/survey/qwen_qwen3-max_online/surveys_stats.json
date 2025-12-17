@@ -275,6 +275,17 @@
     "length_chars": 5278
   },
   {
+    "id": 26,
+    "field": "PubChem数据库更新与扩展",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\26_Survey_PubChem数据库更新与扩展.md",
+    "tokens_total": 45344,
+    "tokens_prompt": 42698,
+    "tokens_completion": 2646,
+    "references": 10,
+    "duration_sec": 64.10514616966248,
+    "length_chars": 5053
+  },
+  {
     "id": 27,
     "field": "Metaheuristic Optimization Techniques for Complex Engineering Problems",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\27_Survey_Metaheuristic Optimization Techniques for Complex Engineering Problems.md",
@@ -704,6 +715,17 @@
     "length_chars": 6383
   },
   {
+    "id": 66,
+    "field": "个人化药物治疗中的深度学习应用。",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\66_Survey_个人化药物治疗中的深度学习应用。.md",
+    "tokens_total": 116704,
+    "tokens_prompt": 114703,
+    "tokens_completion": 2001,
+    "references": 10,
+    "duration_sec": 99.43897438049316,
+    "length_chars": 3612
+  },
+  {
     "id": 67,
     "field": "Security and Privacy Challenges in the Internet of Things",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\67_Survey_Security and Privacy Challenges in the Internet of Things.md",
@@ -924,6 +946,17 @@
     "length_chars": 5410
   },
   {
+    "id": 87,
+    "field": "State Space Models for Semantic Segmentation in Remote Sensing",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\87_Survey_State Space Models for Semantic Segmentation in Remote Sensing.md",
+    "tokens_total": 83789,
+    "tokens_prompt": 81095,
+    "tokens_completion": 2694,
+    "references": 10,
+    "duration_sec": 85.65001511573792,
+    "length_chars": 4700
+  },
+  {
     "id": 88,
     "field": "Image Super-Resolution Using Generative Models",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\88_Survey_Image Super-Resolution Using Generative Models.md",
@@ -944,6 +977,17 @@
     "references": 8,
     "duration_sec": 72.72376108169556,
     "length_chars": 4730
+  },
+  {
+    "id": 90,
+    "field": "Multi-UAV Systems Control with Fault Tolerance and Performance Constraints",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\90_Survey_Multi-UAV Systems Control with Fault Tolerance and Performance Constraints.md",
+    "tokens_total": 133982,
+    "tokens_prompt": 131032,
+    "tokens_completion": 2950,
+    "references": 10,
+    "duration_sec": 127.96460294723511,
+    "length_chars": 5043
   },
   {
     "id": 91,
