@@ -20,14 +20,14 @@ if not API_KEY:
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # ✅ 使用 Deep Research 模型
-MODEL_NAME = "openai/o4-mini-deep-research"
+MODEL_NAME = "perplexity/sonar-deep-research"
 
 # 便宜模型用于健康检查
 HEALTH_CHECK_MODEL = "openai/gpt-4o-mini"
 
 # ================== 批量控制 ==================
 
-BATCH_SIZE = 100
+BATCH_SIZE = 24
 
 # ================== 初始化客户端 ==================
 
@@ -130,8 +130,9 @@ def main():
 
     os.makedirs(model_output_dir, exist_ok=True)
     metrics_path = os.path.join(model_output_dir, "surveys_stats.json")
-    with open(metrics_path, "w", encoding="utf-8") as f:
-        json.dump([], f, ensure_ascii=False, indent=2)
+    if not os.path.exists(metrics_path):
+        with open(metrics_path, "w", encoding="utf-8") as f:
+            json.dump([], f, ensure_ascii=False, indent=2)
 
     if not health_check():
         return
@@ -183,6 +184,42 @@ def main():
 
         print(f"\n--- [{i + 1}/{total_items}] 正在生成: id={fid}, field={field_name} ---")
 
+        safe_field_name = sanitize_filename(field_name)
+        file_name = f"{fid:02d}_Survey_{safe_field_name}.md"
+        file_path = os.path.join(model_output_dir, file_name)
+        if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
+            print(f">>> 已存在: {file_path}，跳过生成")
+            try:
+                with open(metrics_path, "r", encoding="utf-8") as mf:
+                    current = json.load(mf)
+                    if not isinstance(current, list):
+                        current = []
+            except Exception:
+                current = []
+            if not any(it.get("id") == fid for it in current):
+                try:
+                    with open(file_path, "r", encoding="utf-8") as sf:
+                        existing_content = sf.read()
+                except Exception:
+                    existing_content = ""
+                entry = {
+                    "id": fid,
+                    "field": field_name,
+                    "md_path": file_path,
+                    "tokens_total": None,
+                    "tokens_prompt": None,
+                    "tokens_completion": None,
+                    "references": len(re.findall(r"https?://\S+", existing_content or "")),
+                    "duration_sec": None,
+                    "length_chars": len(existing_content or ""),
+                }
+                current.append(entry)
+                current.sort(key=lambda x: x.get("id", 0))
+                with open(metrics_path, "w", encoding="utf-8") as mf:
+                    json.dump(current, mf, ensure_ascii=False, indent=2)
+                print(f">>> 📈 已补记录到统计: {metrics_path}")
+            continue
+
         final_prompt = SURVEY_PROMPT_TEMPLATE.format(field=field_name)
 
         start_time = time.time()
@@ -228,7 +265,19 @@ def main():
             except Exception:
                 current = []
 
-            current.append(entry)
+            updated = False
+            for idx, it in enumerate(current):
+                if it.get("id") == fid:
+                    merged = dict(it)
+                    for k, v in entry.items():
+                        if k not in merged or merged[k] in (None, ""):
+                            merged[k] = v
+                    current[idx] = merged
+                    updated = True
+                    break
+            if not updated:
+                current.append(entry)
+
             current.sort(key=lambda x: x.get("id", 0))
 
             with open(metrics_path, "w", encoding="utf-8") as mf:
