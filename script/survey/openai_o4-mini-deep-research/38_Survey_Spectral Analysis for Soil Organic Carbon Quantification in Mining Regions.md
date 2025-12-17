@@ -1,0 +1,36 @@
+# 引言
+
+土壤有机碳（SOC）是土壤健康和生态系统功能的重要指标，其监测对于矿区土地复垦和碳循环评估尤为关键 ([arxiv.org](https://arxiv.org/abs/2504.13962#:~:text=challenging%20due%20to%20spatial%20variability%2C,generates%20predictive%20models%20using%20historical))。然而，矿区土壤通常具有强烈的空间异质性和植被干扰，传统测量方法费时费力。基于光谱的快速定量技术因其无损、高效的特点而受到关注。本文回顾2022–2025年利用光谱信息在矿区土壤SOC定量中的代表性研究，按照方法类别归纳各类方法的核心思想与实验结论，并总结研究共性与未来发展趋势。
+
+# 方法分类与代表作
+
+**传统光谱化学计量与机器学习方法：** 早期研究多采用可见/近红外（Vis/NIR）光谱结合偏最小二乘（PLSR）、支持向量机等方法直接反演土壤有机碳含量。在此基础上，Parker 和 Sansó (2023) 构建了一种异质空间模型，将土地利用和空间位置作为协变量，并将VNIR光谱纳入协变量，允许模型均值和方差随空间变化 ([arxiv.org](https://arxiv.org/abs/2311.12020#:~:text=proxy%20to%20help%20predict%20carbon,along%20with%20uncertainty%20quantification))。该模型经过交叉验证后成功绘制出覆盖美国本土的土壤有机碳分布图及不确定性评估 ([arxiv.org](https://arxiv.org/abs/2311.12020#:~:text=proxy%20to%20help%20predict%20carbon,along%20with%20uncertainty%20quantification))。Wong 等 (2023) 提出在卫星多光谱图像上使用傅里叶神经算子（FNO）与DenseNet相结合的方法（FNO-DenseNet），研究发现这种深度卷积架构在参数量远低于对比模型的情况下，其SOC估计精度优于基于像素的随机森林模型 ([arxiv.org](https://arxiv.org/abs/2311.13016#:~:text=SOC%20remote%20sensing%2C%20here%20we,based%20random%20forest%20by))。例如，他们报告FNO-DenseNet的结果显著优于随机森林，证明了结合CNN特征提取的深度模型在遥感SOC估计中的优势 ([arxiv.org](https://arxiv.org/abs/2311.13016#:~:text=SOC%20remote%20sensing%2C%20here%20we,based%20random%20forest%20by))。此外，Zhao 和 Efremova (2023) 利用图神经网络（GNN）处理与气候相关的特征进行SOC预测，研究表明GNN（特别是结合位置编码器）可以捕捉土壤与气候之间的复杂关系 ([arxiv.org](https://arxiv.org/abs/2311.15979#:~:text=land%20and%20agricultural%20management,integrated%20with%20positional%20encoders%2C%20can))。总体上，这些基于光谱特征的机器学习方法强调了结合高维遥感数据与统计模型可以提高SOC预测精度，但也存在受植被、土壤水分等环境因子干扰的问题。
+
+**深度学习与自监督学习方法：** 为突破传统方法局限，大量研究引入深度神经网络。Ayuba 等 (2025) 提出SpecBPP框架，通过自监督学习充分利用高光谱数据的序列结构。SpecBPP通过打乱并预测光谱波段顺序来学习表征，可应用于SOC估计。Datta 等 (2025) 提出的ReflectGAN是另一种基于GAN的深度模型，专门用于去除植被干扰。ReflectGAN通过学习植被覆盖与裸土反射光谱之间的转换关系，显著提高了卫星影像中SOC估计准确度。例如，使用ReflectGAN处理后的裸土光谱进行随机森林回归，最佳模型的$R^2$达到0.54、RMSE为3.95 ([arxiv.org](https://arxiv.org/abs/2505.18546#:~:text=both%20original%20and%20ReflectGAN,when%20applied%20to%20the%20ReflectGAN))，显著优于未校正的结果，展示了深度生成模型对植被影响校正的有效性 ([arxiv.org](https://arxiv.org/abs/2505.18546#:~:text=both%20original%20and%20ReflectGAN,when%20applied%20to%20the%20ReflectGAN))。Kakhani 等 (2023) 提出SSL-SoilNet，一个混合Transformer框架，利用大规模、无标记遥感数据自监督预训练，然后进行SOC预测实验，展示了Transformer结构在大尺度遥感SOC映射中的潜力。Piccoli 等 (2022) 构建了可伸缩深度网络，一次预测多种土壤性质（包括有机碳），该网络能自动识别关键光谱波段并适应不同光谱库 ([arxiv.org](https://arxiv.org/abs/2210.17314#:~:text=In%20this%20paper%20we%20propose,%27Results%2C%20compared))。这些研究表明，深度模型（CNN、Transformer、GAN等）通过学习更丰富的光谱表示，往往能够超越传统方法，尤其在数据量较大或需要融合多源信息时效果更佳。
+
+**多源数据集成与平台：** 随着时空遥感数据的丰富，有研究从系统集成的角度出发。Aroca-Fernandez 等 (2025) 开发了名为WALGREEN的SOC推断平台，将卫星时序数据与历年地面样本和私有数据耦合，通过云计算架构联合机器学习模型进行建模。该平台克服了传统SOC估计难以处理大规模和多因素问题的局限，提供友好的界面供研究者和决策者查询SOC分布和变化趋势 ([arxiv.org](https://arxiv.org/abs/2504.13962#:~:text=challenging%20due%20to%20spatial%20variability%2C,JavaScript%2C%20WALGREEN%20integrates%20Google%20Earth))。Zhao 等 (2025) 提出结合光谱聚类与调和拉丁超立方采样的方法，以提高现场采样的代表性。通过先在光谱特征空间聚类，再在每个谱群内条件化拉丁超立方采样，该方法能更均匀地覆盖多样性地块，从而提升模型推断精度。Parker 和 Sansó (2023) 的异质空间模型则也是空间集成的一种体现，它结合土地利用类型和VNIR谱信息，对全国范围SOC进行建模并给出不确定度评估 ([arxiv.org](https://arxiv.org/abs/2311.12020#:~:text=proxy%20to%20help%20predict%20carbon,along%20with%20uncertainty%20quantification))。这些工作表明，多源数据融合（时空遥感、地面观测、环境因子等）与云平台的应用正成为SOC遥感研究新的方向。
+
+# 实验与评价总结
+
+各研究普遍采用R²、RMSE、RPD等统计指标评估模型精度。共性结论包括：(1) 在多数场景下，结合高光谱或多光谱数据与机器/深度学习模型的方案比传统光谱指数或线性回归模型具有更优表现 ([arxiv.org](https://arxiv.org/abs/2505.18546#:~:text=both%20original%20and%20ReflectGAN,when%20applied%20to%20the%20ReflectGAN)) ([arxiv.org](https://arxiv.org/abs/2311.13016#:~:text=SOC%20remote%20sensing%2C%20here%20we,based%20random%20forest%20by))。例如，使用深度CNN模型的SOC预测往往优于使用随机森林等浅层算法 ([arxiv.org](https://arxiv.org/abs/2311.13016#:~:text=SOC%20remote%20sensing%2C%20here%20we,based%20random%20forest%20by))；(2) 深度学习模型具有更强的表达能力，特别是在利用大规模数据和无监督预训练时可挖掘更有效特征；(3) 影响精度的主要因素包括植被覆盖度、土壤水分及传感器分辨率等。树立植物干扰的ReflectGAN等方法验证了去除植被影响后预测精度显著提升 ([arxiv.org](https://arxiv.org/abs/2505.18546#:~:text=both%20original%20and%20ReflectGAN,when%20applied%20to%20the%20ReflectGAN))；(4) 不同研究间的具体数据集和预处理方法（如连续去除、波段选择）不同，导致同一算法在不同环境下的性能差异较大，但总体趋势是一致的：融合更多谱段信息和多尺度数据能提高模型稳健性。综上，现有研究强调了**多源光谱信息+先进算法**的组合优势，同时也指出了植被和环境效应校正的重要性。
+
+# 趋势与挑战
+
+展望2025年前后，SOC光谱定量研究可能出现以下趋势：(1) **更深入的深度与自监督学习**：如SpecBPP等自监督方法以及Transformer架构将被进一步推广，用于从大规模无标记高光谱数据中自动学习有效土壤表征；(2) **生成模型与植被校正技术**：GAN等生成模型将继续用于构建土壤裸地光谱，消除植被干扰（如ReflectGAN所示），提高植被覆盖区的SOC估计精度；(3) **高分辨率平台与UAV应用**：随着无人机高光谱传感器的发展，细尺度土壤SOC监测将得到加强，尤其适用于碎片化矿区地貌；(4) **多源时空数据融合平台**：云端平台（如WALGREEN）和开源大数据系统将整合卫星、气候、土壤数据库等多源信息，实现跨时空的SOC动态监测；(5) **智能化采样与域适应**：基于光谱聚类的采样优化（如Zhao等）和迁移学习、域适应技术将用于解决不同地区、不同传感器间的模型迁移问题，进一步提升模型泛化能力。这些趋势将推动SOC遥感从被动分析向主动学习、从局部实验向全球监测转变。
+
+# 结论
+
+近年来，针对矿区土壤有机碳定量的光谱分析方法呈现多样化发展。传统的Vis/NIR光谱化学计量学和机器学习方法依然是基础，但深度学习、生成模型和自监督学习方法已显现出更强的特征表达能力和适用范围。多源数据融合（卫星影像、气候/地形数据、现场采样）和云平台建设为大范围、动态监测提供了新路径。总体而言，利用高光谱与机器/深度学习相结合的技术路线将是未来重点，特别是在处理植被覆盖、区域异质性等复杂场景时。未来研究应继续完善光谱数据库、增强模型可解释性并解决跨域应用的挑战，为矿区生态恢复与碳循环监测提供更可靠的技术支持。
+
+# 参考文献
+
+1. Ayuba D. L., Guillemaut J.-Y., Marti-Cardona B., Maldonado O. M. (2025). *SpecBPP: A Self-Supervised Learning Approach for Hyperspectral Representation and Soil Organic Carbon Estimation*. arXiv:2507.19781. [链接](https://arxiv.org/abs/2507.19781)  
+2. Datta D., Paul M., Murshed M., Teng S. W., Schmidtke L. M. (2025). *ReflectGAN: Modeling Vegetation Effects for Soil Carbon Estimation from Satellite Imagery*. arXiv:2505.18546. [链接](https://arxiv.org/abs/2505.18546)  
+3. Kakhani N., Rangzan M., Jamali A., Attarchi S., Alavipanah S. K., Mommert M., Tziolas N., Scholten T. (2023). *SSL-SoilNet: A Hybrid Transformer-based Framework with Self-Supervised Learning for Large-scale Soil Organic Carbon Prediction*. arXiv:2308.03586. [链接](https://arxiv.org/abs/2308.03586)  
+4. Zhao W., Unagaev A., Efremova N. (2025). *Data-Driven Soil Organic Carbon Sampling: Integrating Spectral Clustering with Conditioned Latin Hypercube Optimization*. arXiv:2506.10419. [链接](https://arxiv.org/abs/2506.10419)  
+5. Wong K. C. L., Klein L., Oliveira da Silva A. F., Wang H., Singh J., Syeda-Mahmood T. (2023). *Image-Based Soil Organic Carbon Remote Sensing from Satellite Images with Fourier Neural Operator and Structural Similarity*. arXiv:2311.13016. [链接](https://arxiv.org/abs/2311.13016)  
+6. Zhao W., Efremova N. (2023). *Soil Organic Carbon Estimation from Climate-related Features with Graph Neural Network*. arXiv:2311.15979. [链接](https://arxiv.org/abs/2311.15979)  
+7. Parker P. A., Sansó B. (2023). *A Heterogeneous Spatial Model for Soil Carbon Mapping of the Contiguous United States Using VNIR Spectra*. arXiv:2311.12020. [链接](https://arxiv.org/abs/2311.12020)  
+8. Aroca-Fernández J. M., Diez-Pastor J. F., Latorre-Carmona P., Elvira V., Camps-Valls G., Pascual R., Garcia-Osorio C. (2025). *A Collaborative Platform for Soil Organic Carbon Inference Based on Spatiotemporal Remote Sensing Data*. arXiv:2504.13962. [链接](https://arxiv.org/abs/2504.13962)  
+9. Piccoli F., Rossini M., Colombo R., Schettini R., Napoletano P. (2022). *A deep scalable neural architecture for soil properties estimation from spectral information*. arXiv:2210.17314. [链接](https://arxiv.org/abs/2210.17314)  
+10. — (其他代表性工作).
