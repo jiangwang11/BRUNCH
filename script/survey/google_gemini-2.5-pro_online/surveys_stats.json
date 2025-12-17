@@ -209,6 +209,17 @@
     "length_chars": 9641
   },
   {
+    "id": 20,
+    "field": "News Summarization Using Large Language Models",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\google_gemini-2.5-pro_online\\20_Survey_News Summarization Using Large Language Models.md",
+    "tokens_total": 122475,
+    "tokens_prompt": 115146,
+    "tokens_completion": 7329,
+    "references": 10,
+    "duration_sec": 109.76768755912781,
+    "length_chars": 7735
+  },
+  {
     "id": 21,
     "field": "Advancements and Applications of Generative Adversarial Networks (GANs)",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\google_gemini-2.5-pro_online\\21_Survey_Advancements and Applications of Generative Adversarial Networks (GANs).md",
@@ -460,6 +471,17 @@
     "references": 29,
     "duration_sec": 132.53487348556519,
     "length_chars": 8015
+  },
+  {
+    "id": 44,
+    "field": "故障检测与隔离技术",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\google_gemini-2.5-pro_online\\44_Survey_故障检测与隔离技术.md",
+    "tokens_total": 100550,
+    "tokens_prompt": 92177,
+    "tokens_completion": 8373,
+    "references": 10,
+    "duration_sec": 106.64646744728088,
+    "length_chars": 8167
   },
   {
     "id": 45,
@@ -790,6 +812,17 @@
     "references": 27,
     "duration_sec": 141.01770973205566,
     "length_chars": 8143
+  },
+  {
+    "id": 75,
+    "field": "Graph-Enhanced Recommendation Systems",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\google_gemini-2.5-pro_online\\75_Survey_Graph-Enhanced Recommendation Systems.md",
+    "tokens_total": 76439,
+    "tokens_prompt": 66637,
+    "tokens_completion": 9802,
+    "references": 10,
+    "duration_sec": 134.81502413749695,
+    "length_chars": 8872
   },
   {
     "id": 76,

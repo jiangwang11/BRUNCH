@@ -12,7 +12,7 @@ if not OPENROUTER_KEY:
     raise RuntimeError("缺少环境变量 OPENROUTER_KEY")
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-MODEL_NAME = "qwen/qwen3-max:online"
+MODEL_NAME = "openai/gpt-5-mini"
 SAFE_MODEL_DIRNAME = MODEL_NAME.replace("/", "_").replace(":", "_")
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "survey", SAFE_MODEL_DIRNAME)
 FAILED_LOG_PATH = os.path.join(MODEL_DIR, "failed.log")

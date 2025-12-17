@@ -132,6 +132,17 @@
     "length_chars": 8032
   },
   {
+    "id": 13,
+    "field": "AI in Education and Self-Regulated Learning",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_gpt-5-mini\\13_Survey_AI in Education and Self-Regulated Learning.md",
+    "tokens_total": 119639,
+    "tokens_prompt": 108138,
+    "tokens_completion": 11501,
+    "references": 10,
+    "duration_sec": 193.80587077140808,
+    "length_chars": 8017
+  },
+  {
     "id": 14,
     "field": "单图像去雾技术与深度学习结合的增强方法。",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_gpt-5-mini\\14_Survey_单图像去雾技术与深度学习结合的增强方法。.md",
@@ -350,6 +361,17 @@
     "references": 13,
     "duration_sec": 83.68726181983948,
     "length_chars": 6600
+  },
+  {
+    "id": 34,
+    "field": "Chaotic Systems in Image Encryption",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_gpt-5-mini\\34_Survey_Chaotic Systems in Image Encryption.md",
+    "tokens_total": 85620,
+    "tokens_prompt": 75610,
+    "tokens_completion": 10010,
+    "references": 10,
+    "duration_sec": 150.36252117156982,
+    "length_chars": 7881
   },
   {
     "id": 35,
@@ -581,6 +603,17 @@
     "references": 17,
     "duration_sec": 124.88064002990723,
     "length_chars": 7328
+  },
+  {
+    "id": 56,
+    "field": "Teacher Candidates Perceptions and Attitudes Towards Artificial Intelligence in Education",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_gpt-5-mini\\56_Survey_Teacher Candidates Perceptions and Attitudes Towards Artificial Intelligence in.md",
+    "tokens_total": 111893,
+    "tokens_prompt": 104139,
+    "tokens_completion": 7754,
+    "references": 10,
+    "duration_sec": 121.75428748130798,
+    "length_chars": 7389
   },
   {
     "id": 57,
@@ -836,6 +869,17 @@
     "length_chars": 8567
   },
   {
+    "id": 80,
+    "field": "Nature-Inspired Optimization Algorithms",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_gpt-5-mini\\80_Survey_Nature-Inspired Optimization Algorithms.md",
+    "tokens_total": 99078,
+    "tokens_prompt": 92015,
+    "tokens_completion": 7063,
+    "references": 10,
+    "duration_sec": 124.16124105453491,
+    "length_chars": 7212
+  },
+  {
     "id": 81,
     "field": "Unsupervised and Semi-supervised Learning for Depth Estimation",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_gpt-5-mini\\81_Survey_Unsupervised and Semi-supervised Learning for Depth Estimation.md",
@@ -933,6 +977,17 @@
     "references": 21,
     "duration_sec": 142.16558814048767,
     "length_chars": 8269
+  },
+  {
+    "id": 90,
+    "field": "Multi-UAV Systems Control with Fault Tolerance and Performance Constraints",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\openai_gpt-5-mini\\90_Survey_Multi-UAV Systems Control with Fault Tolerance and Performance Constraints.md",
+    "tokens_total": 130818,
+    "tokens_prompt": 121325,
+    "tokens_completion": 9493,
+    "references": 10,
+    "duration_sec": 162.29472875595093,
+    "length_chars": 9800
   },
   {
     "id": 91,
