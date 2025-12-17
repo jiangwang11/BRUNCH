@@ -22,6 +22,17 @@
     "length_chars": 5367
   },
   {
+    "id": 3,
+    "field": "Multi-label Learning Systems and Extensions",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\03_Survey_Multi-label Learning Systems and Extensions.md",
+    "tokens_total": 131305,
+    "tokens_prompt": 128507,
+    "tokens_completion": 2798,
+    "references": 10,
+    "duration_sec": 130.53127694129944,
+    "length_chars": 6069
+  },
+  {
     "id": 4,
     "field": "Tabular Data Foundation Models in Machine Learning",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\04_Survey_Tabular Data Foundation Models in Machine Learning.md",
@@ -88,6 +99,17 @@
     "length_chars": 4962
   },
   {
+    "id": 10,
+    "field": "Anomaly Detection in Cloud-Based Medical IoT Systems",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\10_Survey_Anomaly Detection in Cloud-Based Medical IoT Systems.md",
+    "tokens_total": 73771,
+    "tokens_prompt": 70901,
+    "tokens_completion": 2870,
+    "references": 10,
+    "duration_sec": 82.26324987411499,
+    "length_chars": 5771
+  },
+  {
     "id": 11,
     "field": "Sequence and Metadata Retrieval Tools and Techniques in Computational Biology",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\11_Survey_Sequence and Metadata Retrieval Tools and Techniques in Computational Biology.md",
@@ -143,6 +165,17 @@
     "length_chars": 5983
   },
   {
+    "id": 16,
+    "field": "Integration of Large Language Models in Recommender Systems",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\16_Survey_Integration of Large Language Models in Recommender Systems.md",
+    "tokens_total": 102082,
+    "tokens_prompt": 98973,
+    "tokens_completion": 3109,
+    "references": 10,
+    "duration_sec": 110.06925535202026,
+    "length_chars": 5955
+  },
+  {
     "id": 17,
     "field": "Bio-inspired Metaheuristic Algorithms for Engineering Optimization",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\17_Survey_Bio-inspired Metaheuristic Algorithms for Engineering Optimization.md",
@@ -176,6 +209,17 @@
     "length_chars": 5541
   },
   {
+    "id": 20,
+    "field": "News Summarization Using Large Language Models",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\20_Survey_News Summarization Using Large Language Models.md",
+    "tokens_total": 142585,
+    "tokens_prompt": 139904,
+    "tokens_completion": 2681,
+    "references": 10,
+    "duration_sec": 139.0102241039276,
+    "length_chars": 5168
+  },
+  {
     "id": 21,
     "field": "Advancements and Applications of Generative Adversarial Networks (GANs)",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\21_Survey_Advancements and Applications of Generative Adversarial Networks (GANs).md",
@@ -185,6 +229,17 @@
     "references": 4,
     "duration_sec": 135.885338306427,
     "length_chars": 4275
+  },
+  {
+    "id": 22,
+    "field": "Explainable AI in Model Interpretation and Decision Transparency",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\22_Survey_Explainable AI in Model Interpretation and Decision Transparency.md",
+    "tokens_total": 91668,
+    "tokens_prompt": 89149,
+    "tokens_completion": 2519,
+    "references": 10,
+    "duration_sec": 92.54769349098206,
+    "length_chars": 4912
   },
   {
     "id": 23,
@@ -473,6 +528,17 @@
     "length_chars": 3739
   },
   {
+    "id": 50,
+    "field": "Generative AI in Creative Problem-Solving and Innovation",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\50_Survey_Generative AI in Creative Problem-Solving and Innovation.md",
+    "tokens_total": 178970,
+    "tokens_prompt": 176428,
+    "tokens_completion": 2542,
+    "references": 10,
+    "duration_sec": 178.42727303504944,
+    "length_chars": 5165
+  },
+  {
     "id": 51,
     "field": "Visuomotor Policy Learning and Action Representation in Robotic Systems",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\51_Survey_Visuomotor Policy Learning and Action Representation in Robotic Systems.md",
@@ -506,6 +572,17 @@
     "length_chars": 4332
   },
   {
+    "id": 54,
+    "field": "Video Generation Using Diffusion Models",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\54_Survey_Video Generation Using Diffusion Models.md",
+    "tokens_total": 45557,
+    "tokens_prompt": 42947,
+    "tokens_completion": 2610,
+    "references": 10,
+    "duration_sec": 77.49113464355469,
+    "length_chars": 5063
+  },
+  {
     "id": 55,
     "field": "混合神经网络架构与自适应特征融合",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\55_Survey_混合神经网络架构与自适应特征融合.md",
@@ -517,6 +594,17 @@
     "length_chars": 5365
   },
   {
+    "id": 56,
+    "field": "Teacher Candidates Perceptions and Attitudes Towards Artificial Intelligence in Education",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\56_Survey_Teacher Candidates Perceptions and Attitudes Towards Artificial Intelligence in.md",
+    "tokens_total": 48716,
+    "tokens_prompt": 46082,
+    "tokens_completion": 2634,
+    "references": 10,
+    "duration_sec": 76.51782727241516,
+    "length_chars": 4295
+  },
+  {
     "id": 57,
     "field": "Referring Image Segmentation Techniques",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\57_Survey_Referring Image Segmentation Techniques.md",
@@ -526,6 +614,28 @@
     "references": 0,
     "duration_sec": 63.30169367790222,
     "length_chars": 5055
+  },
+  {
+    "id": 58,
+    "field": "Diffusion Models for Object Detection",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\58_Survey_Diffusion Models for Object Detection.md",
+    "tokens_total": 72404,
+    "tokens_prompt": 69346,
+    "tokens_completion": 3058,
+    "references": 10,
+    "duration_sec": 81.86467933654785,
+    "length_chars": 6258
+  },
+  {
+    "id": 59,
+    "field": "Multi-Modal Image Synthesis and Editing",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\59_Survey_Multi-Modal Image Synthesis and Editing.md",
+    "tokens_total": 67832,
+    "tokens_prompt": 65399,
+    "tokens_completion": 2433,
+    "references": 10,
+    "duration_sec": 70.79143476486206,
+    "length_chars": 4682
   },
   {
     "id": 60,
@@ -594,6 +704,17 @@
     "length_chars": 6383
   },
   {
+    "id": 67,
+    "field": "Security and Privacy Challenges in the Internet of Things",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\67_Survey_Security and Privacy Challenges in the Internet of Things.md",
+    "tokens_total": 130845,
+    "tokens_prompt": 128768,
+    "tokens_completion": 2077,
+    "references": 10,
+    "duration_sec": 119.13414120674133,
+    "length_chars": 3275
+  },
+  {
     "id": 68,
     "field": "Human Motion Prediction Algorithms and Techniques",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\68_Survey_Human Motion Prediction Algorithms and Techniques.md",
@@ -603,6 +724,17 @@
     "references": 7,
     "duration_sec": 66.9399573802948,
     "length_chars": 4420
+  },
+  {
+    "id": 69,
+    "field": "Attention Mechanisms in Medical Image Segmentation",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\69_Survey_Attention Mechanisms in Medical Image Segmentation.md",
+    "tokens_total": 87361,
+    "tokens_prompt": 84256,
+    "tokens_completion": 3105,
+    "references": 10,
+    "duration_sec": 99.58732628822327,
+    "length_chars": 6008
   },
   {
     "id": 70,
@@ -715,6 +847,17 @@
     "length_chars": 6904
   },
   {
+    "id": 80,
+    "field": "Nature-Inspired Optimization Algorithms",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\80_Survey_Nature-Inspired Optimization Algorithms.md",
+    "tokens_total": 142907,
+    "tokens_prompt": 139787,
+    "tokens_completion": 3120,
+    "references": 10,
+    "duration_sec": 142.93782806396484,
+    "length_chars": 5012
+  },
+  {
     "id": 81,
     "field": "Unsupervised and Semi-supervised Learning for Depth Estimation",
     "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\81_Survey_Unsupervised and Semi-supervised Learning for Depth Estimation.md",
@@ -757,6 +900,17 @@
     "references": 0,
     "duration_sec": 137.61321711540222,
     "length_chars": 4484
+  },
+  {
+    "id": 85,
+    "field": "Semantic Role Labeling and Representation in Natural Language Processing",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\survey\\qwen_qwen3-max_online\\85_Survey_Semantic Role Labeling and Representation in Natural Language Processing.md",
+    "tokens_total": 101319,
+    "tokens_prompt": 98469,
+    "tokens_completion": 2850,
+    "references": 10,
+    "duration_sec": 102.39833617210388,
+    "length_chars": 5037
   },
   {
     "id": 86,
