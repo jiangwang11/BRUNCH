@@ -17,10 +17,10 @@ if not API_KEY:
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # ✅ 你指定的单一模型（不做自动降级）
-MODEL_NAME = "openai/gpt-5-mini"
+MODEL_NAME = "x-ai/grok-4:online"
 HEALTH_CHECK_MODEL = "deepseek/deepseek-chat"
 
-BATCH_SIZE = 100
+BATCH_SIZE = 25
 
 # ================== 初始化客户端 ==================
 
