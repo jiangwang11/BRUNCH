@@ -8,9 +8,9 @@ from openai import OpenAI
 
 # ================== 用户配置区域 ==================
 
-TARGET_SURVEY_DIR_NAME = "qwen_qwen3-max_online"
+TARGET_SURVEY_DIR_NAME = "x-ai_grok-deep_research"
 JSON_FILE_PATH = "openai_batch_output.filtered.json"
-OUTPUT_FILE_PATH = "survey_direct_compare_result_qwen_qwen3-max_online.json"  # 改个名，防止搞混
+OUTPUT_FILE_PATH = "survey_direct_compare_result_x-ai_grok-deep_research.json"  # 改个名，防止搞混
 
 # 设置为 0 或 None 跑全量
 TEST_LIMIT = 0
@@ -34,7 +34,7 @@ SOLVE_PROMPT_TEMPLATE = """
 load_dotenv()
 API_KEY = os.environ.get("API_KEY")
 AHM_BASE_URL = "https://api.aihubmix.com/v1"
-LLM_MODEL_NAME = "qwen2.5-32b-instruct"
+LLM_MODEL_NAME = "qwen2.5-7b-instruct"
 
 if not API_KEY:
     print("❌ 错误：未找到 API_KEY")

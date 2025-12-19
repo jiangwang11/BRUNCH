@@ -70,7 +70,7 @@ def analyze_json_responses(file_path):
 
 # --- 配置 ---
 # 在这里修改你的文件名
-target_file = "survey_check_result_qwen_qwen3-max_online.json"
+target_file = "survey_check_result_x-ai_grok-deep_research.json"
 
 if __name__ == "__main__":
     analyze_json_responses(target_file)
