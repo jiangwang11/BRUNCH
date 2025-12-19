@@ -49,4 +49,4 @@ def calculate_averages(file_path):
         print(f"发生未知错误: {type(e).__name__}: {e}")
 
 if __name__ == "__main__":
-    calculate_averages('survey/perplexity_sonar-deep-research/surveys_stats.json')
+    calculate_averages('survey/x-ai_grok-deep_research/surveys_stats.json')

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "paper_name": "Artificial lemming algorithm: a novel bionic meta-heuristic technique for solving real-world engineering optimization problems",
+    "survey_file": "01_survey.md",
+    "api_response": "否。在这篇综述文章中，并没有提到“Artificial lemming algorithm: a novel bionic meta-heuristic technique for solving real-world engineering optimization problems”这篇论文或相关方法。文章详细列出了多个基于不同生物行为的仿生元启发优化算法，但未提及有关lemming（旅鼠）的研究。"
+  },
+  {
+    "id": 2,
+    "paper_name": "Multiscale structural similarity for image quality assessment",
+    "survey_file": "02_survey.md",
+    "api_response": "**否**。在这篇综述中没有提到“Multiscale structural similarity for image quality assessment”这篇论文或其方法。文中讨论了多种基于SSIM的改进方法，包括多尺度注意力机制等，但并未明确提及该具体标题或相关研究。"
+  },
+  {
+    "id": 4,
+    "paper_name": "Accurate predictions on small data with a tabular foundation model",
+    "survey_file": "04_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未包含任何关于Survey文章的具体信息或上下文，因此无法确定该Survey是否提及了“Accurate predictions on small data with a tabular foundation model”这篇论文或其方法。请提供完整的Survey文章内容或相关信息以便进一步分析。"
+  },
+  {
+    "id": 5,
+    "paper_name": "Medical SAM adapter: Adapting segment anything model for medical image segmentation",
+    "survey_file": "05_survey.md",
+    "api_response": "否。您提供的内容为空，并未包含任何Survey文章的信息，因此无法确定是否提及了\"Medical SAM adapter: Adapting segment anything model for medical image segmentation\"这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 6,
+    "paper_name": "Multi-label output codes using canonical correlation analysis",
+    "survey_file": "06_survey.md",
+    "api_response": "**否**。\n\n理由：在这篇综述文章中，没有提到“Multi-label output codes using canonical correlation analysis”这篇论文或相关方法。文章主要讨论了多视图多标签CCA、深度泛化CCA、高阶与鲁棒CCA以及概念认知与概率CCA等方法，但未涉及输出编码（output codes）的相关内容。文中列出的所有参考文献和方法都未提及输出编码与典型相关分析的结合。"
+  },
+  {
+    "id": 7,
+    "paper_name": "DailyDialog: A Manually Labelled Multi-Turn Dialogue Dataset",
+    "survey_file": "07_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未包含任何有关Survey文章的具体信息，因此无法确定其中是否提及了“DailyDialog: A Manually Labelled Multi-Turn Dialogue Dataset”这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 8,
+    "paper_name": "Mixup: Beyond empirical risk minimization",
+    "survey_file": "08_survey.md",
+    "api_response": "**否**。  \n理由：在这篇综述中并未明确提到“Mixup: Beyond empirical risk minimization”这篇论文或其具体方法。虽然文中多次提到Mixup及其变体（如Inter-class Image Mixup、Graph Mixup等），但没有直接引用或提及该特定论文名称。"
+  },
+  {
+    "id": 9,
+    "paper_name": "Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments",
+    "survey_file": "09_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未给出具体的Survey文章内容或上下文信息，因此无法确定是否提及了“Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments”这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 10,
+    "paper_name": "Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices",
+    "survey_file": "10_survey.md",
+    "api_response": "否。  \n理由：在提供的Survey内容中，并未提到“Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices”这篇论文。文中列出的所有参考文献和提及的工作都没有包含这个标题或类似表述。"
+  },
+  {
+    "id": 11,
+    "paper_name": "Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets",
+    "survey_file": "11_surey.md",
+    "api_response": "否。\n\n理由：您提供的Survey文章内容为空，并未包含任何章节、摘要或其他信息，因此无法在其中查找相关论文或方法的提及。请提供完整的Survey文章内容以便进行准确的分析。"
+  },
+  {
+    "id": 12,
+    "paper_name": "A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information",
+    "survey_file": "12_survey.md",
+    "api_response": "**否**。\n\n理由：在这篇综述文章中，并未提到标题为“A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information”的论文。文章详细列举了2022年至2025年的代表性论文及其方法，但没有包含该论文或类似方法。"
+  },
+  {
+    "id": 13,
+    "paper_name": "Empowering student selfâregulated learning and science education through <scp>ChatGPT</scp> : A pioneering pilot study",
+    "survey_file": "13_survey.md",
+    "api_response": "**否**。  \n在这篇综述文章中，没有明确提到标题为“Empowering student selfâregulated learning and science education through ChatGPT: A pioneering pilot study”的论文，也没有在任何章节或上下文中提及与该论文相关的方法。文章中涉及了多个关于ChatGPT的研究，但具体标题和内容并不匹配。"
+  },
+  {
+    "id": 14,
+    "paper_name": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention",
+    "survey_file": "14_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未包含任何关于Survey文章的具体信息或章节内容，因此无法确定是否提及了“DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention”这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 15,
+    "paper_name": "MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model",
+    "survey_file": "15_survey.md",
+    "api_response": "否。根据您提供的内容，Survey 文章的部分是空的，并没有实际的内容可以进行搜索和分析。请提供完整的 Survey 文章内容以便进一步帮助您查找相关信息。"
+  },
+  {
+    "id": 16,
+    "paper_name": "A survey on large language models for recommendation",
+    "survey_file": "16_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未包含任何关于Survey文章的具体信息或章节内容，因此无法确定是否提及了\"A survey on large language models for recommendation\"这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 17,
+    "paper_name": "Artificial Protozoa Optimizer (APO): A novel bio-inspired metaheuristic algorithm for engineering optimization",
+    "survey_file": "17_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，因此无法在其中查找有关“Artificial Protozoa Optimizer (APO)”的相关信息。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 18,
+    "paper_name": "Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction",
+    "survey_file": "18_survey.md",
+    "api_response": "否。\n\n理由：您提供的Survey文章内容为空，并未包含任何信息或章节提及到“Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction”这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 19,
+    "paper_name": "A Survey on In-context Learning",
+    "survey_file": "19_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并没有实际的文本内容可供分析。请提供具体的Survey文章内容或相关段落，以便进行准确查找和判断。"
+  },
+  {
+    "id": 20,
+    "paper_name": "Benchmarking Large Language Models for News Summarization",
+    "survey_file": "20_survey.md",
+    "api_response": "否。根据您提供的内容，目前的Survey文章部分为空，并未包含任何具体内容或章节信息，因此无法确定是否提及了“Benchmarking Large Language Models for News Summarization”这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 21,
+    "paper_name": "Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art",
+    "survey_file": "21_survey.md",
+    "api_response": "**否**\n\n理由：在这篇综述中并未提到“Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art”这篇论文。综述主要聚焦于2022年至2025年的最新进展，涵盖了具体的代表性工作及其贡献，但没有提及该特定的十年回顾性综述。"
+  },
+  {
+    "id": 22,
+    "paper_name": "A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME",
+    "survey_file": "22_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未包含任何关于Survey文章的具体信息或章节内容，因此无法确认是否提及了\"A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME\"这篇论文或其方法（如SHAP和LIME）。请提供具体的文章内容以便进一步分析。"
+  },
+  {
+    "id": 23,
+    "paper_name": "Large Language Model guided Protocol Fuzzing",
+    "survey_file": "23_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未包含任何关于Survey文章的具体信息，因此无法在其中查找“Large Language Model guided Protocol Fuzzing”这篇论文或相关方法的提及。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 24,
+    "paper_name": "MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection",
+    "survey_file": "24_survey.md",
+    "api_response": "否。\n\n理由：您提供的内容为空，并未包含任何关于Survey文章的具体信息，因此无法确定是否提及了“MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection”这篇论文或其方法。请提供完整的Survey文章内容以便进一步分析。"
+  },
+  {
+    "id": 25,
+    "paper_name": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
+    "survey_file": "25_survey.md",
+    "api_response": "是。  \n理由：在“方法分类与代表作”部分明确提到了“YOLO-World (Cheng et al., arXiv 2024:2402.07939)”这一工作，讨论了其实时开放词汇物体检测的核心方法及其实验结果。"
+  }
+]

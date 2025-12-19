@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "paper_name": "Artificial lemming algorithm: a novel bionic meta-heuristic technique for solving real-world engineering optimization problems",
+    "survey_file": "01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "api_response": "**否**。\n\n理由：在提供的综述文章内容中，并未提及“Artificial lemming algorithm”这一名称或相关方法。文章详细讨论了多种生物启发式优化算法，包括鲸鱼优化算法、灰狼优化算法、粒子群优化算法等，但没有提到“Artificial lemming algorithm”。"
+  },
+  {
+    "id": 2,
+    "paper_name": "Multiscale structural similarity for image quality assessment",
+    "survey_file": "02_Survey_Image Quality Assessment Techniques Using Structural Similarity Metrics.md",
+    "api_response": "**否**。\n\n理由：在这篇综述中并未明确提到“Multiscale structural similarity for image quality assessment”这篇论文或其方法。综述中讨论了MS-SSIM（多尺度结构相似性），但它是在其他上下文中提及的，例如第二类中的深度学习赋能的混合指标部分，并没有直接引用或提及该具体论文标题。"
+  },
+  {
+    "id": 3,
+    "paper_name": "MEKA: A multi-label/multi-target extension to Weka",
+    "survey_file": "03_Survey_Multi-label Learning Systems and Extensions.md",
+    "api_response": "否。在这篇综述文章中没有提到“MEKA: A multi-label/multi-target extension to Weka”这篇论文或其方法。文章详细讨论了多种多标签学习的最新进展、方法和技术，但并未提及MEKA。"
+  },
+  {
+    "id": 4,
+    "paper_name": "Accurate predictions on small data with a tabular foundation model",
+    "survey_file": "04_Survey_Tabular Data Foundation Models in Machine Learning.md",
+    "api_response": "是。  \n理由：这篇论文《Accurate predictions on small data with a tabular foundation model》明确在综述的参考文献部分列出，编号为[1]。此外，综述中多次提到TabPFN和TabICL模型，这些模型属于上下文学习型基础模型（In-Context Learning, ICL），并且文中指出这些方法在小数据集上能够实现快速、准确的预测，与论文标题相吻合。"
+  },
+  {
+    "id": 5,
+    "paper_name": "Medical SAM adapter: Adapting segment anything model for medical image segmentation",
+    "survey_file": "05_Survey_Medical Image Segmentation Techniques and Applications.md",
+    "api_response": "否。\n\n理由：在提供的Survey内容中，并未明确提到“Medical SAM adapter: Adapting segment anything model for medical image segmentation”这篇论文或其方法。Survey中讨论了类似的主题，例如MedSAM（在“Foundation Models for Universal Medical Image Segmentation”部分），但没有提及上述具体论文名称或其方法。文中提到的MedSAM是基于SAM进行医学图像适配的工作，但并未直接引用该特定标题的论文。"
+  },
+  {
+    "id": 6,
+    "paper_name": "Multi-label output codes using canonical correlation analysis",
+    "survey_file": "06_Survey_Multilabel Classification Using Canonical Correlation Analysis.md",
+    "api_response": "否。  \n理由：在提供的综述内容中，没有提到“Multi-label output codes using canonical correlation analysis”这篇论文或相关方法。综述主要讨论了深度CCA、多视图多标签相关性建模、标签相关性感知的表征学习等方面的研究进展，并引用了如DSCA、TDCCA、MVMLCCA等具体方法，但未提及该论文名称或类似方法。"
+  },
+  {
+    "id": 7,
+    "paper_name": "DailyDialog: A Manually Labelled Multi-Turn Dialogue Dataset",
+    "survey_file": "07_Survey_Dialog Systems and Dialogue Generation.md",
+    "api_response": "否。  \n理由：在提供的Survey内容中，没有提到“DailyDialog: A Manually Labelled Multi-Turn Dialogue Dataset”这篇论文或其相关方法。文章主要提及了MultiWOZ系列（MultiWOZ 2.0/2.1/2.2）作为TOD领域的主流数据集，并未涉及DailyDialog。"
+  },
+  {
+    "id": 8,
+    "paper_name": "Mixup: Beyond empirical risk minimization",
+    "survey_file": "08_Survey_Data Augmentation Techniques in Deep Learning.md",
+    "api_response": "否。在这篇综述中没有明确提到“Mixup: Beyond empirical risk minimization”这篇论文。综述中提到了Mixup方法及其相关理论和实验验证（例如在“Advanced Mixing-Based Augmentation Methods”部分），但并未提及该具体论文名称。"
+  },
+  {
+    "id": 9,
+    "paper_name": "Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments",
+    "survey_file": "09_Survey_Blockchain Applications in Healthcare Security.md",
+    "api_response": "否。  \n理由：在这篇综述中，并未提及“Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments”这篇论文或其相关方法。文章主要讨论了区块链在医疗保健中的五大技术方向（去中心化数据共享、隐私保护、智能合约授权管理、药物追踪、共识机制优化），但并未涉及到医疗设备在云端环境中的完整性和出处验证这一具体主题。"
+  },
+  {
+    "id": 10,
+    "paper_name": "Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices",
+    "survey_file": "10_Survey_Anomaly Detection in Cloud-Based Medical IoT Systems.md",
+    "api_response": "否。\n\n理由：在提供的综述内容中，并未提及标题为“Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices”的具体论文或其方法。综述内容详细讨论了多种异常检测技术和研究趋势，但没有明确提到该特定论文。"
+  },
+  {
+    "id": 11,
+    "paper_name": "Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets",
+    "survey_file": "11_Survey_Sequence and Metadata Retrieval Tools and Techniques in Computational Biology.md",
+    "api_response": "否。\n\n理由：在这篇综述文章中并未提到“Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets”这篇论文。文章内容主要围绕序列检索工具、元数据提取、多模态学习、知识图谱增强检索等方面展开讨论，并引用了50余篇相关领域的顶级期刊与会议论文，但并未提及该具体论文。"
+  },
+  {
+    "id": 12,
+    "paper_name": "A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information",
+    "survey_file": "12_Survey_Feature Selection in Machine Learning for Classification Tasks.md",
+    "api_response": "否。  \n理由：在这篇综述文章中，并没有提到“A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information”这篇具体论文或类似方法的名称。文章提到了基于pearson相关系数和互信息的过滤方法，但没有特别指出该特定算法。例如，在“Filter Methods and Classical Statistical Approaches”部分提到了一些经典和先进的过滤方法，包括使用互信息和相关性调整回归得分（CARSS），但未提及该特定论文或其提出的算法。"
+  },
+  {
+    "id": 13,
+    "paper_name": "Empowering student selfâregulated learning and science education through <scp>ChatGPT</scp> : A pioneering pilot study",
+    "survey_file": "13_Survey_AI in Education and Self-Regulated Learning.md",
+    "api_response": "否。\n\n理由：在这篇综述文章中，并未提及标题为“Empowering student selfâregulated learning and science education through <scp>ChatGPT</scp>: A pioneering pilot study”的具体论文。文章多次提到ChatGPT的应用，特别是在“Generative AI Applications in Learning Support and Content Generation”一节中讨论了ChatGPT在教育中的影响，但没有引用或明确提到该具体论文的标题或内容。"
+  },
+  {
+    "id": 14,
+    "paper_name": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention",
+    "survey_file": "14_Survey_单图像去雾技术与深度学习结合的增强方法。.md",
+    "api_response": "否。  \n理由：在提供的综述内容中，未提到“DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention”这篇论文或相关方法。文中讨论了多种去雾方法和技术，但并未提及该论文的具体名称或其核心方法（即细节增强卷积和内容引导注意力）。"
+  },
+  {
+    "id": 15,
+    "paper_name": "MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model",
+    "survey_file": "15_Survey_Text-Driven Human Motion Synthesis with Deep Learning Models.md",
+    "api_response": "否。  \n理由：在提供的综述内容中，并未提到“MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model”这篇论文或相关方法。综述中主要讨论了其他扩散模型（如Motion Diffusion Model, MDM；Motion Latent Diffusion, MLD；MoFusion等），但没有提及名为“MotionDiffuse”的相关工作。"
+  },
+  {
+    "id": 16,
+    "paper_name": "A survey on large language models for recommendation",
+    "survey_file": "16_Survey_Integration of Large Language Models in Recommender Systems.md",
+    "api_response": "否。在提供的Survey内容中，并未明确提到\"A survey on large language models for recommendation\"这篇论文。文中主要讨论了2022-2025年间大型语言模型在推荐系统中的集成和应用，引用了其他相关研究（如ChatGPT、ARAG等），但没有提及该特定标题的论文。"
+  },
+  {
+    "id": 17,
+    "paper_name": "Artificial Protozoa Optimizer (APO): A novel bio-inspired metaheuristic algorithm for engineering optimization",
+    "survey_file": "17_Survey_Bio-inspired Metaheuristic Algorithms for Engineering Optimization.md",
+    "api_response": "否。在这篇综述文章中没有提到“Artificial Protozoa Optimizer (APO)”。文章详细列举了多种生物启发式优化算法，包括Osprey Optimization Algorithm、Walrus Optimization Algorithm等，但并未提及APO。在文章的各个章节和参考文献列表中也未发现与APO相关的引用或讨论。"
+  },
+  {
+    "id": 18,
+    "paper_name": "Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction",
+    "survey_file": "18_Survey_Intrusion Detection in Imbalanced Big Data Networks.md",
+    "api_response": "否。  \n理由：这篇Survey详细讨论了数据重采样、特征提取与嵌入等技术在不平衡网络大数据入侵检测中的应用，但并未明确提到标题中的完整论文名称“Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction”。Survey内容涉及类似技术（如SMOTE、特征嵌入、多模型集成等），但没有引用或提及该具体论文。"
+  },
+  {
+    "id": 19,
+    "paper_name": "A Survey on In-context Learning",
+    "survey_file": "19_Survey_In-context Learning in Natural Language Processing.md",
+    "api_response": "**否**。\n\n理由：在提供的Survey内容中，全文并未提到\"A Survey on In-context Learning\"这篇论文，无论是全称还是缩写。文中提到的相关综述性文章为\"Zhou等人[15]在2024年发表的综合调查\"，即[Zhou, Y., et al. (2024)]，但其标题并不是\"A Survey on In-context Learning\"。此外，文中多次提到\"survey\"或\"综述\"，但均指代的是本文本身或其他类似主题的综述，而不是\"A Survey on In-context Learning\"。"
+  },
+  {
+    "id": 20,
+    "paper_name": "Benchmarking Large Language Models for News Summarization",
+    "survey_file": "20_Survey_News Summarization Using Large Language Models.md",
+    "api_response": "**是**。\n\n理由：在综述的“二、方法分类与代表作”部分的“（一）基于指令微调的LLM零样本/少样本方法”中明确提到Zhang等人的工作：“Zhang等人（2023年MIT TACL）的工作通过对十种规模不同、预训练策略各异的LLM进行大规模人类评估，在CNN/DailyMail与XSum数据集上进行了系统基准测试[1]。” 这里引用的正是“Benchmarking Large Language Models for News Summarization”这篇论文，其出版信息为“Zhang, H., Liu, X., & Zhang, J. (2023). Benchmarking large language models for news summarization. Transactions of the Association for Computational Linguistics, 11, 119–276.”，并且在文中多次提及其实验结果和发现。"
+  },
+  {
+    "id": 21,
+    "paper_name": "Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art",
+    "survey_file": "21_Survey_Advancements and Applications of Generative Adversarial Networks (GANs).md",
+    "api_response": "否。在这篇综述中没有明确提到“Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art”这篇论文或其推荐的方法。文中引用的参考文献列表以及内容讨论主要聚焦于2022年至2025年的进展，未提及该特定的十年回顾性综述。"
+  },
+  {
+    "id": 22,
+    "paper_name": "A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME",
+    "survey_file": "22_Survey_Explainable AI in Model Interpretation and Decision Transparency.md",
+    "api_response": "是。  \n理由：在文章的“Summary of Key Findings”部分明确提到了“A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME”（引用为[9]），并且详细讨论了SHAP和LIME这两种方法的特点、优缺点及其在解释性人工智能中的应用。此外，文章后续章节也多次对比和分析了这两种方法。"
+  },
+  {
+    "id": 23,
+    "paper_name": "Large Language Model guided Protocol Fuzzing",
+    "survey_file": "23_Survey_Protocol Fuzzing Techniques and Applications.md",
+    "api_response": "**是**。\n\n理由：文中多次提到“LLM-guided Protocol Fuzzing”的相关方法和研究。特别是在“Machine Learning and Large Language Model-Augmented Approaches”章节中，详细介绍了CHATAFL系统，该系统通过利用大型语言模型（LLM）来指导协议模糊测试，包括语法驱动的变异和LLM引导的消息生成。此外，“ProtocolGPT”也被提及，它通过增强的语言模型进行状态机推理，进一步展示了LLM在协议模糊测试中的应用。这些内容明确表明，LLM引导的协议模糊测试是本文综述的重点之一。"
+  },
+  {
+    "id": 24,
+    "paper_name": "MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection",
+    "survey_file": "24_Survey_Vision Transformer-based Medical Imaging Techniques.md",
+    "api_response": "否。  \n理由：经过仔细检查，综述文章并未提到“MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection”这篇论文或其相关方法。文章主要集中在2022-2025年期间关于Vision Transformer在医学影像中的应用，涵盖了图像分类、分割与检测三大任务，但未提及该具体论文。"
+  },
+  {
+    "id": 25,
+    "paper_name": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
+    "survey_file": "25_Survey_Open-Vocabulary Object Detection Techniques.md",
+    "api_response": "**是**。\n\n理由：在“实验与评价总结”的“性能对比与共性结论”部分明确提到了“YOLO-World”，并将其与其他方法（如Grounding DINO）进行了对比，指出它达到了35.4% LVIS AP，但推理速度为52 FPS (V100)，相比之下不如其他方法在实时性方面表现好。此外，在“趋势与挑战”部分也提到“YOLO-World与GroundingDINO 1.5 Edge的出现表明高效OVOD方案正在成形”。"
+  }
+]
