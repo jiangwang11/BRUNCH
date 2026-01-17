@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "paper_name": "Artificial lemming algorithm: a novel bionic meta-heuristic technique for solving real-world engineering optimization problems",
+    "survey_file": "01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "api_response": "否。\n\n文中并没有提到“Artificial lemming algorithm”。"
+  },
+  {
+    "id": 2,
+    "paper_name": "Multiscale structural similarity for image quality assessment",
+    "survey_file": "02_Survey_Image Quality Assessment Techniques Using Structural Similarity Metrics.md",
+    "api_response": "是。 \n\n在“第一类：SSIM的理论扩展与失真感知改进”一节中提到了一个相关的论文“感知结构相似性指标（Perceived Structural Similarity Index, PSIM）”，但不是Multiscale structural similarity for image quality assessment。"
+  },
+  {
+    "id": 3,
+    "paper_name": "MEKA: A multi-label/multi-target extension to Weka",
+    "survey_file": "03_Survey_Multi-label Learning Systems and Extensions.md",
+    "api_response": "是\n\n在第14节Label-Specific and Disentangled Representations中提到了OFOL (One-specific-Feature-for-One-Label)的机制，这与MEKA（Multilabel Extension to Knowledge Acquisitions中提到的同名机制相关。"
+  },
+  {
+    "id": 4,
+    "paper_name": "Accurate predictions on small data with a tabular foundation model",
+    "survey_file": "04_Survey_Tabular Data Foundation Models in Machine Learning.md",
+    "api_response": "是\n\n这篇论文\"Accurate predictions on small data with a tabular foundation model\"被本综述中的第1节（表格数据学习的核心挑战与基础模型的必要性）的文献[1]引用，它由Hollmann等人撰写，发表在期刊Nature。"
+  },
+  {
+    "id": 5,
+    "paper_name": "Medical SAM adapter: Adapting segment anything model for medical image segmentation",
+    "survey_file": "05_Survey_Medical Image Segmentation Techniques and Applications.md",
+    "api_response": "否\n\n在这篇survey中，没有提到“Medical SAM adapter: Adapting segment anything model for medical image segmentation”这篇论文或者论文中主推的方法。"
+  },
+  {
+    "id": 6,
+    "paper_name": "Multi-label output codes using canonical correlation analysis",
+    "survey_file": "06_Survey_Multilabel Classification Using Canonical Correlation Analysis.md",
+    "api_response": "否\n\n在这篇survey中，虽然提到了Canonical Correlation Analysis（CCA）与Multi-Label Classification（MLC）的结合，但并没有提到“Multi-label output codes using canonical correlation analysis”这篇论文或论文中的主推方法。"
+  },
+  {
+    "id": 7,
+    "paper_name": "DailyDialog: A Manually Labelled Multi-Turn Dialogue Dataset",
+    "survey_file": "07_Survey_Dialog Systems and Dialogue Generation.md",
+    "api_response": "是\n\n在第六章\"评估指标与基准设计\"中，提到\"检索增强生成（RAG）\"，然后在第七章\"评估指标与基准设计\"的第八节\"检索增强生成（RAG）从可选走向必需\"中，提到了\"检索增强生成（RAG）\"的概念，虽然没有具体提到DailyDialog这篇论文，但是在第十节\"开放研究问题\"的第5条\"检索增强生成（RAG）\"的发展趋势中，虽然提到了其他论文，例如\"GLaMM: Pixel Grounding Large Multimodal Model\"等，但在对这些论文的分析和讨论中没有提及DailyDialog这篇论文。\n\n然而，在第六章\"对话系统与对话生成的进展：2022-2025年系统综述\"的第七节“评估指标与基准设计”中，对检索增强生成（RAG）及其在当前的状态下的局限进行了深入讨论，具体地，提到了检索增强生成（RAG）的缺陷以及它的应用场景。"
+  },
+  {
+    "id": 8,
+    "paper_name": "Mixup: Beyond empirical risk minimization",
+    "survey_file": "08_Survey_Data Augmentation Techniques in Deep Learning.md",
+    "api_response": "是。 \n\n具体来说，该论文在“Advanced Mixing-Based Augmentation Methods”小节提到了“Mixup”的内容，并在[58]参考文献中给出了具体的参考来源。同时，该论文中描述了Mixup的方法及其理论分析。"
+  },
+  {
+    "id": 9,
+    "paper_name": "Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments",
+    "survey_file": "09_Survey_Blockchain Applications in Healthcare Security.md",
+    "api_response": "否\n\n这篇Survey没有提到“Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments”这篇论文及其相关内容。"
+  },
+  {
+    "id": 10,
+    "paper_name": "Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices",
+    "survey_file": "10_Survey_Anomaly Detection in Cloud-Based Medical IoT Systems.md",
+    "api_response": "否\n\n这篇论文未直接提到“Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices”。但是在这篇论文的第4节中，提到了深度学习架构（Deep Learning Architectures）、混合模组方法（Hybrid Ensemble Methods）、分布式学习框架（Federated Learning Frameworks）和边缘检测系统（Edge-Based Detection Systems）等相应的方法和技术。"
+  },
+  {
+    "id": 11,
+    "paper_name": "Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets",
+    "survey_file": "11_Survey_Sequence and Metadata Retrieval Tools and Techniques in Computational Biology.md",
+    "api_response": "否\n\n没有找到“Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets”这篇论文或者论文中主推的方法。"
+  },
+  {
+    "id": 12,
+    "paper_name": "A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information",
+    "survey_file": "12_Survey_Feature Selection in Machine Learning for Classification Tasks.md",
+    "api_response": "否\n\n在这篇survey中并没有提到\"A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information\"这篇论文或者论文中主推的方法。"
+  },
+  {
+    "id": 13,
+    "paper_name": "Empowering student selfâregulated learning and science education through <scp>ChatGPT</scp> : A pioneering pilot study",
+    "survey_file": "13_Survey_AI in Education and Self-Regulated Learning.md",
+    "api_response": "是\n在文中提到了关于ChatGPT的研究，特别是在“# Generative AI Applications in Learning Support and Content Generation”部分，指出Meta-analytical evidence examine-ing ChatGPT's educational impact across 51 published studies demonstrates large positive effects on learning perform-ance (effect size g = 0.867), moderate positive effects on learning perception (g = 0.456), and moderate positive ef-fects on higher-order thinking development (g = 0.457)."
+  },
+  {
+    "id": 14,
+    "paper_name": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention",
+    "survey_file": "14_Survey_单图像去雾技术与深度学习结合的增强方法。.md",
+    "api_response": "是\n\n这篇论文“DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention”在这篇Survey文章中没有被明确提及，然而基于内容引导注意力的工作在第4.5章节的“增强型CycleGAN融合自适应暗通道先验”部分与“通道-像素注意力混合的高效去雾网络”部分被提及，这些部分都是基于注意力的方法，但是没有直接提到DEA-Net的名称，但是仔细阅读后发现“基于RGB与HSV双颜色空间的注意力去雾模型（ADMC²-net）”使用的注意力机制与“基于暗通道先验的多尺度融合网络”使用的注意力机制都与DEA-Net方法中提到的注意力机制相似。"
+  },
+  {
+    "id": 15,
+    "paper_name": "MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model",
+    "survey_file": "15_Survey_Text-Driven Human Motion Synthesis with Deep Learning Models.md",
+    "api_response": "否\n\n虽然这篇Survey提到了与Diffusion Model相关的名词如Motion Latent Diffusion（MLD）和Motion Diffusion Model（MDM），但是找不到与“MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model”这个具体论文的相关提及。"
+  },
+  {
+    "id": 16,
+    "paper_name": "A survey on large language models for recommendation",
+    "survey_file": "16_Survey_Integration of Large Language Models in Recommender Systems.md",
+    "api_response": "是\n\n这篇survey中提到了Arag（Agentic Retrieval-Augmented Generation），这是一种特殊的RAG算法，用于推荐系统。"
+  },
+  {
+    "id": 17,
+    "paper_name": "Artificial Protozoa Optimizer (APO): A novel bio-inspired metaheuristic algorithm for engineering optimization",
+    "survey_file": "17_Survey_Bio-inspired Metaheuristic Algorithms for Engineering Optimization.md",
+    "api_response": "否\n\n这篇综述中没有提到“Artificial Protozoa Optimizer (APO): A novel bio-inspired metaheuristic algorithm for engineering optimization”这篇论文或方法。"
+  },
+  {
+    "id": 18,
+    "paper_name": "Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction",
+    "survey_file": "18_Survey_Intrusion Detection in Imbalanced Big Data Networks.md",
+    "api_response": "是\n\n在\"可解释性与决策透明化\"章节中提到了SHAP与LIME等可解释工具，后文中也提到了Barnard等人（2024）[1]混合规则与数据驱动学习的方法，使用决策树算法动态生成检测规则，并在初期基于专家知识的规则提供基础。还提到了NIH 2024年的系统综述[21]，分析了XAI在IDS中的集成现状，指出基于规则和决策树的可解释模型更受安全分析员青睐，并讨论了三类主要的XAI技术，包括特征归因法（SHAP与LIME）和基于代理的方法。"
+  },
+  {
+    "id": 19,
+    "paper_name": "A Survey on In-context Learning",
+    "survey_file": "19_Survey_In-context Learning in Natural Language Processing.md",
+    "api_response": "是\n\n在第五章节“综合讨论与未来方向”中，提到了2022年的开创性工作“Chain-of-Thought Prompting Elicits Reasoning in Large Language Models”的作者，等于在2022年发表的“Learning to reason: Chain of thought prompting for question answering”这篇论文，这个工作是ICL领域的里程碑事件。"
+  },
+  {
+    "id": 20,
+    "paper_name": "Benchmarking Large Language Models for News Summarization",
+    "survey_file": "20_Survey_News Summarization Using Large Language Models.md",
+    "api_response": "是\n\n在“方法分类与代表作”部分，“基于指令微调的LLM零样本/少样本方法”中提到了“Zhang等人（2023年MIT TACL）的工作”即“Benchmarking Large Language Models for News Summarization”。"
+  },
+  {
+    "id": 21,
+    "paper_name": "Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art",
+    "survey_file": "21_Survey_Advancements and Applications of Generative Adversarial Networks (GANs).md",
+    "api_response": "否\n\n这篇Survey文章并没有直接提到或参考“Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art”这篇论文。"
+  },
+  {
+    "id": 22,
+    "paper_name": "A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME",
+    "survey_file": "22_Survey_Explainable AI in Model Interpretation and Decision Transparency.md",
+    "api_response": "是\n\n在文中提到\"A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME\"这篇论文在第9条中被引用。\n\n具体来说，最相关的部分是：\n\n\"A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME\"这篇论文在第9条中被引用，并进一步解释了SHAP和LIME的优势和局限性。"
+  },
+  {
+    "id": 23,
+    "paper_name": "Large Language Model guided Protocol Fuzzing",
+    "survey_file": "23_Survey_Protocol Fuzzing Techniques and Applications.md",
+    "api_response": "是\n\n在“Machine Learning and Large Language Model-Augmented Approaches”一章中，具体提到了几个论文或者方法：\n\n* CHATAFL：使用Large Language Model（LLM）进行协议模糊测试，提出了Grammar-Driven Mutation方法。\n* ProtocolGPT：使用Large Language Model进行协议状态机推断的方法。\n* mGPTFuzz：使用Large Language Model进行物联网（IoT）和工业协议模糊测试的方法。\n\n这些方法都利用了Large Language Model的能力，提出了新颖的模糊测试方法。"
+  },
+  {
+    "id": 24,
+    "paper_name": "MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection",
+    "survey_file": "24_Survey_Vision Transformer-based Medical Imaging Techniques.md",
+    "api_response": "否\n\n在这篇Survey中，并没有提到“MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection”的论文。"
+  },
+  {
+    "id": 25,
+    "paper_name": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
+    "survey_file": "25_Survey_Open-Vocabulary Object Detection Techniques.md",
+    "api_response": "是\n\n这篇Survey在第六节\"实验与评价总结\"中提到了YOLO-World，具体来说是在第六节的最后一部分\"未来预测\"中提到：\n\n\"YOLO-World虽达35.4% LVIS AP但推理速度52 FPS (V100)，相比GroundingDINO 1.5 Edge的75.2 FPS仍存差距[60]。\"\n\n然而这次YOLO-World的提及不是作为主要的研究方法，而是作为与GroundingDINO 1.5 Edge相比较的例子，来说明YOLO-World虽然达到了比较高的检测精度但是推理速度较慢。"
+  }
+]

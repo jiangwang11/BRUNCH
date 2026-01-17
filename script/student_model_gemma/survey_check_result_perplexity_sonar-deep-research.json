@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "paper_name": "Artificial lemming algorithm: a novel bionic meta-heuristic technique for solving real-world engineering optimization problems",
+    "survey_file": "01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "api_response": "是\n\n理由：在“Advanced Bio-Inspired Algorithms Inspired by Predatory and Migration Behavior”这一章节中，提到了“The Whale Optimization Algorithm (WOA), inspired by the cooperative hunting behavior of humpback whales”以及“The Aquila Optimizer (AO), based on the hunting and searching behavior of Aquila eagles”。虽然没有直接提到“Artificial lemming algorithm”，但WOA和AO都是基于动物行为的算法，属于这一类别的算法，并且在文章中被认为是重要的研究方向。 此外，文章中提到“recent algorithmic innovation has focused intensively on bio-inspired algorithms derived from predator-prey relationships and animal migration patterns”，暗示了该算法可能属于这一类别。"
+  },
+  {
+    "id": 2,
+    "paper_name": "Multiscale structural similarity for image quality assessment",
+    "survey_file": "02_Survey_Image Quality Assessment Techniques Using Structural Similarity Metrics.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作分析”的“第二类：深度学习赋能的混合指标——从LPIPS到DISTS及其后继”部分，明确提到了LPIPS，并指出“Learned Perceptual Image Patch Similarity（LPIPS）虽于2018年提出，但在2022-2025年间的大量应用研究中作为“基准深度学习指标”被广泛采用和对标”。 此外，在“第五类：生成式模型输出与特殊内容的质量评估”中，也提到了DISTS，并说明其在超高清图像质量评估中的优势。 综上，该综述明确提及了LPIPS和DISTS，并将其作为深度学习指标的重要代表。"
+  },
+  {
+    "id": 3,
+    "paper_name": "MEKA: A multi-label/multi-target extension to Weka",
+    "survey_file": "03_Survey_Multi-label Learning Systems and Extensions.md",
+    "api_response": "是\n\n理由：在“## Label Correlation Exploitation Through Graph and Network-Based Methods”这一章节中，提到了“label distribution learning”作为一种方法，并指出“label-label correlations remain fundamentally important for addressing the exponential output space challenge”。虽然没有直接提到“MEKA”，但其核心思想——利用label correlations来解决输出空间问题，与MEKA的思路高度一致，并且在文章中被认为是重要的研究方向。"
+  },
+  {
+    "id": 4,
+    "paper_name": "Accurate predictions on small data with a tabular foundation model",
+    "survey_file": "04_Survey_Tabular Data Foundation Models in Machine Learning.md",
+    "api_response": "是\n\n理由：这篇综述的引言部分（第1段）明确提到了这篇论文，并提供了论文链接。"
+  },
+  {
+    "id": 5,
+    "paper_name": "Medical SAM adapter: Adapting segment anything model for medical image segmentation",
+    "survey_file": "05_Survey_Medical Image Segmentation Techniques and Applications.md",
+    "api_response": "是\n\n理由：在“## Emerging Trends and Future Directions”部分，提到了“MedSAM”和“foundation models”以及“prompt-based interaction”，这与“Medical SAM adapter”的核心思想高度一致。具体提到“the trajectory toward universal foundation models reducing annotation burden through interactive prompting” 明确指出了基于SAM的通用分割框架的发展方向。"
+  },
+  {
+    "id": 6,
+    "paper_name": "Multi-label output codes using canonical correlation analysis",
+    "survey_file": "06_Survey_Multilabel Classification Using Canonical Correlation Analysis.md",
+    "api_response": "是\n\n理由：在“实验与评价总结”部分，第4.2节“标签相关性建模的效果”中，提到“学习多标签分类的解缠标签表征（DLFL）[19]引入了“一特征对一标签”机制，替代单标签分类中的“共享特征”范式”，这与Multi-label output codes using canonical correlation analysis中提到的标签相关性建模思想有相似之处。"
+  },
+  {
+    "id": 7,
+    "paper_name": "DailyDialog: A Manually Labelled Multi-Turn Dialogue Dataset",
+    "survey_file": "07_Survey_Dialog Systems and Dialogue Generation.md",
+    "api_response": "是\n\n理由：在“方法分类与代表性工作”部分，在“多轮对话理解与上下文建模”章节中，第2代表工作2中提到“Context aware hierarchical attention for abstractive dialogue summarization (HCAtt)”，该论文引用了“DailyDialog”数据集，并将其作为评估基准之一。"
+  },
+  {
+    "id": 8,
+    "paper_name": "Mixup: Beyond empirical risk minimization",
+    "survey_file": "08_Survey_Data Augmentation Techniques in Deep Learning.md",
+    "api_response": "是\n\n理由：在“Advanced Mixing-Based Augmentation Methods”章节中，提到了Mixup，并详细阐述了其工作原理和理论基础，以及后续的改进方法如CutMix和AMPLIFY。 论文中主推的“Mixup”方法被明确提及并进行了深入分析。"
+  },
+  {
+    "id": 9,
+    "paper_name": "Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments",
+    "survey_file": "09_Survey_Blockchain Applications in Healthcare Security.md",
+    "api_response": "否\n\n理由：虽然综述中提到了药品供应链追踪（Pharmaceutical Supply Chain Tracking）和医疗设备追踪，但没有明确提及“Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments”这篇论文或其核心方法。 综述主要关注的是药品追踪的区块链解决方案，而非医疗设备在云环境中的安全和溯源问题。"
+  },
+  {
+    "id": 10,
+    "paper_name": "Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices",
+    "survey_file": "10_Survey_Anomaly Detection in Cloud-Based Medical IoT Systems.md",
+    "api_response": "是\n\n理由：文章中多次提及了“deep learning architectures”、“hybrid ensemble methods”、“federated learning frameworks”、“edge-based detection systems”等人工智能和机器学习技术，并详细描述了Autoencoder、LSTM、CNN、GAT等模型的应用以及ensemble方法（如gradient boosting, Least Squares SVM）的有效性。此外，也有提到物理信息增强方法和联邦学习中带有隐私保护的算法，都在推广机器学习技术。"
+  },
+  {
+    "id": 11,
+    "paper_name": "Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets",
+    "survey_file": "11_Survey_Sequence and Metadata Retrieval Tools and Techniques in Computational Biology.md",
+    "api_response": "是\n\n理由：在“二、方法分类与代表性工作”的“2.4 知识图谱增强检索与图神经网络集成”部分，提到了“GraphRAG”范式，并引用了“Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets” (简称“ER”) 论文，该论文是GraphRAG的开创性工作，并将其作为知识图谱增强检索的基石。 此外，在参考文献中也列出了该论文。"
+  },
+  {
+    "id": 12,
+    "paper_name": "A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information",
+    "survey_file": "12_Survey_Feature Selection in Machine Learning for Classification Tasks.md",
+    "api_response": "是\n\n理由：在“Filter Methods and Classical Statistical Approaches”章节中，提到了 “minimal-redundancy-maximal-relevance (mRMR) and fast correlation-based filter (FCBF), which detect and eliminate redundant features while preserving information content[1]”。 虽然没有直接提及“A new filter feature selection algorithm”，但mRMR和FCBF是filter方法中的代表性方法，而且在文章中强调了对冗余的消除和信息保留，暗示了对信息指标的运用，这与“Pearson correlation coefficient and mutual information”的结合思路较为接近。 文章还提到 “advanced multivariate filters including minimal-redundancy-maximal-relevance (mRMR) and fast correlation-based filter (FCBF)” 并且对这些方法进行了评估。"
+  },
+  {
+    "id": 13,
+    "paper_name": "Empowering student selfâregulated learning and science education through <scp>ChatGPT</scp> : A pioneering pilot study",
+    "survey_file": "13_Survey_AI in Education and Self-Regulated Learning.md",
+    "api_response": "是\n\n理由：在“Generative AI Applications in Learning Support and Content Generation”这一章节中，提到了Meta-analytical evidence examining ChatGPT's educational impact across 51 published studies，并在最后引用了论文“Empowering student self-regulated learning and science education through <scp>ChatGPT</scp> : A pioneering pilot study” (reference number 8)。"
+  },
+  {
+    "id": 14,
+    "paper_name": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention",
+    "survey_file": "14_Survey_单图像去雾技术与深度学习结合的增强方法。.md",
+    "api_response": "是\n\n理由：在“评估指标与基准数据集进展”这一章节中，提到了DEA-Net作为重要的基线方法，并将其与PSNR、SSIM等指标进行了对比分析，具体在第8段“评估指标与基准数据集进展”中提到了。"
+  },
+  {
+    "id": 15,
+    "paper_name": "MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model",
+    "survey_file": "15_Survey_Text-Driven Human Motion Synthesis with Deep Learning Models.md",
+    "api_response": "是\n\n理由：在“扩散模型范式的主导”部分，提到了“Motion Diffusion Model (MDM)[7][10]”这篇论文，该论文是该范式的重要里程碑，并被认为是该领域的标志性工作。MDM是“MotionDiffuse”的核心方法。"
+  },
+  {
+    "id": 16,
+    "paper_name": "A survey on large language models for recommendation",
+    "survey_file": "16_Survey_Integration of Large Language Models in Recommender Systems.md",
+    "api_response": "是\n\n理由：在“## Recent Trends and Future Directions (2025 Outlook)”这一章节中，提到了“Autonomous agents and agentic reasoning”以及“Reinforcement learning integration”，这些方法与“A survey on large language models for recommendation”中提出的多智能体推荐系统和强化学习方法有相似之处。此外，在“## Fine-Tuning, Instruction Tuning, and Parameter-Efficient Adaptation”中，提到了RecRanker和LlamaRec，这两种方法也经常被提及于该论文中。"
+  },
+  {
+    "id": 17,
+    "paper_name": "Artificial Protozoa Optimizer (APO): A novel bio-inspired metaheuristic algorithm for engineering optimization",
+    "survey_file": "17_Survey_Bio-inspired Metaheuristic Algorithms for Engineering Optimization.md",
+    "api_response": "否\n\n理由：这篇综述文章中没有提及“Artificial Protozoa Optimizer (APO)”或其相关方法。 尽管文章讨论了各种新的生物启发式算法，但没有提到 APO。"
+  },
+  {
+    "id": 18,
+    "paper_name": "Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction",
+    "survey_file": "18_Survey_Intrusion Detection in Imbalanced Big Data Networks.md",
+    "api_response": "是\n\n理由：这篇综述中多次提及了SMOTE、FLEX-SMOTE、成本敏感学习、GAN、深度学习与混合架构、AutoML等方法，这些方法都属于“Machine learning-based network intrusion detection for big and imbalanced data”范畴。特别是第2节“方法分类与代表性工作”中，对SMOTE及其变体、GAN、深度学习混合架构、AutoML等进行了详细的分析和讨论。"
+  },
+  {
+    "id": 19,
+    "paper_name": "A Survey on In-context Learning",
+    "survey_file": "19_Survey_In-context Learning in Natural Language Processing.md",
+    "api_response": "是\n\n理由：本综述的第二部分“方法分类与代表作”中，详细介绍了In-Context Learning（ICL）领域的五大研究方向，并逐一介绍了每个方向的代表性论文。其中，Wei等人[7][10]提出的Chain-of-Thought（CoT）提示是ICL研究的核心方法，被广泛引用和讨论。此外，还提到 Levy等人[43]研究了演示多样性和相似度的权衡，Qin等人[21]提出了迭代演示选择（IDS）方法，以及Zhou等人[15]总结了各种演示选择策略。这些都体现了“A Survey on In-context Learning”的核心内容。"
+  },
+  {
+    "id": 20,
+    "paper_name": "Benchmarking Large Language Models for News Summarization",
+    "survey_file": "20_Survey_News Summarization Using Large Language Models.md",
+    "api_response": "是\n\n理由：这篇综述的第2节“方法分类与代表作”中，Zhang等人（2023年MIT TACL）的工作被明确提及，并详细描述了其在CNN/DailyMail与XSum数据集上的基准测试，该研究的核心发现是指令微调优于模型规模，并对LLM摘要性能进行了系统评估。 此外，第3节“实验与评价总结”中也提到了该研究的结论。"
+  },
+  {
+    "id": 21,
+    "paper_name": "Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art",
+    "survey_file": "21_Survey_Advancements and Applications of Generative Adversarial Networks (GANs).md",
+    "api_response": "是\n\n理由：在“Emerging Challenges and Regulatory Barriers”部分，提到了“Equilibrium Matching frameworks”作为未来发展趋势，并且引用了OpenReview ICLR 2026的论文“Equilibrium Matching: Generative Modeling with Implicit Energy-Based Models”。 此外，在“Convergent Architectures and Future Directions”部分，也提到了“Mixture-of-Experts strategies”作为一种可行的模型扩展方法。"
+  },
+  {
+    "id": 22,
+    "paper_name": "A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME",
+    "survey_file": "22_Survey_Explainable AI in Model Interpretation and Decision Transparency.md",
+    "api_response": "是\n\n理由：在“Attribution-Based Methods and Unified Evaluation Frameworks”这一节中，该论文详细介绍了SHAP (SHapley Additive exPlanations) 方法，并对其理论基础和实践应用进行了阐述。其中提到“The foundational contribution remains SHAP (SHapley Additive exPlanations), which computes feature contributions using Shapley values from cooperative game theory[9][42]”。"
+  },
+  {
+    "id": 23,
+    "paper_name": "Large Language Model guided Protocol Fuzzing",
+    "survey_file": "23_Survey_Protocol Fuzzing Techniques and Applications.md",
+    "api_response": "是\n\n理由：这篇survey文章中详细讨论了“LLM-Guided Protocol Fuzzing: CHATAFL and Grammar-Driven Mutation”这篇论文，并介绍了CHATAFL的三个核心组件：LLM语法提取、消息增强和状态预测。文章在第“Machine Learning and Large Language Model-Augmented Approaches”部分进行了详细阐述。"
+  },
+  {
+    "id": 24,
+    "paper_name": "MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection",
+    "survey_file": "24_Survey_Vision Transformer-based Medical Imaging Techniques.md",
+    "api_response": "是\n\n理由：在“二、方法分类与代表作”部分，提到“Swin UNETR（Tang等，2021-2022）将分层Swin Transformer嵌入UNETR框架，通过移位窗口注意减少计算复杂度[22]。关键设计包括自监督预训练的代理任务（如组织结构感知的掩码预测）与多尺度特征融合。”中，Swin Transformer被提及，而Swin Transformer是MaxCerVixT的核心方法。虽然没有直接提到论文名称，但通过Swin Transformer的提及，可以推断出MaxCerVixT的出现。"
+  },
+  {
+    "id": 25,
+    "paper_name": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
+    "survey_file": "25_Survey_Open-Vocabulary Object Detection Techniques.md",
+    "api_response": "是\n\n理由：在“实验与评价总结”的“效率与精度的帕累托前沿重构”部分，提到了YOLO-World和Grounding DINO，并对两者在速度和精度上的trade-off进行了对比。虽然没有直接提到“YOLO-World: Real-Time Open-Vocabulary Object Detection”，但通过其名称和描述，可以明确识别出该论文是本文讨论的OVOD方法之一。"
+  }
+]

@@ -26,7 +26,7 @@ load_dotenv()
 
 API_KEY = os.environ.get("API_KEY")
 AHM_BASE_URL = "https://api.aihubmix.com/v1"
-LLM_MODEL_NAME = "qwen2.5-7b-instruct"
+LLM_MODEL_NAME = "gpt-4.1-nano"
 
 if not API_KEY:
     print("错误：未找到 API_KEY 环境变量。")

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "paper_name": "Artificial lemming algorithm: a novel bionic meta-heuristic technique for solving real-world engineering optimization problems",
+    "survey_file": "01_Survey_Bionic Meta-Heuristic Optimization Techniques.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到了“黑翅鸢优化算法 (BKA)”，Wang等人于2024年提出的算法，并引用了csdn博客链接，该博客文章详细介绍了BKA及其改进版本IBKA，而“Artificial lemming algorithm”正是BKA的英文名称。"
+  },
+  {
+    "id": 2,
+    "paper_name": "Multiscale structural similarity for image quality assessment",
+    "survey_file": "02_Survey_Image Quality Assessment Techniques Using Structural Similarity Metrics.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，第5.1节“基于深度学习的感知与结构相似性”中，提到LPIPS方法，LPIPS的作者是He et al.，而He等人也发表了“Multiscale structural similarity for image quality assessment”这篇论文。虽然没有直接引用论文标题，但通过LPIPS方法的介绍，可以确认该论文及其核心思想被提及。"
+  },
+  {
+    "id": 3,
+    "paper_name": "MEKA: A multi-label/multi-target extension to Weka",
+    "survey_file": "03_Survey_Multi-label Learning Systems and Extensions.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到“MIRE (2023)”方法，该方法中提到了“一种新颖的文本-标签联合嵌入方式”，这与MEKA的“基于矩阵分解的标签嵌入”方法有相似之处。虽然没有直接提及“MEKA”，但其核心思想和技术手段与MEKA有一定关联。"
+  },
+  {
+    "id": 4,
+    "paper_name": "Accurate predictions on small data with a tabular foundation model",
+    "survey_file": "04_Survey_Tabular Data Foundation Models in Machine Learning.md",
+    "api_response": "是\n\n理由：这篇综述的第4节“实验与评价总结”中，Hollmann等人 (2024) 的论文“Accurate predictions on small data with a tabular foundation model”被明确提及，并作为评估表格基础模型性能的重要基线。"
+  },
+  {
+    "id": 5,
+    "paper_name": "Medical SAM adapter: Adapting segment anything model for medical image segmentation",
+    "survey_file": "05_Survey_Medical Image Segmentation Techniques and Applications.md",
+    "api_response": "是\n\n理由：在“基于基础模型的分割方法”部分，提到了“MedSAM”和“SAM-Med2D”，这两种模型都是基于Segment Anything Model (SAM) 的改进版本，可以认为是“Medical SAM adapter”的体现。 具体的提及在第3.3节中。"
+  },
+  {
+    "id": 6,
+    "paper_name": "Multi-label output codes using canonical correlation analysis",
+    "survey_file": "06_Survey_Multilabel Classification Using Canonical Correlation Analysis.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，第5.1节“基于典型相关分析 (CCA) 的特征融合”中，提到了“广义多视图CCA (GMCCA) 和判别CCA (DMCCA)”，这些方法都是CCA的变种，可以理解为对CCA的扩展和应用，间接体现了利用CCA进行多标签输出编码的思想。此外，参考文献中也提到了“Multi-label learning with global and local label correlation”这篇论文，该论文也使用了CCA进行多标签分类。"
+  },
+  {
+    "id": 7,
+    "paper_name": "DailyDialog: A Manually Labelled Multi-Turn Dialogue Dataset",
+    "survey_file": "07_Survey_Dialog Systems and Dialogue Generation.md",
+    "api_response": "是\n\n理由：在“2.2 策略与任务导向对话”的章节中，提到了“SEEK, 2022”这篇工作，该工作引用了“Empathetic Dialogue Generation via Sensitive Emotion Recognition and Sensible Knowledge Selection”（SEEK）论文，并简要介绍了该论文的核心方法。 此外，在“3. 实验与评价总结”中，提到了“RoleCS”数据集，该数据集的构建也与“DailyDialog”数据集相关。"
+  },
+  {
+    "id": 8,
+    "paper_name": "Mixup: Beyond empirical risk minimization",
+    "survey_file": "08_Survey_Data Augmentation Techniques in Deep Learning.md",
+    "api_response": "是\n\n理由：在“2.3 生成式数据增强”部分，提到了“基于大型语言模型 (LLM) 的增强”，其中“Dai et al. (2025)”的论文中，提出了一种名为 AugGPT 的方法，该方法利用 ChatGPT 的强大能力生成语义一致且结构多样的释义样本，这与 Mixup 的思路（即通过线性组合样本来生成新的样本）有一定关联，虽然没有直接引用 Mixup，但其核心思想是利用模型生成新的数据样本，以增强训练数据多样性。"
+  },
+  {
+    "id": 9,
+    "paper_name": "Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments",
+    "survey_file": "09_Survey_Blockchain Applications in Healthcare Security.md",
+    "api_response": "是\n\n理由：在“2.3 人工智能与区块链融合”章节中，提到了“基于声誉筛选与联邦学习的数据共享方案 (Wen & Chen, 2025)”，该论文中讨论了利用区块链技术来确保医疗数据源的质量，这与“Blockchain-Enabled Security Solutions for Medical Device Integrity and Provenance in Cloud Environments”中关于设备完整性和溯源的理念有一定关联。虽然没有直接引用该论文，但其讨论的声誉筛选和联邦学习方法，可以视为区块链在医疗数据安全领域的一种应用方向，与目标论文的主题有相似之处。"
+  },
+  {
+    "id": 10,
+    "paper_name": "Artificial Intelligence and Machine Learning Techniques for Anomaly Detection and Threat Mitigation in Cloud-Connected Medical Devices",
+    "survey_file": "10_Survey_Anomaly Detection in Cloud-Based Medical IoT Systems.md",
+    "api_response": "是\n\n理由：在“2.2 基于无监督/半监督的医学影像与少样本数据检测”章节中，提到了“《医疗诊断中的异常检测实战——基于AutoEncoder与One-Class SVM的少样本学习》”这篇论文，该论文的核心方法就是利用Autoencoder和One-Class SVM，这属于人工智能和机器学习技术。 此外，在“3. 趋势与挑战”部分，也提到了生成式AI用于数据增强，这同样属于人工智能技术。"
+  },
+  {
+    "id": 11,
+    "paper_name": "Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets",
+    "survey_file": "11_Survey_Sequence and Metadata Retrieval Tools and Techniques in Computational Biology.md",
+    "api_response": "是\n\n理由：在引言部分，提到了国际核酸序列数据库合作组织（INSDC）旗下的 NCBI 以及中国的国家基因组科学数据中心（NGDC）等机构，这些机构存储了数千万亿计的序列读段，并提到了 NCBI Datasets。虽然没有直接提到“Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets”这篇论文，但它明确指出了 NCBI 作为核心数据来源，这与该论文的主题高度相关。"
+  },
+  {
+    "id": 12,
+    "paper_name": "A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information",
+    "survey_file": "12_Survey_Feature Selection in Machine Learning for Classification Tasks.md",
+    "api_response": "否\n\n理由：虽然文中提到了JMIMJE和NMI-JMI等基于信息论的过滤式方法，但没有直接提及“A new filter feature selection algorithm for classification task by ensembling pearson correlation coefficient and mutual information”这篇论文或其核心方法。 论文主要关注了JMI和JE的平衡，以及NMI的改进，并未涉及皮尔森相关系数的组合。"
+  },
+  {
+    "id": 13,
+    "paper_name": "Empowering student selfâregulated learning and science education through <scp>ChatGPT</scp> : A pioneering pilot study",
+    "survey_file": "13_Survey_AI in Education and Self-Regulated Learning.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”章节中，朱俊华等 (2025) 的论文提到了“ChatGPT”作为通用AI工具，并分析了其在写作支持、特定工具（如翻译、编程）和个人辅导教师等应用场景，这与论文中主推的方法（利用ChatGPT进行自我调节学习）高度一致。"
+  },
+  {
+    "id": 14,
+    "paper_name": "DEA-Net: Single Image Dehazing Based on Detail-Enhanced Convolution and Content-Guided Attention",
+    "survey_file": "14_Survey_单图像去雾技术与深度学习结合的增强方法。.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到“FFA-Net: Feature fusion attention network for single image dehazing”这篇论文，而DEA-Net是FFA-Net的改进版本，因此可以推断出DEA-Net也属于该类方法。"
+  },
+  {
+    "id": 15,
+    "paper_name": "MotionDiffuse: Text-Driven Human Motion Generation With Diffusion Model",
+    "survey_file": "15_Survey_Text-Driven Human Motion Synthesis with Deep Learning Models.md",
+    "api_response": "是\n\n理由：这篇综述的第5节“方法分类与代表作”中，明确提到了“MotionDiffuse (TPAMI 2024)”并详细描述了其核心方法和实验结果。"
+  },
+  {
+    "id": 16,
+    "paper_name": "A survey on large language models for recommendation",
+    "survey_file": "16_Survey_Integration of Large Language Models in Recommender Systems.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”章节中，LLMRec (2023) 论文被提及，并且在“特征增强范式”部分进行了详细剖析。此外，文中多次提到“SLMRec (2025)”作为模型小型化的代表性工作，这与“A survey on large language models for recommendation”中可能讨论的模型压缩技术相关。"
+  },
+  {
+    "id": 17,
+    "paper_name": "Artificial Protozoa Optimizer (APO): A novel bio-inspired metaheuristic algorithm for engineering optimization",
+    "survey_file": "17_Survey_Bio-inspired Metaheuristic Algorithms for Engineering Optimization.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到“改进人工蜂鸟算法 (Improved Artificial Hummingbird Algorithm, ALAHA)”，其中提到了“改进的莱维飞行作为自适应权重因子来调节搜索步长”。 莱维飞行是 APO 算法的核心方法之一，因此可以推断 APO 算法被提及。"
+  },
+  {
+    "id": 18,
+    "paper_name": "Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction",
+    "survey_file": "18_Survey_Intrusion Detection in Imbalanced Big Data Networks.md",
+    "api_response": "是\n\n理由：在“算法级方法 (Algorithm-Level Methods)”章节中，提到了“KAFS-SMLP”方法，该方法融合了自适应抽样与改进孪生网络，并在CIC-IDS2017和CIC-IDS2018数据集上使用了过采样技术（SMOTE），类似于“oversampling”策略。此外，MRID也使用了特征提取和特征融合来增强模型的性能，部分可以理解为“feature embedding”。其中提到KAFS-SMLP的原理与“Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction”中的“oversampling”策略以及“feature embedding” 有相似之处。"
+  },
+  {
+    "id": 19,
+    "paper_name": "A Survey on In-context Learning",
+    "survey_file": "19_Survey_In-context Learning in Natural Language Processing.md",
+    "api_response": "是\n\n理由：在引言部分提到了“In-Context Learning, ICL”作为LLM的“涌现能力”，并且在“方法分类与代表作”的各个部分都详细介绍了ICL相关的研究工作，例如示例选择与检索增强、上下文管理与长序列外推、指令微调与对齐以及元学习与ICL能力优化等，这些都是围绕ICL展开的。此外，参考文献中也包含了“Language Models are few-shot learners”等与ICL相关的论文。"
+  },
+  {
+    "id": 20,
+    "paper_name": "Benchmarking Large Language Models for News Summarization",
+    "survey_file": "20_Survey_News Summarization Using Large Language Models.md",
+    "api_response": "是\n\n理由：在“实验与评价总结”章节中，提到了“以模型评模型”（LLM-as-a-judge）的范式，使用了MT-Bench、AlpacaEval等基准，这与“Benchmarking Large Language Models for News Summarization”中常用的评估方法相关。同时，提到了使用更大的LLM（如GPT-4）对生成摘要进行打分，也间接反映了该领域对模型性能的量化评估，是该领域常用的benchmark。"
+  },
+  {
+    "id": 21,
+    "paper_name": "Ten years of generative adversarial nets (GANs): a survey of the state-of-the-art",
+    "survey_file": "21_Survey_Advancements and Applications of Generative Adversarial Networks (GANs).md",
+    "api_response": "是\n\n理由：在引言部分，文章提到“GAN自2014年被提出以来，一直是生成式人工智能领域的核心驱动力之一，其通过生成器与判别器的对抗博弈机制，在图像生成、风格迁移等任务中取得了里程碑式的成就 [jeit.ac.cn](https://jeit.ac.cn/cn/article/doi/10.11999/JEIT221400?viewType=HTML#:~:text=D%2DWGAN%E4%B8%8D%E4%BB%85%E8%83%BD%E5%A4%9F%E7%94%9F%E6%88%90,%E7%9A%84%E5%BD%A2%E6%80%81%E4%B9%9F%E6%9B%B4%E5%8A%A0%E7%9C%9F%E5%AE%9E%E3%80.82)。” 这直接引用了该论文的奠基性贡献。"
+  },
+  {
+    "id": 22,
+    "paper_name": "A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME",
+    "survey_file": "22_Survey_Explainable AI in Model Interpretation and Decision Transparency.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，详细讨论了SHAP和LIME。SHAP被描述为“基于博弈论建立一个统一的框架来计算特征对预测的贡献度”，LIME被描述为“通过在输入附近扰动或构建可解释的代理模型来解释单次预测”。同时，还列出了这些方法对应的论文引用。"
+  },
+  {
+    "id": 23,
+    "paper_name": "Large Language Model guided Protocol Fuzzing",
+    "survey_file": "23_Survey_Protocol Fuzzing Techniques and Applications.md",
+    "api_response": "是\n\n理由：这篇综述的摘要中明确提到了“ChatAFL (NDSS 2024)”这篇论文，该论文正是基于LLM指导的协议模糊测试方法。此外，在“2.1 基于大语言模型（LLM）的方法”部分，详细介绍了ChatAFL的原理和实验结果，并提到了LLAMAFUZZ和CKGFuzzer等其他相关工作。"
+  },
+  {
+    "id": 24,
+    "paper_name": "MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection",
+    "survey_file": "24_Survey_Vision Transformer-based Medical Imaging Techniques.md",
+    "api_response": "是\n\n理由：在“2.2 CNN-Transformer混合架构”的 subchapter中，提到了“Swin UNETR (Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis)”，该论文中提出了“Max-SA”注意力机制，这与MaxCerVixT中使用的MaxCerVixT注意力机制有相似之处。虽然没有直接提到论文名称，但通过描述其核心方法，可以推断出MaxCerVixT的出现。"
+  },
+  {
+    "id": 25,
+    "paper_name": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
+    "survey_file": "25_Survey_Open-Vocabulary Object Detection Techniques.md",
+    "api_response": "是\n\n理由：这篇综述的“趋势与挑战”部分，第3点中提到了“YOLO-World”以及其在LVIS数据集上的性能，并详细描述了其核心创新“可重参数化的视觉-语言路径聚合网络（RepVL-PAN）和区域-文本对比损失”。"
+  },
+  {
+    "id": 26,
+    "paper_name": "PubChem 2025 update",
+    "survey_file": "26_Survey_PubChem数据库更新与扩展.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，第7点“可解释性与因果推断的需求日益迫切”中，提到了“AI驱动的自动化科学发现平台”，并引用了“大语言模型的工具使用综述”论文（aas.net.cn/cn/article/doi/10.16383/j.aas.c240805），该论文预计在2025年发表，并讨论了AI在药物设计和材料科学领域的应用，暗示了PubChem 2025更新可能与此相关。此外，参考文献中也提到了“DrugAI资料汇总”，可能包含关于PubChem 2025更新的信息。"
+  },
+  {
+    "id": 27,
+    "paper_name": "GOOSE algorithm: a powerful optimization tool for real-world engineering challenges and beyond",
+    "survey_file": "27_Survey_Metaheuristic Optimization Techniques for Complex Engineering Problems.md",
+    "api_response": "是\n\n理由：在“2. 方法分类与代表作”部分，提到“TCCMOA (Two-population Co-evolutionary Constrained Multi-objective Optimization Algorithm)”算法，该算法的作者丁炜超等人，在论文中提到了GOOSE算法作为一种有效的约束多目标优化方法。具体在第2.1节中，提到“TCCMOA 针对具有复杂可行域的约束多目标优化问题，丁炜超等人提出了一种双种群协同进化算法 [aas.net.cn](https://aas.net.cn/cn/article/doi/10.16383/j.aas.c250023)。该方法设置一个使用粒子群优化器（PSO）的“粒子群”以实现快速收敛，同时利用一个由参考向量引导的“向量群”来维护种群多样性。通过新颖的动态ε-约束技术和种群间信息共享，有效解决了算法在复杂可行域边界搜索的难题。”"
+  },
+  {
+    "id": 28,
+    "paper_name": "The Hiking Optimization Algorithm: A novel human-based metaheuristic approach",
+    "survey_file": "28_Survey_Human-based Metaheuristic Algorithms in Optimization Problems.md",
+    "api_response": "是\n\n理由：在“2. 方法分类与代表作”部分，提到“基于蒙特卡洛树搜索的自动启发式设计 (MCTS-AHD)”时，该方法与“The Hiking Optimization Algorithm”中的“基于爬行的优化算法”有相似之处，都强调了探索性搜索和避免局部最优。虽然没有直接引用论文名称，但其核心思想与“The Hiking Optimization Algorithm”的“爬行”策略有呼应。"
+  },
+  {
+    "id": 29,
+    "paper_name": "Large Language Models can Accurately Predict Searcher Preferences",
+    "survey_file": "29_Survey_User Search Behavior and Prediction Techniques.md",
+    "api_response": "是\n\n理由：在“3. 大语言模型驱动的范式革新”章节中，提到了“Large-TR (Large Language Model-based Trusted Multi-Modal Recommendation)”这篇论文，该论文明确指出LLM能够精准建模用户偏好，并利用LLM的自然语言理解能力过滤多模态数据中的噪声。"
+  },
+  {
+    "id": 30,
+    "paper_name": "Deep learning enabled intrusion detection system for Industrial IOT environment",
+    "survey_file": "30_Survey_Intrusion Detection Techniques in Industrial IoT Networks.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，第1.1节“基于深度学习的检测方法”中，提到了“基于多尺度残差时间卷积网络（TCN）的入侵检测模型（MRID）”，该模型使用了深度学习技术，并且针对物联网流量攻击识别问题，设计了多尺度残差时间卷积模块，这可以认为是深度学习驱动的入侵检测系统。此外，DADNet和FL与时空特征融合也属于深度学习的应用。"
+  },
+  {
+    "id": 31,
+    "paper_name": "A Survey on Deep Neural Network Pruning: Taxonomy, Comparison, Analysis, and Recommendations",
+    "survey_file": "31_Survey_Neural Network Model Compression Techniques.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到了“基于可融合残差卷积块的层剪枝 (2022)”这篇论文，该论文的作者是Xiao, G., Lin, J., Seznec, M., Wu, H., Demouth, J., & Han, S.。此外，在“趋势与挑战”部分，也提到了“自动化与智能化压缩”以及“软硬件协同设计”等方向，这些都与“剪枝”相关的研究趋势。"
+  },
+  {
+    "id": 32,
+    "paper_name": "An Empirical Evaluation of Prompting Strategies for Large Language Models in Zero-Shot Clinical Natural Language Processing: Algorithm Development and Validation Study",
+    "survey_file": "32_Survey_Clinical NLP and Language Model Prompting Strategies.md",
+    "api_response": "是\n\n理由：在“实验与评价总结”章节中，提到了“基于提示增强的LLM信息抽取算法” (2025) 的实验结果，并对比了其F1值与模型微调的效果。此外，也提到了“CoT（Chain-of-Thought）提示”在提高AI决策透明度和可靠性方面的重要性。虽然没有直接引用论文标题，但内容高度相关，并暗示了该算法与CoT提示的研究方向一致。"
+  },
+  {
+    "id": 33,
+    "paper_name": "Pan-Mamba: Effective pan-sharpening with state space model",
+    "survey_file": "33_Survey_State Space Models in Image Processing.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，提到了“PointMamba (2024)”研究将SSM的应用从2D图像拓展至3D点云分析，并提到该方法“展示了SSM在处理3D视觉数据方面的潜力”。同时，在参考文献中，提到了“Pan-Mamba: Effective pan-sharpening with state space model” 论文。"
+  },
+  {
+    "id": 34,
+    "paper_name": "Exploiting robust quadratic polynomial hyperchaotic map and pixel fusion strategy for efficient image encryption",
+    "survey_file": "34_Survey_Chaotic Systems in Image Encryption.md",
+    "api_response": "是\n\n理由：在“2.2 高维复杂动力学系统的应用”章节中，提到了“基于指数-余弦离散混沌映射的加密算法”，该方法通过向一维余弦混沌系统中耦合指数和高次幂非线性项，实现了系统复杂度的提升，虽然没有直接提到“Exploiting robust quadratic polynomial hyperchaotic map”，但其思路与该论文中利用高维混沌系统和像素融合策略的加密方法有相似之处。"
+  },
+  {
+    "id": 35,
+    "paper_name": "A reliable method for data aggregation on the industrial internet of things using a hybrid optimization algorithm and density correlation degree",
+    "survey_file": "35_Survey_Data Aggregation Techniques for the Industrial Internet of Things (IIoT).md",
+    "api_response": "否\n\n理由：本文综述了2022-2025年间IIoT数据聚合领域的代表性技术与研究进展，虽然提到了联邦学习、深度学习、大语言模型等，但并未提及“A reliable method for data aggregation on the industrial internet of things using a hybrid optimization algorithm and density correlation degree”这篇论文或者该论文中主推的方法。"
+  },
+  {
+    "id": 36,
+    "paper_name": "Parrot optimizer: Algorithm and applications to medical problems",
+    "survey_file": "36_Survey_Metaheuristic Optimization Algorithms in Medical Applications.md",
+    "api_response": "否。\n\n理由：虽然文中提到了多种元启发式算法（如遗传算法、差分演化算法、正余弦算法等），但并未提及“Parrot optimizer”或关于其在医学领域应用的论文。 综述主要集中于2022-2025年期间的研究成果，未包含对Parrot optimizer的详细讨论。"
+  },
+  {
+    "id": 37,
+    "paper_name": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+    "survey_file": "37_Survey_Graph-based Reasoning for Problem Solving with Large Language Models.md",
+    "api_response": "是\n\n理由：在“2.2 显式推理路径规划 (Explicit Reasoning Path Planning)”这一节中，有提到论文“RoG (Luo et al., ICLR 2024)”。该论文提出的“规划-检索-推理”（Planning-Retrieval-Reasoning）框架，可以被认为是Graph of Thoughts的核心思想的体现，只是作者用RoG这个名字来称呼该模型。"
+  },
+  {
+    "id": 38,
+    "paper_name": "Advanced Modelling of Soil Organic Carbon Content in Coal Mining Areas Using Integrated Spectral Analysis: A Dengcao Coal Mine Case Study",
+    "survey_file": "38_Survey_Spectral Analysis for Soil Organic Carbon Quantification in Mining Regions.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，第“2. 机器学习建模与模型适用性评价”中，提到“邓永鹏等人 (2022) 的研究虽然目标是判别退耕还林年限，但其方法论对SOC间接量化具有重要参考价值”，并描述了使用“CR-PCA”处理光谱数据，结合LDA模型分类效果最佳。 该研究虽然不是专门针对煤矿，但是其利用光谱特征进行土壤分类的方法论，对矿区土壤的SOC量化具有参考意义。同时，参考文献中也引用了邓永鹏等人(2022) 的相关论文。"
+  },
+  {
+    "id": 39,
+    "paper_name": "Multi-strategy adaptable ant colony optimization algorithm and its application in robot path planning",
+    "survey_file": "39_Survey_Adaptive Algorithms in Swarm Robotics for Path Optimization.md",
+    "api_response": "是\n\n理由：在“2.2 基于群体智能的启发式算法”的章节中，提到了“融合遗传算法（GA）与粒子群算法（PSO）”以及“改进蚁群与猫群算法”，这些都属于多智能体策略融合的范畴，可以理解为一种多策略可变优化方法。此外，第3.2节中也提到了“性能函数引导的无人机集群深度强化学习控制方法”，这是一种结合模型和强化学习的多策略方法。虽然没有直接提到“Multi-strategy adaptable ant colony optimization algorithm”，但其核心思想与此相近。"
+  },
+  {
+    "id": 40,
+    "paper_name": "A pathology foundation model for cancer diagnosis and prognosis prediction",
+    "survey_file": "40_Survey_Deep Learning in Histopathology for Cancer Diagnosis and Prognosis.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，Virchow（Nature Medicine, 2024）被明确列举为病理学基础模型，并详细描述了其研究问题、核心方法（基于Vision Transformer-Huge (ViT-H)架构，利用自监督学习算法DINO v2在约150万张WSI上进行预训练）和关键实验结论。  这篇论文是该领域的重要基石，并且是综述中重点提及的模型。"
+  },
+  {
+    "id": 41,
+    "paper_name": "UCL-Dehaze: Toward Real-World Image Dehazing via Unsupervised Contrastive Learning",
+    "survey_file": "41_Survey_Image Dehazing Techniques.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”第二部分，第2.4 “生成式模型”中，提到了“基于GAN的去雾网络（如Jiang et al., 2023所采用的cGAN框架）”。  虽然没有直接提到“UCL-Dehaze”，但该部分讨论了基于生成对抗网络（GANs）的去雾方法，而“UCL-Dehaze: Toward Real-World Image Dehazing via Unsupervised Contrastive Learning” 这篇论文的核心方法就是利用无监督对比学习。"
+  },
+  {
+    "id": 42,
+    "paper_name": "SwissDock 2024: major enhancements for small-molecule docking with Attracting Cavities and AutoDock Vina",
+    "survey_file": "42_Survey_Enhanced Methodologies in Computational Drug Docking Techniques.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到“SurfDock (Nature Methods 2024)”并描述了其核心方法“开发了一种基于几何扩散神经网络的蛋白-配体复合物结构预测方法SurfDock。模型将蛋白质的表面特征、残基结构及预训练序列特征整合为表面节点的表示，在蛋白质表面进行几何扩散以生成配体构象，并内置SurfScore模块评估构象置信度。”  SurfDock 2024 确实是该章节中提到的论文，并且描述中提到了“Attracting Cavities”这一方法。"
+  },
+  {
+    "id": 43,
+    "paper_name": "Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis",
+    "survey_file": "43_Survey_AI-assisted Research Evaluation.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，代表作2中“基于多智能体协作的评审意见生成”讨论了类似的研究方向，并引用了D'Arcy等人（2024）的MARG框架。虽然没有直接提及“Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis”，但该部分讨论了利用多个LLM智能体生成评审意见，这与该论文的核心思想高度相关。"
+  },
+  {
+    "id": 44,
+    "paper_name": "Circuit Breaker",
+    "survey_file": "44_Survey_故障检测与隔离技术.md",
+    "api_response": "是\n\n理由：在2.3 “基于模型的混合方法”章节中，提到“针对四旋翼无人机同时面临传感器和执行器故障的控制难题”，并提出了一种“基于学习观测器的故障弹性容错控制方案”，其中“Circuit Breaker” (断路器) 是无人机控制系统中的一个重要组成部分，需要进行故障诊断和容错处理。"
+  },
+  {
+    "id": 45,
+    "paper_name": "DiffECG: Diffusion Model-Powered Label-Efficient and Personalized Arrhythmia Diagnosis",
+    "survey_file": "45_Survey_Label-Efficient Deep Learning Approaches for Medical Diagnosis.md",
+    "api_response": "是\n\n理由：在“2.3 小样本学习 (Few-shot Learning, FSL) 与元学习”章节中，提到了“PM2: A New Prompting Multi-modal Model Paradigm for Few-shot Medical Image Classification”这篇论文，该论文探讨了利用大型多模态模型进行少样本医学图像分类，这与DiffECG中提出的扩散模型和个性化诊断方法有一定关联。虽然没有直接提及DiffECG，但其研究方向和技术思路与PM2的探索相呼应。"
+  },
+  {
+    "id": 46,
+    "paper_name": "Red-billed blue magpie optimizer: a novel metaheuristic algorithm for 2D/3D UAV path planning and engineering design problems",
+    "survey_file": "46_Survey_Metaheuristic Algorithms for UAV Path Planning and Engineering Design.md",
+    "api_response": "是\n\n理由：在“3. 元启发式算法与机器学习的混合方法”部分，提到了“熵增强量子涟漪协同优化算法 (E²QRSA)”，该算法的作者王恩良等人，在论文中借鉴了红腹蓝鹊优化算法的思想，并将其与量子涟漪协同优化相结合。虽然没有直接提到“Red-billed blue magpie optimizer”，但E²QRSA的介绍明确表明了其灵感来源。"
+  },
+  {
+    "id": 47,
+    "paper_name": "Intelligent Clinical Documentation: Harnessing Generative AI for Patient-Centric Clinical Note Generation",
+    "survey_file": "47_Survey_Generative AI in Clinical Documentation Systems.md",
+    "api_response": "是\n\n理由：在第2.2“基于大型语言模型（LLM）的报告生成”部分，提到了“GPT-4医疗任务评估 (Goh et al., 2025)”这篇论文，该论文探讨了GPT-4在辅助医生处理复杂临床管理任务时的表现，并使用了“AI住院医师”范式，这与“Intelligent Clinical Documentation”的主题高度相关。"
+  },
+  {
+    "id": 48,
+    "paper_name": "A Turing test of whether AI chatbots are behaviorally similar to humans",
+    "survey_file": "48_Survey_Evaluation of AI Chatbot Human-likeness through Behavioral Testing.md",
+    "api_response": "是\n\n理由：Pagan et al. (2025) 提出了“计算图灵测试框架”，明确提到了“克服人类判断的局限性”，并且核心方法是结合“基于BERT的**可检测性**分类器、基于句子嵌入的**语义保真度**（余弦相似度）以及基于语言特征（如情感、风格标记）的**可解释性分析**”，这可以被视为一种行为测试的演进，并试图模拟图灵测试的思路，但摆脱了图灵测试的主观性。"
+  },
+  {
+    "id": 49,
+    "paper_name": "Elk herd optimizer: a novel nature-inspired metaheuristic algorithm",
+    "survey_file": "49_Survey_Nature-Inspired Metaheuristic Algorithms for Optimization Tasks.md",
+    "api_response": "是\n\n理由：在第2.2.2“新兴算法的快速迭代”部分，提到了“融合邻域搜索与改进莱维因子的人工蜂鸟算法 (ALAHA)”。这篇算法的提出和改进，以及其中提到的莱维飞行，都与“Elk herd optimizer”的思路有相似之处，虽然没有直接提及论文名称，但其核心思想——通过改进变异算子来增强算法的跳跃能力，与“Elk herd optimizer”中使用的内在变异算子具有共性。"
+  },
+  {
+    "id": 50,
+    "paper_name": "The Crowdless Future? Generative AI and Creative Problem-Solving",
+    "survey_file": "50_Survey_Generative AI in Creative Problem-Solving and Innovation.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，提到“未来的研究将围绕提升AI的自主性、可解释性及多模态融合能力展开”，其中提到了“基于 DeepSeek 支持的促进中学生深度学习投入的教学实践研究”。这篇论文直接论述了DeepSeek模型在深度学习中的应用，可以视为该论文中主推的方法之一。 此外，在参考文献中，明确提到了 “smartblogchen.wordpress.com” 中的阅读列表。"
+  },
+  {
+    "id": 51,
+    "paper_name": "Diffusion policy: Visuomotor policy learning via action diffusion",
+    "survey_file": "51_Survey_Visuomotor Policy Learning and Action Representation in Robotic Systems.md",
+    "api_response": "是\n\n理由：这篇综述中，在“方法分类与代表作”部分，第1.1段明确提到了“Diffusion Policy: Visuomotor policy learning via action diffusion” (Chi et al., 2023) 这篇论文，并对其核心方法进行了详细阐述，包括动作分布的得分函数梯度学习和多步迭代去噪。"
+  },
+  {
+    "id": 52,
+    "paper_name": "Crested Porcupine Optimizer: A new nature-inspired metaheuristic",
+    "survey_file": "52_Survey_Nature-inspired Optimization Algorithms.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到“代表作二：动态调整成长方式的郊狼优化算法 (DGCOA)”中，该研究指出DGCOA“融合了多种策略：利用正余弦算法（SCA）对停滞个体进行扰动更新以增强种群多样性”，而“正余弦算法”实际上就是“Crested Porcupine Optimizer”的方法，这篇论文主推了这种优化器。"
+  },
+  {
+    "id": 53,
+    "paper_name": "Geometry- and Accuracy-Preserving Random Forest Proximities",
+    "survey_file": "53_Survey_Proximity Measures in Random Forests.md",
+    "api_response": "否\n\n理由：综述主要关注的是随机森林模型在性能优化、异构集成和领域知识融合方面的进展，并未提及“Geometry- and Accuracy-Preserving Random Forest Proximities”这篇论文或者主推的方法。虽然提到了地理空间数据的建模和精细化特征工程，但侧重点在于如何利用空间邻近信息，而非直接讨论基于距离或邻近度的度量。"
+  },
+  {
+    "id": 54,
+    "paper_name": "Notice of Removal: VideoFusion: Decomposed Diffusion Models for High-Quality Video Generation",
+    "survey_file": "54_Survey_Video Generation Using Diffusion Models.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”的2.2 “长视频与时序连贯性”部分，提到“Seedance 1.0”模型，该模型研究了多镜头叙事生成，并提到“该模型在构建时使用了类似VideoFusion的分解式扩散方法”。"
+  },
+  {
+    "id": 55,
+    "paper_name": "Scale-Aware Modulation Meet Transformer",
+    "survey_file": "55_Survey_混合神经网络架构与自适应特征融合.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，提到了“隐式神经表示与频域融合的探索”，并引用了“FeINFN模型”作为例子。FeINFN模型中使用了“Fourier-enhanced Implicit Neural Fusion Network”，这与“Scale-Aware Modulation Meet Transformer”中的“Scale-Aware Modulation”概念相关，虽然没有直接提及论文名称，但其核心思想和技术方向是相似的。"
+  },
+  {
+    "id": 56,
+    "paper_name": "Exploring the artificial intelligence anxiety and machine learning attitudes of teacher candidates",
+    "survey_file": "56_Survey_Teacher Candidates Perceptions and Attitudes Towards Artificial Intelligence in.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”章节中，费建翔等人（2025）的研究使用了“融合TAM、TPB与情感依恋理论的综合模型”，这可以被视为一种探索教师对AI态度的实证建模方法，与“Exploring the artificial intelligence anxiety and machine learning attitudes of teacher candidates”中可能使用的量化研究方法相呼应。 此外，杨晓等人（2025）的研究也使用了“后人类主义与分布式认知理论”，这是一种探索教师认知和情感因素的理论框架，与该论文的主题相关。"
+  },
+  {
+    "id": 57,
+    "paper_name": "PolyFormer: Referring Image Segmentation as Sequential Polygon Generation",
+    "survey_file": "57_Survey_Referring Image Segmentation Techniques.md",
+    "api_response": "是\n\n理由：在“2.3 弱监督与通用分割方法”部分，提到了“Shatter and Gather (2023)”这篇论文，该论文中提出了“Shatter”和“Gather”两个关键模块，可以理解为一种基于分割结果的迭代精调方法，与PolyFormer的“Sequential Polygon Generation”方法有相似之处，都是通过迭代的方式提升分割精度。"
+  },
+  {
+    "id": 58,
+    "paper_name": "DiffusionDet: Diffusion Model for Object Detection",
+    "survey_file": "58_Survey_Diffusion Models for Object Detection.md",
+    "api_response": "是\n\n理由：这篇综述中，在第2.1节“基于去噪扩散的端到端检测”部分，详细介绍了“DiffusionDet”论文的研究问题、核心方法和关键实验结论，并引用了其在 MS-COCO 数据集上的性能表现。"
+  },
+  {
+    "id": 59,
+    "paper_name": "Blended Latent Diffusion",
+    "survey_file": "59_Survey_Multi-Modal Image Synthesis and Editing.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，提到了“Emu2”模型，该模型的设计理念和实现方式与“Blended Latent Diffusion”中的混合潜在扩散模型思路高度一致，并且在“参考文献”部分也引用了Emu2的论文。"
+  },
+  {
+    "id": 60,
+    "paper_name": "Null-text Inversion for Editing Real Images using Guided Diffusion Models",
+    "survey_file": "60_Survey_Image Editing with Guided Diffusion Models.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到了“基于视觉自回归模型的无训练编辑 (2025)”这篇论文，该论文中提到了一种“自适应掩蔽策略”来限制修改区域，这与“Null-text Inversion for Editing Real Images using Guided Diffusion Models”中提出的方法类似。虽然没有直接引用论文名称，但其核心思想和技术细节有相似之处。"
+  },
+  {
+    "id": 61,
+    "paper_name": "Improved YOLOv3 model with feature map cropping for multi-scale road object detection",
+    "survey_file": "61_Survey_Object Detection in Aerial and Satellite Imagery.md",
+    "api_response": "是\n\n理由：在“2.3 优化特征融合与注意力机制”这一节中，提到了“基于改进YOLOX的遥感目标检测算法”，并且该算法中引入了“特征融合模块（FFM）”，这与论文中主推的“feature map cropping”方法有相似之处，都是为了更好地融合不同尺度的特征信息。虽然没有直接提到论文名称，但其核心思想和技术手段与该论文高度相关。"
+  },
+  {
+    "id": 62,
+    "paper_name": "RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation",
+    "survey_file": "62_Survey_3D Reconstruction and Generative Models Using Diffusion Techniques.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，第9个参考文献中提到了“Renderdiffusion”，并简要介绍了该方法。"
+  },
+  {
+    "id": 63,
+    "paper_name": "Sentiment Analysis of Text Reviews Using Lexicon-Enhanced Bert Embedding (LeBERT) Model with Convolutional Neural Network",
+    "survey_file": "63_Survey_Lexicon-Enhanced Sentiment Analysis Models Using BERT and CNNs.md",
+    "api_response": "是\n\n理由：在“3. 外部知识增强的模型”部分，提到了“基于知识图谱与双重图卷积的情感分类模型”，该模型利用知识图谱来增强情感分类的准确性。虽然没有直接提到“LeBERT”，但该模型思路与LeBERT结合外部知识增强情感分析的理念相符。"
+  },
+  {
+    "id": 64,
+    "paper_name": "When Object Detection Meets Knowledge Distillation: A Survey",
+    "survey_file": "64_Survey_Knowledge Distillation in Object Detection Models.md",
+    "api_response": "是\n\n理由：这篇综述的第5部分“结论”中引用了这篇论文，并在最后一句提到了它。"
+  },
+  {
+    "id": 65,
+    "paper_name": "HexPlane: A Fast Representation for Dynamic Scenes",
+    "survey_file": "65_Survey_Dynamic Scene Representation Techniques.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，有专门介绍“K-Planes / HexPlane (CVPR 2023)”的章节，详细描述了HexPlane作为一种显式表达方法，用于提高动态场景表示的效率。"
+  },
+  {
+    "id": 66,
+    "paper_name": "Transforming Drug Therapy with Deep Learning: The Future of Personalized Medicine",
+    "survey_file": "66_Survey_个人化药物治疗中的深度学习应用。.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，第1.5节“融合患者体征与用药数据的图神经网络药物推荐方法研究”中，提到了“图神经网络（GNN）”作为核心方法。虽然没有直接提到“Transforming Drug Therapy with Deep Learning: The Future of Personalized Medicine”论文，但GNN是该论文中主推的方法之一，并且在综述中被明确提及。"
+  },
+  {
+    "id": 67,
+    "paper_name": "A Survey on Intelligent Internet of Things: Applications, Security, Privacy, and Future Directions",
+    "survey_file": "67_Survey_Security and Privacy Challenges in the Internet of Things.md",
+    "api_response": "是\n\n理由：在“2.3 人工智能驱动的安全分析与检测”章节中，提到了“大型语言模型（LLM）在代码审计、安全策略生成和日志分析方面的潜力将被进一步挖掘”。 此外，提到“MRID模型”的改进，该模型采用了大型语言模型来增强对流量数据时空特征的学习能力。这些都与“A Survey on Intelligent Internet of Things”中讨论的LLM在物联网安全中的应用高度相关。"
+  },
+  {
+    "id": 68,
+    "paper_name": "Learning trajectory dependencies for human motion prediction",
+    "survey_file": "68_Survey_Human Motion Prediction Algorithms and Techniques.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，提到“模型设计正从早期的序列学习模型，演变为以扩散模型和Transformer为代表的强大生成框架”，而扩散模型正是学习轨迹依赖关系的关键方法之一。此外，InterMimic 框架中提到“先完善后扩展”的课程策略，也体现了对轨迹依赖关系的建模。虽然没有直接提及论文名称，但该部分明确指出了该领域的研究方向与方法。"
+  },
+  {
+    "id": 69,
+    "paper_name": "Channel prior convolutional attention for medical image segmentation",
+    "survey_file": "69_Survey_Attention Mechanisms in Medical Image Segmentation.md",
+    "api_response": "是\n\n理由：在第2.2节“CNN-Transformer 混合架构”中，提到CPCATTNet研究工作“创新性地使用了通道优先卷积注意力机制（CPCA），以增强复杂病灶的空间感知并降低通道冗余”，这正是“Channel prior convolutional attention”的核心思想。"
+  },
+  {
+    "id": 70,
+    "paper_name": "Feature selection strategies: a comparative analysis of SHAP-value and importance-based methods",
+    "survey_file": "70_Survey_Feature Selection Methods in Machine Learning.md",
+    "api_response": "否\n\n理由：综述文章主要关注2022-2025年的研究进展，虽然提到了一些常用的方法，但并未提及“Feature selection strategies: a comparative analysis of SHAP-value and importance-based methods”这篇论文或者该论文中主推的SHAP值和重要性方法。 综述的内容集中在各种特征选择方法的分类和具体方法的描述上，而没有涵盖对特定方法对比分析的研究。"
+  },
+  {
+    "id": 71,
+    "paper_name": "Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets",
+    "survey_file": "71_Survey_Data Integration and Accessibility in Genomics.md",
+    "api_response": "否\n\n理由：文中没有提到“Exploring and retrieving sequence and metadata for species across the tree of life with NCBI Datasets”这篇论文，也没有提及该论文中主推的方法。 综述主要关注基因组数据整合与可及性，重点讨论了单细胞多组学、空间多维组学、临床基因组学数据融合以及相关数据可及性平台的建设。"
+  },
+  {
+    "id": 72,
+    "paper_name": "Dual residual attention network for image denoising",
+    "survey_file": "72_Survey_Image Denoising Techniques with Attention Mechanisms.md",
+    "api_response": "是\n\n理由：在“2.1 混合架构：CNN与注意力机制的融合”这一节中，提到了Jiang等人提出的ELF方法，该方法中设计了一个“多输入注意力模块”，并提及了“CNN的局部感知能力与SA的全局聚合能力并行结合”，这与“Dual residual attention network for image denoising”中使用的双残差注意力机制的思路相似。虽然没有直接提到论文名称，但其核心思想和方法论有交叉。"
+  },
+  {
+    "id": 73,
+    "paper_name": "Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction",
+    "survey_file": "73_Survey_Dynamic Scene Reconstruction Techniques for Monocular Vision Systems.md",
+    "api_response": "是\n\n理由：这篇综述的第2.2节“基于三维高斯泼溅 (3DGS) 的方法”中，详细介绍了“Deformable 3D Gaussians”这篇论文，并将其作为该类方法中的代表作，分析了其核心方法和关键实验结论。 论文的引用链接也直接提供了。"
+  },
+  {
+    "id": 74,
+    "paper_name": "Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving",
+    "survey_file": "74_Survey_Explainable Autonomous Driving Models Using Vectorized Sensor Fusion.md",
+    "api_response": "是\n\n理由：DriveGPT4 (arXiv 2024.10) 这篇文章明确提到了“Large Language Model (MLLM)”并使用了“指令微调”方法，这与“Driving with LLMs”的主题高度相关。此外，文章还提到了一种“混合微调”策略，进一步强调了LLM在自动驾驶中的应用。"
+  },
+  {
+    "id": 75,
+    "paper_name": "LLMRec: Large Language Models with Graph Augmentation for Recommendation",
+    "survey_file": "75_Survey_Graph-Enhanced Recommendation Systems.md",
+    "api_response": "是\n\n理由：在“2.4 大语言模型与图的融合”这一节中，提到了LLMRec论文，并详细描述了其核心方法，包括利用LLM从两方面增强多模态GNN：结构增强和特征增强。 论文链接也提供了。"
+  },
+  {
+    "id": 76,
+    "paper_name": "Leveraging AI in E-Learning: Personalized Learning and Adaptive Assessment through Cognitive NeuropsychologyâA Systematic Analysis",
+    "survey_file": "76_Survey_Personalized Learning through Cognitive Technologies in E-Learning.md",
+    "api_response": "是\n\n理由：在“人机协同的精准学习干预”章节中，提到“基于生成式人工智能（AIGC）技术的教学设计”，这与论文中“Leveraging AI in E-Learning”的主题高度相关。虽然没有直接引用论文名称，但AIGC是论文中提出的关键技术方向，并且在后续章节中被进一步阐述。"
+  },
+  {
+    "id": 77,
+    "paper_name": "Anomaly Detection IDS for Detecting DoS Attacks in IoT Networks Based on Machine Learning Algorithms",
+    "survey_file": "77_Survey_Anomaly Detection in IoT Networks Using Machine Learning Techniques.md",
+    "api_response": "是\n\n理由：在第2.2“时空与多维关系建模”部分，提到“尹梓诺等人 (2025)”的研究中，提出了“无监督自适应抽样与改进孪生网络结合的方法”，该方法针对网络流量类别不平衡导致检测性能差的问题，并使用了“K-medoids 的自适应小样本抽样算法（KAFS）”，这与论文中提到的DoS攻击检测相关。虽然没有直接提到“Anomaly Detection IDS for Detecting DoS Attacks in IoT Networks Based on Machine Learning Algorithms”，但其提出的方法和思路与该论文的主题高度相关。"
+  },
+  {
+    "id": 78,
+    "paper_name": "Self-Collaboration Code Generation via ChatGPT",
+    "survey_file": "78_Survey_AI-assisted Code Generation Techniques.md",
+    "api_response": "是\n\n理由：在“模型协同与动态引导”章节中，提到了“基于不确定性估计的微调模型与大语言模型的协同方法” (洪少东 等, 2025)，该方法可以理解为一种模型之间的协作，虽然没有直接提到ChatGPT，但其核心思想与ChatGPT的协同工作方式类似。此外，在“趋势与挑战”部分，也暗示了未来模型异构化的趋势，这与ChatGPT与其他模型的协同也相符。"
+  },
+  {
+    "id": 79,
+    "paper_name": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+    "survey_file": "79_Survey_Integration of Knowledge Graphs with Large Language Models for Enhanced Informat.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，提到了“更深度的神经-符号统一”以及“知识表示与利用的深度统一”，这与“Unifying Large Language Models and Knowledge Graphs: A Roadmap”中提出的神经-符号融合方法高度相关。 此外，在参考文献中，提到了“GKG-LLM: A Unified Framework for Generalized Knowledge Graph Construction”，这篇论文也致力于构建统一的框架，与该roadmap的主题相符。"
+  },
+  {
+    "id": 80,
+    "paper_name": "Hippopotamus optimization algorithm: a novel nature-inspired optimization algorithm",
+    "survey_file": "80_Survey_Nature-Inspired Optimization Algorithms.md",
+    "api_response": "是\n\n理由：在2.2 “单一算法的增强与改进”章节中，提到了“邻域搜索和改进莱维因子的人工蜂鸟优化算法 (ALAHA)”，并提及了“基于生物调节机制的人工蜂群智能算法 (NEI-ABC)”。虽然没有直接提到“Hippopotamus optimization algorithm”，但NEI-ABC的灵感来源是“人体神经-内分泌-免疫（NEI）调节网络”，这与河马优化算法的生物启发源（河马的争斗行为）有一定关联，可以认为是该领域研究的延伸和相关性。"
+  },
+  {
+    "id": 81,
+    "paper_name": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+    "survey_file": "81_Survey_Unsupervised and Semi-supervised Learning for Depth Estimation.md",
+    "api_response": "是\n\n理由：在“趋势与挑战”部分，提到了Jasmine框架，该框架正是基于“Depth Anything”的思路，利用Stable Diffusion等大模型先验来提升自监督深度估计。具体在第4节“引入大规模模型先验”中详细阐述了该框架及其核心组件。"
+  },
+  {
+    "id": 82,
+    "paper_name": "Advanced Modelling of Soil Organic Carbon Content in Coal Mining Areas Using Integrated Spectral Analysis: A Dengcao Coal Mine Case Study",
+    "survey_file": "82_Survey_Spectral Analysis for Soil Organic Carbon Assessment in Mining Environments.md",
+    "api_response": "是\n\n理由：在“实验与评价总结”部分，提到“**冯志军等 (2022)** 的研究表明，以随机森林 (RF) 为代表的集成学习算法，因其能有效处理高维数据和非线性关系，在SOC预测精度上通常优于传统的线性模型（如PLSR）[pdf.hanspub.org](https://pdf.hanspub.org/iae20220200000_47658503.pdf)”。 该研究本身就名为“基于高光谱的土壤有机质反演”，且在方法部分使用了随机森林和一阶微分，与“Advanced Modelling of Soil Organic Carbon Content in Coal Mining Areas Using Integrated Spectral Analysis: A Dengcao Coal Mine Case Study”的方法有相似之处。"
+  },
+  {
+    "id": 83,
+    "paper_name": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+    "survey_file": "83_Survey_Graph-Based Problem Solving with Language Models.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，有对Graph-CoT方法的详细描述，并提到了其核心方法“通过一个迭代循环增强LLM”，并且明确指出该方法模仿了人类在解决复杂问题时的思维链，这与“Graph of Thoughts”的核心思想高度一致。"
+  },
+  {
+    "id": 84,
+    "paper_name": "Parrot optimizer: Algorithm and applications to medical problems",
+    "survey_file": "84_Survey_Metaheuristic Optimization Techniques in Healthcare Applications.md",
+    "api_response": "否\n\n理由：这篇综述中没有提及“Parrot optimizer”或“Parrot算法”。虽然内容涉及元启发式算法，但重点在于SMAGA、TCCMOA、E2QRSA等算法，以及经典算法的改进和统一框架的探讨。"
+  },
+  {
+    "id": 85,
+    "paper_name": "Universal Conceptual Cognitive Annotation (UCCA)",
+    "survey_file": "85_Survey_Semantic Role Labeling and Representation in Natural Language Processing.md",
+    "api_response": "否\n\n理由：本文综述主要集中在2022-2025年的LLM驱动的SRL研究，并未提及或讨论“Universal Conceptual Cognitive Annotation (UCCA)”这篇论文或其相关方法。"
+  },
+  {
+    "id": 86,
+    "paper_name": "VRT: A Video Restoration Transformer",
+    "survey_file": "86_Survey_Video Restoration Using Deep Learning Techniques.md",
+    "api_response": "是\n\n理由：这篇综述的引言部分明确提到了“VRT (Video Restoration Transformer, 2022)”这篇论文，并详细介绍了其研究问题、核心方法和关键实验结论。"
+  },
+  {
+    "id": 87,
+    "paper_name": "Samba: Semantic segmentation of remotely sensed images with state space model",
+    "survey_file": "87_Survey_State Space Models for Semantic Segmentation in Remote Sensing.md",
+    "api_response": "是\n\n理由：在“2. 方法分类与代表作”章节中，RS³Mamba模型被提到了，并详细描述了其核心方法“协同补全模块（CCM）”以及实验结论，这与“Samba: Semantic segmentation of remotely sensed images with state space model”中的Mamba架构和相关方法高度吻合。此外，文章还提到了PPMamba，该模型也基于Mamba架构。"
+  },
+  {
+    "id": 88,
+    "paper_name": "Exploiting Diffusion Prior for Real-World Image Super-Resolution",
+    "survey_file": "88_Survey_Image Super-Resolution Using Generative Models.md",
+    "api_response": "是\n\n理由：在“2.3 融合大规模预训练先验的方法”这一部分，提到了SUPIR (Scaling-UP Image Restoration) 使用了文本提示来指导修复过程，并提及了借助在两千万级别的图文对上预训练的多模态大模型。虽然没有直接提到“Exploiting Diffusion Prior for Real-World Image Super-Resolution”这个标题，但SUPIR的核心思想和方法论与该论文的思路高度一致，即利用大型扩散模型（如Stable Diffusion）的先验知识来提升SISR性能。"
+  },
+  {
+    "id": 89,
+    "paper_name": "Omni-Kernel Network for Image Restoration",
+    "survey_file": "89_Survey_Image Restoration via Kernel-Based Networks.md",
+    "api_response": "是\n\n理由：在“实验与评价总结”部分，提到了“Xia B, Zhang Y, Wang S, et al. Omni-Kernel Network for Image Restoration. In: Proceedings of the AAAI Conference on Artificial Intelligence. 2024.” 这篇论文。"
+  },
+  {
+    "id": 90,
+    "paper_name": "Predefined-Time Fault-Tolerant Consensus Tracking Control for Multi-UAV Systems With Prescribed Performance and Attitude Constraints",
+    "survey_file": "90_Survey_Multi-UAV Systems Control with Fault Tolerance and Performance Constraints.md",
+    "api_response": "是\n\n理由：在“2.1.2 性能约束控制方法”中，提到了“固定时间防碰防离编队控制”，该方法旨在保证编队任务在固定时间内完成，这与论文标题中“Predefined-Time”的概念相对应。此外，该方法也涉及了“容错”和“约束”控制，与论文主题高度相关。"
+  },
+  {
+    "id": 91,
+    "paper_name": "Wav-KAN: Wavelet Kolmogorov-Arnold Networks",
+    "survey_file": "91_Survey_Wavelet-based Neural Network Architectures for Function Approximation.md",
+    "api_response": "是\n\n理由：在“2.2 小波与Transformer架构的结合”的“Pun等人于2024年提出的图像增强框架**WavEnhancer**”部分，提到了“Wav-KAN: Wavelet Kolmogorov-Arnold Networks”作为其核心方法。"
+  },
+  {
+    "id": 92,
+    "paper_name": "Reinvent 4: Modern AIâdriven generative molecule design",
+    "survey_file": "92_Survey_AI-Driven Molecular Design and Optimization.md",
+    "api_response": "是\n\n理由：在“生成式AI驱动的合成路径规划”章节中，提到了Lee与Vahdat (2025) 开发的 ReaSyn 框架，该框架的核心创新在于借鉴LLM的思维链（CoT），提出了“反应链”（Chain of Reaction, CoR）表示法，这与“Reinvent 4: Modern AI-driven generative molecule design”中提出的思维链（Chain of Thought, CoT）方法高度相似。 此外，参考文献中也提到了“Reinvent 4: Modern AI-driven generative molecule design”的论文。"
+  },
+  {
+    "id": 93,
+    "paper_name": "ASF-YOLO: A novel YOLO model with attentional scale sequence fusion for cell instance segmentation",
+    "survey_file": "93_Survey_Deep Learning for Biomedical Image Segmentation.md",
+    "api_response": "是\n\n理由：在“2.4 通用分割基础模型（SAM）的适配与微调”这一节中，提到了“Segment Anything Model (SAM)”，这篇论文是SAM的提出者，因此可以认为是找到了SAM。"
+  },
+  {
+    "id": 94,
+    "paper_name": "Computing Education in the Era of Generative AI",
+    "survey_file": "94_Survey_The Impact of Generative AI on Curriculum Design and Pedagogical Approaches in C.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，罗洪盛等 (2025) 的研究中提到了“创新的教学模式，即利用AI大模型进行‘虚拟实验’以辅助学术科研训练”，这可以被视为“Computing Education in the Era of Generative AI”的核心方法之一，即利用AI模拟实验环境进行教学。 此外，参考文献中也提到了“Computing Education in the Era of Generative AI”的论文。"
+  },
+  {
+    "id": 95,
+    "paper_name": "Wonder3D: Single Image to 3D Using Cross-Domain Diffusion",
+    "survey_file": "95_Survey_Cross-Domain 3D Reconstruction Using Diffusion Models.md",
+    "api_response": "是\n\n理由：在“2.1 二维先验驱动的三维重建”章节中，提到了“CAT3D (2024)”这篇论文，该论文的核心方法是“多视角扩散模型”，而Wonder3D的核心方法也是多视角扩散模型。"
+  },
+  {
+    "id": 96,
+    "paper_name": "LDConv: Linear deformable convolution for improving convolutional neural networks",
+    "survey_file": "96_Survey_Deformable Convolutional Networks for Image Recognition and Processing.md",
+    "api_response": "是\n\n理由：在“方法分类与代表作”部分，提到“DCNv3”算子，而“LDConv: Linear deformable convolution for improving convolutional neural networks”正是DCNv3的核心改进方法之一。文章明确指出DCNv3通过引入权重共享、多组机制以及对调制因子进行Softmax归一化，解决了DCNv2在大模型训练中的不稳定性与效率问题，这与LDConv的核心思想高度一致。"
+  },
+  {
+    "id": 97,
+    "paper_name": "Explainable Artificial Intelligence for Autonomous Driving: A Comprehensive Overview and Field Guide for Future Research Directions",
+    "survey_file": "97_Survey_Explainable AI Techniques in Autonomous Vehicles.md",
+    "api_response": "是\n\n理由：在“结论”部分，第11条参考文献中提到了“Explainable Artificial Intelligence for Autonomous Driving: A Comprehensive Overview and Field Guide for Future Research Directions”这篇论文。"
+  },
+  {
+    "id": 98,
+    "paper_name": "RMT: Retentive Networks Meet Vision Transformers",
+    "survey_file": "98_Survey_Hybrid Neural Architectures for Computer Vision.md",
+    "api_response": "是\n\n理由：在“2.5 异构自监督训练范式”这一节中，提到“HSSL (CVPR 2025, from “Every SAM Drop Counts”)”论文，并简要介绍了其核心思想。虽然没有直接提及“RMT”，但论文的实验部分和讨论中，涉及到了利用大型基础模型（如SAM）提供的语义先验来指导模型训练，这是RMT的核心思想之一（RMT: Retentive Networks Meet Vision Transformers）。"
+  },
+  {
+    "id": 99,
+    "paper_name": "Modern computing: Vision and challenges",
+    "survey_file": "99_Survey_Parallel and Distributed Computing..md",
+    "api_response": "是\n\n理由：在“4. 趋势与挑战”部分，提到“自动化并行（Alpa）引入了规划和编译开销”，并提到了“现代计算：愿景与挑战”的趋势。同时也提到了“对异构资源的利用将从传统的 CPU-GPU 协同，扩展至涵盖 HBM、DRAM、CXL 连接的内存、NVMe 固态硬盘，乃至边缘设备和无线网络的全方位异构体系”，这是“现代计算”的延伸和挑战。"
+  },
+  {
+    "id": 100,
+    "paper_name": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+    "survey_file": "100_Survey_Verification Techniques in Mitigating Hallucinations in Language Models.md",
+    "api_response": "是。\n\n在“方法分类与代表作”部分，提到了“Claim Verification Survey (2025)”，该综述中讨论了检索增强生成（RAG）作为提升LLMs利用外部知识进行自我验证的关键技术，这与“Chain-of-Verification”的核心思想（通过逐步验证信息）有很强的关联。虽然没有直接提到论文名称，但其讨论的内容体现了“Chain-of-Verification”方法论的思路。"
+  }
+]
