@@ -1,15 +1,13 @@
 import openai
 
 client = openai.OpenAI(
-  api_key="sk-DdCFk4gxi3szmjHK28339049E1954437Bd19B1E3D0790b06",  # Replace with your AIHubMix generated key
+  api_key="sk-DdCFk4gxi3szmjHK28339049E1954437Bd19B1E3D0790b06",  # 换成你在 AiHubMix 生成的密钥
   base_url="https://aihubmix.com/v1"
 )
 
-response = client.chat.completions.create(
-  model="gemma-3-27b-it",
-  messages=[
-      {"role": "user", "content": "Hello, how are you?"}
-  ]
+response = client.embeddings.create(
+  input="Your text string goes here",
+  model="text-embedding-3-small"
 )
 
-print(response.choices[0].message.content)
+print(response.data[0].embedding)
