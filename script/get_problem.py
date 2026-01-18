@@ -177,7 +177,12 @@ def main():
         print("--- 健康检查失败，脚本终止 ---")
         return
 
-    CSV_FILE_PATH = "paper_finance.csv"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    candidate_paths = [
+        os.path.join(script_dir, "paper_finance.csv"),
+        os.path.join(os.getcwd(), "paper_finance.csv"),
+    ]
+    CSV_FILE_PATH = next((p for p in candidate_paths if os.path.exists(p)), candidate_paths[0])
     PAPER_NAME_COLUMN = "title"
     NUM_TO_PROCESS = 40  # 手动控制选择前几篇
 
@@ -185,34 +190,42 @@ def main():
 
     if not os.path.exists(CSV_FILE_PATH):
         print(f"错误: 找不到 CSV 文件: {CSV_FILE_PATH}")
-        print("请确保在同一目录下有一个 'papers.csv' 文件。")
+        print("请确保在脚本目录或当前工作目录下存在 'paper_finance.csv' 文件。")
         return
 
-    # 读取 CSV
-    try:
-        with open(CSV_FILE_PATH, mode="r", encoding="utf-8-sig") as f:
-            reader = csv.DictReader(f)
+    # 读取 CSV（编码回退）
+    encodings = ["utf-8-sig", "utf-8", "gb18030", "gbk", "cp936", "latin-1"]
+    read_ok = False
+    last_err = None
+    for enc in encodings:
+        try:
+            with open(CSV_FILE_PATH, mode="r", encoding=enc, newline="") as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames or []
+                print(f"CSV 表头：{fieldnames}（编码: {enc}）")
 
-            print("CSV 表头：", reader.fieldnames)
+                if PAPER_NAME_COLUMN not in fieldnames:
+                    print("错误: CSV 缺少必要的列。")
+                    print(f"需要: '{PAPER_NAME_COLUMN}'")
+                    print(f"实际找到: {fieldnames}")
+                    continue
 
-            if PAPER_NAME_COLUMN not in reader.fieldnames:
-                print("错误: CSV 缺少必要的列。")
-                print(f"需要: '{PAPER_NAME_COLUMN}'")
-                print(f"实际找到: {reader.fieldnames}")
-                return
+                for i, row in enumerate(reader):
+                    if i >= NUM_TO_PROCESS:
+                        break
+                    title = (row.get(PAPER_NAME_COLUMN) or "").strip()
+                    if title:
+                        papers_to_process.append({"name": title})
+                    else:
+                        print(f"--- 警告: 第 {i + 2} 行 '{PAPER_NAME_COLUMN}' 为空，已跳过。")
+                read_ok = True
+                break
+        except Exception as e:
+            last_err = e
+            continue
 
-            for i, row in enumerate(reader):
-                if i >= NUM_TO_PROCESS:
-                    break
-
-                title = (row.get(PAPER_NAME_COLUMN) or "").strip()
-                if title:
-                    papers_to_process.append({"name": title})
-                else:
-                    print(f"--- 警告: 第 {i + 2} 行 '{PAPER_NAME_COLUMN}' 为空，已跳过。")
-
-    except Exception as e:
-        print(f"错误: 读取 CSV 时发生未知错误: {e}")
+    if not read_ok and not papers_to_process:
+        print(f"错误: 读取 CSV 失败，最后错误: {last_err}")
         return
 
     if not papers_to_process:
