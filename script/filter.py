@@ -190,7 +190,7 @@ def ask_and_eval(
         return True, False
 
 
-def evaluate_from_json(json_path: str, filtered_output_path: str = "openai_batch_output.filtered.json"):
+def evaluate_from_json(json_path: str, filtered_output_path: str = "openai_batch_output_filtered_finance.json"):
     if not os.path.exists(json_path):
         print(f"错误: 找不到文件 {json_path}")
         return
@@ -293,4 +293,4 @@ def evaluate_from_json(json_path: str, filtered_output_path: str = "openai_batch
 # ================== 入口 ==================
 
 if __name__ == "__main__":
-    evaluate_from_json("openai_batch_output_clean.json")
+    evaluate_from_json("finance/openai_batch_output.json")

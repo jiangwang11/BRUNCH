@@ -14,12 +14,12 @@ from openai import OpenAI
 
 TARGET_SURVEY_DIR_NAME = "x-ai_grok-deep_research"
 INPUT_JSON_PATH = "short_answer.json"
-OUTPUT_FILE_PATH = "survey_discriminative_result.json"  # 改名体现新策略
+OUTPUT_FILE_PATH = "survey_short_answer_result_x-ai_grok-deep_research.json"  # 改名体现新策略
 
 START_INDEX = 0
-END_INDEX = 10
+END_INDEX = 20
 
-GEN_MODEL_NAME = "qwen2.5-7b-instruct"
+GEN_MODEL_NAME = "qwen2.5-14b-instruct"
 EMBED_MODEL_NAME = "text-embedding-3-small"
 
 # --- 评分权重 ---
