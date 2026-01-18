@@ -179,8 +179,8 @@ def main():
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     candidate_paths = [
-        os.path.join(script_dir, "paper_math.csv"),
-        os.path.join(os.getcwd(), "paper_math.csv"),
+        os.path.join(script_dir, "paper_social_science.csv"),
+        os.path.join(os.getcwd(), "paper_social_science.csv"),
     ]
     CSV_FILE_PATH = next((p for p in candidate_paths if os.path.exists(p)), candidate_paths[0])
     PAPER_NAME_COLUMN = "title"
