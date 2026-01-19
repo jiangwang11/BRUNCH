@@ -179,18 +179,18 @@ def main():
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     candidate_paths = [
-        os.path.join(script_dir, "paper_finance.csv"),
-        os.path.join(os.getcwd(), "paper_finance.csv"),
+        os.path.join(script_dir, "paper_math.csv"),
+        os.path.join(os.getcwd(), "paper_math.csv"),
     ]
     CSV_FILE_PATH = next((p for p in candidate_paths if os.path.exists(p)), candidate_paths[0])
     PAPER_NAME_COLUMN = "title"
-    NUM_TO_PROCESS = 60  # 手动控制选择前几篇
+    NUM_TO_PROCESS = 55  # 手动控制选择前几篇
 
     papers_to_process = []
 
     if not os.path.exists(CSV_FILE_PATH):
         print(f"错误: 找不到 CSV 文件: {CSV_FILE_PATH}")
-        print("请确保在脚本目录或当前工作目录下存在 'paper_finance.csv' 文件。")
+        print("请确保在脚本目录或当前工作目录下存在 'paper_math.csv' 文件。")
         return
 
     # 读取 CSV（编码回退）
