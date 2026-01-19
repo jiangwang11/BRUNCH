@@ -1,0 +1,272 @@
+[
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "alibaba_tongyi-deepresearch-30b-a3b",
+    "average_score": 0.40489824557446474,
+    "timestamp": "2026-01-18 22:51:28"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "google_deep_research",
+    "average_score": 0.4976682194489929,
+    "timestamp": "2026-01-18 22:54:52"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "google_gemini-2.5-flash_online",
+    "average_score": 0.4897940557578665,
+    "timestamp": "2026-01-18 22:58:26"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "google_gemini-2.5-pro_online",
+    "average_score": 0.45012128570756305,
+    "timestamp": "2026-01-18 23:14:04"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "openai_gpt-5-mini",
+    "average_score": 0.44984789082613036,
+    "timestamp": "2026-01-18 23:23:06"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "openai_o4-mini-deep-research",
+    "average_score": 0.41907297272911637,
+    "timestamp": "2026-01-18 23:27:04"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "perplexity_sonar-deep-research",
+    "average_score": 0.4963446094521582,
+    "timestamp": "2026-01-18 23:38:15"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "qwen_qwen3-max_online",
+    "average_score": 0.4463264716274091,
+    "timestamp": "2026-01-18 23:44:32"
+  },
+  {
+    "gen_model": "qwen2.5-7b-instruct",
+    "target_survey_dir": "x-ai_grok-deep_research",
+    "average_score": 0.4842814910841059,
+    "timestamp": "2026-01-18 23:47:56"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "alibaba_tongyi-deepresearch-30b-a3b",
+    "average_score": 0.472278202858847,
+    "timestamp": "2026-01-18 23:58:52"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "google_deep_research",
+    "average_score": 0.5316742229623986,
+    "timestamp": "2026-01-19 00:13:19"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "google_gemini-2.5-flash_online",
+    "average_score": 0.5162898041848673,
+    "timestamp": "2026-01-19 00:25:06"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "google_gemini-2.5-pro_online",
+    "average_score": 0.5404440247448734,
+    "timestamp": "2026-01-19 00:35:37"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "openai_gpt-5-mini",
+    "average_score": 0.5035718855175023,
+    "timestamp": "2026-01-19 00:43:14"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "openai_o4-mini-deep-research",
+    "average_score": 0.5155518097546878,
+    "timestamp": "2026-01-19 00:50:52"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "perplexity_sonar-deep-research",
+    "average_score": 0.5193263621077866,
+    "timestamp": "2026-01-19 00:59:04"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "qwen_qwen3-max_online",
+    "average_score": 0.5090990559065497,
+    "timestamp": "2026-01-19 01:05:05"
+  },
+  {
+    "gen_model": "qwen2.5-32b-instruct",
+    "target_survey_dir": "x-ai_grok-deep_research",
+    "average_score": 0.5117863145458399,
+    "timestamp": "2026-01-19 01:09:27"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "alibaba_tongyi-deepresearch-30b-a3b",
+    "average_score": 0.4106739086758045,
+    "timestamp": "2026-01-19 01:10:11"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "google_deep_research",
+    "average_score": 0.37616617175510164,
+    "timestamp": "2026-01-19 01:15:52"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "google_gemini-2.5-flash_online",
+    "average_score": 0.3872359227965222,
+    "timestamp": "2026-01-19 01:16:42"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "google_gemini-2.5-pro_online",
+    "average_score": 0.4202085752449899,
+    "timestamp": "2026-01-19 01:17:33"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "openai_gpt-5-mini",
+    "average_score": 0.4605772613035436,
+    "timestamp": "2026-01-19 01:18:17"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "openai_o4-mini-deep-research",
+    "average_score": 0.37701800660449464,
+    "timestamp": "2026-01-19 01:19:08"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "perplexity_sonar-deep-research",
+    "average_score": 0.4043731868361209,
+    "timestamp": "2026-01-19 01:22:59"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "qwen_qwen3-max_online",
+    "average_score": 0.44386070053701515,
+    "timestamp": "2026-01-19 01:23:48"
+  },
+  {
+    "gen_model": "llama3.1-8b",
+    "target_survey_dir": "x-ai_grok-deep_research",
+    "average_score": 0.40612650337864353,
+    "timestamp": "2026-01-19 01:24:32"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "alibaba_tongyi-deepresearch-30b-a3b",
+    "average_score": 0.4510666868165704,
+    "timestamp": "2026-01-19 01:26:07"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "google_deep_research",
+    "average_score": 0.4737020498901988,
+    "timestamp": "2026-01-19 01:27:59"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "google_gemini-2.5-flash_online",
+    "average_score": 0.4055175798366798,
+    "timestamp": "2026-01-19 01:29:44"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "google_gemini-2.5-pro_online",
+    "average_score": 0.4751826611129714,
+    "timestamp": "2026-01-19 01:31:32"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "openai_gpt-5-mini",
+    "average_score": 0.4938985764222172,
+    "timestamp": "2026-01-19 01:33:12"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "openai_o4-mini-deep-research",
+    "average_score": 0.4972862768792757,
+    "timestamp": "2026-01-19 01:34:39"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "perplexity_sonar-deep-research",
+    "average_score": 0.43310256792455737,
+    "timestamp": "2026-01-19 01:36:27"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "qwen_qwen3-max_online",
+    "average_score": 0.47439260636232,
+    "timestamp": "2026-01-19 01:38:07"
+  },
+  {
+    "gen_model": "gemma-3-4b-it",
+    "target_survey_dir": "x-ai_grok-deep_research",
+    "average_score": 0.516551379976421,
+    "timestamp": "2026-01-19 01:39:51"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "alibaba_tongyi-deepresearch-30b-a3b",
+    "average_score": 0.45977612116821903,
+    "timestamp": "2026-01-19 01:41:00"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "google_deep_research",
+    "average_score": 0.4896291530527449,
+    "timestamp": "2026-01-19 01:42:14"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "google_gemini-2.5-flash_online",
+    "average_score": 0.4992836954585,
+    "timestamp": "2026-01-19 01:43:28"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "google_gemini-2.5-pro_online",
+    "average_score": 0.5143647185671819,
+    "timestamp": "2026-01-19 01:44:35"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "openai_gpt-5-mini",
+    "average_score": 0.5007210758199441,
+    "timestamp": "2026-01-19 01:45:39"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "openai_o4-mini-deep-research",
+    "average_score": 0.48425104275008113,
+    "timestamp": "2026-01-19 01:46:38"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "perplexity_sonar-deep-research",
+    "average_score": 0.5275059784511866,
+    "timestamp": "2026-01-19 01:47:50"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "qwen_qwen3-max_online",
+    "average_score": 0.5374808243950675,
+    "timestamp": "2026-01-19 01:49:10"
+  },
+  {
+    "gen_model": "gpt-4.1-nano",
+    "target_survey_dir": "x-ai_grok-deep_research",
+    "average_score": 0.5031281314909541,
+    "timestamp": "2026-01-19 01:50:24"
+  }
+]
