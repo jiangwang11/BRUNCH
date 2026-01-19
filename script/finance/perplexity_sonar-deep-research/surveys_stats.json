@@ -64,5 +64,49 @@
     "references": 0,
     "duration_sec": 146.51121020317078,
     "length_chars": 54605
+  },
+  {
+    "id": 7,
+    "field": "Eco-Schemes and Environmental Policies in Agriculture",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\07_Survey_Eco-Schemes and Environmental Policies in Agriculture.md",
+    "tokens_total": 279923,
+    "tokens_prompt": 291,
+    "tokens_completion": 279632,
+    "references": 22,
+    "duration_sec": 143.36994075775146,
+    "length_chars": 14032
+  },
+  {
+    "id": 8,
+    "field": "Social, Economic, and Cultural Tensions in Interreligious Relations",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\08_Survey_Social, Economic, and Cultural Tensions in Interreligious Relations.md",
+    "tokens_total": 334471,
+    "tokens_prompt": 293,
+    "tokens_completion": 334178,
+    "references": 2,
+    "duration_sec": 112.99986410140991,
+    "length_chars": 27013
+  },
+  {
+    "id": 9,
+    "field": "Infrastructures Impact on Economic Activity and Population Movements",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\09_Survey_Infrastructures Impact on Economic Activity and Population Movements.md",
+    "tokens_total": 278731,
+    "tokens_prompt": 291,
+    "tokens_completion": 278440,
+    "references": 0,
+    "duration_sec": 93.49531888961792,
+    "length_chars": 8536
+  },
+  {
+    "id": 10,
+    "field": "Geopolitical Impacts on Global Value Chains",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\10_Survey_Geopolitical Impacts on Global Value Chains.md",
+    "tokens_total": 312634,
+    "tokens_prompt": 289,
+    "tokens_completion": 312345,
+    "references": 6,
+    "duration_sec": 141.67809009552002,
+    "length_chars": 13037
   }
 ]
