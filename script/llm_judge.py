@@ -12,18 +12,41 @@ from openai import OpenAI
 
 # ================== 用户配置区域 ==================
 
-TARGET_SURVEY_DIR_NAME = "x-ai_grok-deep_research"
+# 1. 定义待评测的模型列表
+CANDIDATE_MODELS = [
+    "qwen2.5-7b-instruct",
+    "qwen2.5-32b-instruct",
+    "llama3.1-8b",
+    "gemma-3-4b-it",
+    "gpt-4.1-nano"
+]
+
+# 2. 定义待评测的数据集目录列表
+CANDIDATE_SURVEY_DIRS = [
+    "alibaba_tongyi-deepresearch-30b-a3b",
+    "google_deep_research",
+    "google_gemini-2.5-flash_online",
+    "google_gemini-2.5-pro_online",
+    "openai_gpt-5-mini",
+    "openai_o4-mini-deep-research",
+    "perplexity_sonar-deep-research",
+    "qwen_qwen3-max_online",
+    "x-ai_grok-deep_research"
+]
+
+# 全局变量占位符 (会被循环动态修改)
+GEN_MODEL_NAME = ""
+TARGET_SURVEY_DIR_NAME = ""
+OUTPUT_FILE_PATH = ""
+
 INPUT_JSON_PATH = "short_answer.json"
-OUTPUT_FILE_PATH = "survey_short_answer_result_x-ai_grok-deep_research.json"  # 改名体现新策略
+FINAL_RESULT_PATH = "final_result.json"  # 最终汇总文件
 
 START_INDEX = 0
 END_INDEX = 20
-
-GEN_MODEL_NAME = "qwen2.5-14b-instruct"
 EMBED_MODEL_NAME = "text-embedding-3-small"
 
 # --- 评分权重 ---
-# 区分度分数(Discriminative) 是最核心的指标，权重给高
 WEIGHT_LLM = 0.4
 WEIGHT_KEYWORD = 0.2
 WEIGHT_DISCRIMINATIVE = 0.4
@@ -162,53 +185,44 @@ def get_file_id(filename: str) -> int:
         return -1
 
 
-# ================== 主程序 ==================
+# ================== 封装评测逻辑 ==================
 
-# ... (前面的 import 和 函数定义 保持不变)
+def evaluate_one_round(current_model, current_survey_dir, truth_embeddings_db, target_questions):
+    """
+    运行单轮评测
+    :return: 本轮的平均分 (float)
+    """
+    # 更新全局配置，以便 get_model_response 等函数调用
+    global GEN_MODEL_NAME, TARGET_SURVEY_DIR_NAME, OUTPUT_FILE_PATH
 
-def main():
+    GEN_MODEL_NAME = current_model
+    TARGET_SURVEY_DIR_NAME = current_survey_dir
+    # 动态生成输出文件名
+    OUTPUT_FILE_PATH = f"survey_short_answer_result_{current_survey_dir}.json"
+
+    print(f"\n{'=' * 80}")
+    print(f"🎬 开始评测任务")
+    print(f"🤖 模型: {GEN_MODEL_NAME}")
+    print(f"📂 目录: {TARGET_SURVEY_DIR_NAME}")
+    print(f"💾 输出: {OUTPUT_FILE_PATH}")
+    print(f"{'=' * 80}\n")
+
     survey_root = "survey"
     target_dir = os.path.join(survey_root, TARGET_SURVEY_DIR_NAME)
 
-    # 1. 加载数据
-    if not os.path.exists(INPUT_JSON_PATH):
-        print("❌ 找不到输入文件")
-        return
-
-    with open(INPUT_JSON_PATH, "r", encoding="utf-8") as f:
-        json_data = json.load(f)
-
-    json_data.sort(key=lambda x: x.get('id', 0))
-    if END_INDEX is not None:
-        target_questions = json_data[START_INDEX:END_INDEX]
-    else:
-        target_questions = json_data[START_INDEX:]
-
-    # 2. 索引 Survey 文件
+    # 索引 Survey 文件
     if not os.path.exists(target_dir):
-        print(f"❌ 找不到 Survey 文件夹: {target_dir}")
-        return
+        print(f"❌ 找不到 Survey 文件夹: {target_dir}，跳过此轮")
+        return 0.0
+
     id_to_filepath = {}
     for fpath in glob.glob(os.path.join(target_dir, "*.md")):
         fid = get_file_id(os.path.basename(fpath))
         if fid != -1: id_to_filepath[fid] = fpath
 
-    # 3. 预构建向量库
-    print("🧠 正在预计算 Ground Truth 向量库...")
-    truth_embeddings_db = []
-    for item in target_questions:
-        pid = item.get("id")
-        truth = item.get("scenario")
-        if pid and truth:
-            vec = get_embedding(truth)
-            if vec:
-                truth_embeddings_db.append({"id": pid, "vec": vec})
-
     results = []
-    print("-" * 60)
-    print(f"🚀 开始残酷评测 (Hard Mode)")
-    print("-" * 60)
 
+    # 遍历问题进行评测
     for item in target_questions:
         pid = item.get("id")
         method_input = item.get("method")
@@ -231,89 +245,49 @@ def main():
         # 生成
         gen_prompt = SCENARIO_GEN_PROMPT.format(survey_content=survey_content, method_desc=method_input)
         start_time = time.time()
+
+        # 调用模型 (注意：get_model_response 内部使用了全局 GEN_MODEL_NAME)
         generated_scenario = get_model_response(gen_prompt)
         duration = time.time() - start_time
 
         if not generated_scenario: continue
 
-        # =========================================================
-        # 【核心修改：残酷算分逻辑】
-        # =========================================================
-
-        # 1. 基础指标
+        # --- 评分逻辑 (与原代码保持一致) ---
         vec_gen = get_embedding(generated_scenario)
-
-        # LLM 打分 (0-10)
         llm_score = get_llm_judge_score(generated_scenario, scenario_truth)
         llm_norm = llm_score / 10.0
-
-        # 关键词召回 (0.0 - 1.0)
         keyword_score = compute_keyword_similarity(generated_scenario, scenario_truth)
 
-        # 2. 区分度 (Max-Margin Discriminative Score)
         positive_sim = compute_cosine_similarity(vec_gen, current_truth_vec)
-
         negative_sims = []
         for db_item in truth_embeddings_db:
             if db_item['id'] != pid:
                 sim = compute_cosine_similarity(vec_gen, db_item['vec'])
                 negative_sims.append(sim)
 
-        # 【关键点A】：不再取平均值，而是取最大值 (Hard Negative Mining)
-        # 意思：你最像的那个错误答案，相似度是多少？
         max_negative_sim = max(negative_sims) if negative_sims else 0.0
-
-        # 原始差异
         raw_diff = positive_sim - max_negative_sim
-
-        # 【关键点B】：非线性映射 (Sigmoid-like)
-        # 如果 raw_diff < 0.05 (几乎无法区分)，得分趋近于 0
-        # 如果 raw_diff > 0.2 (区分明显)，得分趋近于 1
-        # 这样会把拥挤在 0.1 左右的分数强行拉开
         try:
-            # 缩放系数 15 控制曲线陡峭程度，偏移量 0.1 控制中心点
             disc_score = 1 / (1 + np.exp(-15 * (raw_diff - 0.1)))
         except:
             disc_score = 0.0
 
-        # 3. 熔断机制 (Gating)
         penalty_multiplier = 1.0
         penalty_reasons = []
-
-        # 熔断1：关键词缺失
         if keyword_score < 0.25:
             penalty_multiplier *= 0.4
             penalty_reasons.append("Keys丢失")
-
-        # 熔断2：看起来比正确答案更像错误答案
         if raw_diff < 0:
             penalty_multiplier *= 0.5
             penalty_reasons.append("严重混淆")
-
-        # 熔断3：LLM 觉得完全是幻觉
         if llm_score <= 2:
-            penalty_multiplier *= 0.0  # 直接归零
+            penalty_multiplier *= 0.0
             penalty_reasons.append("LLM判废")
 
-        # 4. 最终合成
-        # 权重：区分度(0.5) > LLM(0.3) > 关键词(0.2)
         base_score = (disc_score * 0.5) + (llm_norm * 0.3) + (keyword_score * 0.2)
         final_score = base_score * penalty_multiplier
 
-        # 打印诊断
-        icon = "🔴"
-        if final_score > 0.4: icon = "🟡"
-        if final_score > 0.7: icon = "🟢"
-
-        print(f"[ID:{pid}] {duration:.1f}s | {icon}")
-        print(f"  > 正例相似: {positive_sim:.4f}")
-        print(f"  > 最强负例: {max_negative_sim:.4f} (Avg was {sum(negative_sims) / len(negative_sims):.2f})")
-        print(f"  > 净差值(Diff): {raw_diff:.4f} -> 映射分: {disc_score:.4f}")
-        print(f"  > [LLM]:{llm_score} | [Key]:{keyword_score:.2f}")
-        if penalty_reasons:
-            print(f"  > ⚠️ 触发熔断: {', '.join(penalty_reasons)}")
-        print(f"  > [FINAL]: {final_score:.4f}")
-        print("  ---")
+        print(f"[ID:{pid}] {duration:.1f}s | Score: {final_score:.4f}")
 
         results.append({
             "id": pid,
@@ -329,19 +303,88 @@ def main():
                 "penalties": penalty_reasons
             }
         })
-        time.sleep(0.5)
+        # time.sleep(0.5) # 可选：减少等待时间
 
+    # 保存单轮详细结果
     if results:
         with open(OUTPUT_FILE_PATH, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
-        # 计算统计特征
         scores = [r["scores"]["final"] for r in results]
         avg = sum(scores) / len(scores)
-        std_dev = np.std(scores)
-        print(f"\n📊 统计结果:")
-        print(f"平均分: {avg:.4f}")
-        print(f"标准差: {std_dev:.4f} (越大说明区分度越好)")
+        print(f"✅ 完成本轮评测。平均分: {avg:.4f}")
+        return avg
+    else:
+        print("⚠️ 本轮无有效结果")
+        return 0.0
+
+
+# ================== 主程序入口 ==================
+
+def main():
+    # 1. 加载基础数据 (只加载一次)
+    if not os.path.exists(INPUT_JSON_PATH):
+        print("❌ 找不到输入文件")
+        return
+
+    with open(INPUT_JSON_PATH, "r", encoding="utf-8") as f:
+        json_data = json.load(f)
+
+    json_data.sort(key=lambda x: x.get('id', 0))
+    if END_INDEX is not None:
+        target_questions = json_data[START_INDEX:END_INDEX]
+    else:
+        target_questions = json_data[START_INDEX:]
+
+    # 2. 预构建 Ground Truth 向量库 (只构建一次，节省时间和Token)
+    print("🧠 正在预计算 Ground Truth 向量库 (全局共用)...")
+    truth_embeddings_db = []
+    for item in target_questions:
+        pid = item.get("id")
+        truth = item.get("scenario")
+        if pid and truth:
+            vec = get_embedding(truth)
+            if vec:
+                truth_embeddings_db.append({"id": pid, "vec": vec})
+
+    # 3. 初始化汇总列表
+    final_summary_data = []
+
+    # 4. 双重循环
+    total_tasks = len(CANDIDATE_MODELS) * len(CANDIDATE_SURVEY_DIRS)
+    current_task_idx = 0
+
+    for model_name in CANDIDATE_MODELS:
+        for survey_dir in CANDIDATE_SURVEY_DIRS:
+            current_task_idx += 1
+            print(f"\n>>> 进度: {current_task_idx}/{total_tasks}")
+
+            # 执行单次评测
+            avg_score = evaluate_one_round(
+                current_model=model_name,
+                current_survey_dir=survey_dir,
+                truth_embeddings_db=truth_embeddings_db,
+                target_questions=target_questions
+            )
+
+            # 记录结果
+            record = {
+                "gen_model": model_name,
+                "target_survey_dir": survey_dir,
+                "average_score": avg_score,
+                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+            }
+            final_summary_data.append(record)
+
+            # 实时保存汇总文件 (防止中途崩溃数据丢失)
+            try:
+                with open(FINAL_RESULT_PATH, "w", encoding="utf-8") as f:
+                    json.dump(final_summary_data, f, ensure_ascii=False, indent=2)
+                print(f"📋 汇总数据已更新至: {FINAL_RESULT_PATH}")
+            except Exception as e:
+                print(f"❌ 保存汇总文件失败: {e}")
+
+    print("\n🎉 所有评测任务已完成！")
 
 
 if __name__ == "__main__":
