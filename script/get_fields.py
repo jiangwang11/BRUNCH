@@ -128,8 +128,8 @@ def main():
     # 1. 获取脚本所在的绝对路径
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    input_json_name = "finance_output/openai_batch_output.json"
-    output_filename = "paper_fields_output_math.json"
+    input_json_name = "openai_batch_output_filtered_finance.json"
+    output_filename = "paper_fields_output_finance.json"
 
     input_json_path = os.path.join(script_dir, input_json_name)
     output_json_path = os.path.join(script_dir, output_filename)
