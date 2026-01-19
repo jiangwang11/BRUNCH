@@ -6,8 +6,8 @@ from sklearn.cluster import KMeans
 import os
 
 # ================= 配置区域 =================
-INPUT_FILE = 'paper_fields_output.json'  # 请确保这里是你翻译好的英文数据文件
-OUTPUT_FILE = 'clustered_result_optimized.json'
+INPUT_FILE = 'paper_fields_output_finance.json'  # 请确保这里是你翻译好的英文数据文件
+OUTPUT_FILE = 'clustered_result_finance.json'
 NUM_CLUSTERS = 10
 
 # --- 核心改进点：自定义学术停用词表 ---
