@@ -179,8 +179,8 @@ def main():
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     candidate_paths = [
-        os.path.join(script_dir, "paper_math.csv"),
-        os.path.join(os.getcwd(), "paper_math.csv"),
+        os.path.join(script_dir, "paper_social_science.csv"),
+        os.path.join(os.getcwd(), "paper_social_science.csv"),
     ]
     CSV_FILE_PATH = next((p for p in candidate_paths if os.path.exists(p)), candidate_paths[0])
     PAPER_NAME_COLUMN = "title"
@@ -190,7 +190,7 @@ def main():
 
     if not os.path.exists(CSV_FILE_PATH):
         print(f"错误: 找不到 CSV 文件: {CSV_FILE_PATH}")
-        print("请确保在脚本目录或当前工作目录下存在 'paper_math.csv' 文件。")
+        print("请确保在脚本目录或当前工作目录下存在 'paper_social_science.csv' 文件。")
         return
 
     # 读取 CSV（编码回退）
@@ -238,7 +238,7 @@ def main():
     total_papers = len(papers_to_process)
     social_science_dir = os.path.join(script_dir, "social_science")
     os.makedirs(social_science_dir, exist_ok=True)
-    output_filename = os.path.join(social_science_dir, "openai_batch_output.json")
+    output_filename = os.path.join(social_science_dir, "openai_batch_output2.json")
 
     print(f"--- 开始批量处理 {total_papers} 篇论文 (使用模型: {MODEL_NAME}) ---")
     print(f"--- 正在连接到中转站: {AHM_BASE_URL} ---")
