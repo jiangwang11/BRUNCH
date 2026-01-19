@@ -9,13 +9,13 @@ from openai import OpenAI
 # ================== 用户配置区域 (超参数) ==================
 
 # 1. 这里填写 survey 文件夹下那个具体的模型文件夹名字
-TARGET_SURVEY_DIR_NAME = "x-ai_grok-deep_research"
+TARGET_SURVEY_DIR_NAME = "perplexity_sonar-deep-research"
 
 # 2. JSON 文件路径
 JSON_FILE_PATH = "openai_batch_output.filtered.json"
 
 # 3. 结果保存路径
-OUTPUT_FILE_PATH = "survey_check_result_x-ai_grok-deep_research.json"
+OUTPUT_FILE_PATH = "survey_check_result_perplexity_sonar-deep-research.json"
 
 # 4. 测试数量限制 (0 或 None 为全量)
 TEST_LIMIT = 0
@@ -26,7 +26,7 @@ load_dotenv()
 
 API_KEY = os.environ.get("API_KEY")
 AHM_BASE_URL = "https://api.aihubmix.com/v1"
-LLM_MODEL_NAME = "gpt-4.1-nano"
+LLM_MODEL_NAME = "qwen2.5-14b-instruct"
 
 if not API_KEY:
     print("错误：未找到 API_KEY 环境变量。")
@@ -108,7 +108,7 @@ def get_file_id(filename: str) -> int:
 # ================== 主程序 ==================
 
 def main():
-    survey_root = "survey"
+    survey_root = "finance"
     target_dir = os.path.join(survey_root, TARGET_SURVEY_DIR_NAME)
 
     # 1. 预加载 JSON 数据

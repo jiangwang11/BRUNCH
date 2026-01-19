@@ -5,8 +5,8 @@ import os
 
 def process_benchmark_data():
     # 1. 定义文件路径
-    input_file = 'openai_batch_output.filtered.json'
-    output_file = 'short_answer.json'
+    input_file = 'openai_batch_output_filtered_finance.json'
+    output_file = 'short_answer_finance.json'
 
     # 检查输入文件是否存在
     if not os.path.exists(input_file):
