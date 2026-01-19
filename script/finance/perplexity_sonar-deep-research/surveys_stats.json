@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "field": "Analysis of the Evolution and Impact of Fiscal Policy and Tax Systems in Latin America and the Caribbean",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\01_Survey_Analysis of the Evolution and Impact of Fiscal Policy and Tax Systems in Latin A.md",
+    "tokens_total": 284514,
+    "tokens_prompt": 299,
+    "tokens_completion": 284215,
+    "references": 26,
+    "duration_sec": 132.23363947868347,
+    "length_chars": 40749
+  },
+  {
+    "id": 2,
+    "field": "Economic Competitiveness Measurement and Analysis",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\02_Survey_Economic Competitiveness Measurement and Analysis.md",
+    "tokens_total": 277459,
+    "tokens_prompt": 288,
+    "tokens_completion": 277171,
+    "references": 7,
+    "duration_sec": 145.37331557273865,
+    "length_chars": 13136
+  },
+  {
+    "id": 3,
+    "field": "Monetary Policy and Its Impact on Financial Stability",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\03_Survey_Monetary Policy and Its Impact on Financial Stability.md",
+    "tokens_total": 301333,
+    "tokens_prompt": 290,
+    "tokens_completion": 301043,
+    "references": 0,
+    "duration_sec": 146.5249059200287,
+    "length_chars": 50561
+  },
+  {
+    "id": 4,
+    "field": "Marxist Perspectives on Human Needs",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\04_Survey_Marxist Perspectives on Human Needs.md",
+    "tokens_total": 322175,
+    "tokens_prompt": 287,
+    "tokens_completion": 321888,
+    "references": 0,
+    "duration_sec": 162.9243381023407,
+    "length_chars": 60174
+  },
+  {
+    "id": 5,
+    "field": "Global Economic Integration and Fragmentation Trends",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\05_Survey_Global Economic Integration and Fragmentation Trends.md",
+    "tokens_total": 330642,
+    "tokens_prompt": 288,
+    "tokens_completion": 330354,
+    "references": 0,
+    "duration_sec": 188.94416093826294,
+    "length_chars": 70480
+  },
+  {
+    "id": 6,
+    "field": "Eighteenth-Century Literary Economics",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\finance\\perplexity_sonar-deep-research\\06_Survey_Eighteenth-Century Literary Economics.md",
+    "tokens_total": 267871,
+    "tokens_prompt": 286,
+    "tokens_completion": 267585,
+    "references": 0,
+    "duration_sec": 146.51121020317078,
+    "length_chars": 54605
+  }
+]

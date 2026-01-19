@@ -27,7 +27,7 @@ HEALTH_CHECK_MODEL = "openai/gpt-4o-mini"
 
 # ================== 批量控制 ==================
 
-BATCH_SIZE = 24
+BATCH_SIZE = 10
 
 # ================== 初始化客户端 ==================
 
@@ -110,11 +110,11 @@ def get_survey_from_deep_research(prompt_text: str) -> dict:
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    input_json_name = "paper_fields_output.json"
+    input_json_name = "paper_fields_output_finance.json"
     input_json_path = os.path.join(script_dir, input_json_name)
 
     # ✅ survey 根目录
-    survey_root_dir = os.path.join(script_dir, "survey")
+    survey_root_dir = os.path.join(script_dir, "finance")
 
     # ✅ 以模型名创建子文件夹
     safe_model_name = sanitize_filename(MODEL_NAME.replace("/", "_"))
