@@ -184,7 +184,7 @@ def main():
     ]
     CSV_FILE_PATH = next((p for p in candidate_paths if os.path.exists(p)), candidate_paths[0])
     PAPER_NAME_COLUMN = "title"
-    NUM_TO_PROCESS = 40  # 手动控制选择前几篇
+    NUM_TO_PROCESS = 25  # 手动控制选择前几篇
 
     papers_to_process = []
 
@@ -236,13 +236,13 @@ def main():
 
     all_results = []
     total_papers = len(papers_to_process)
-    math_dir = os.path.join(script_dir, "math")
-    os.makedirs(math_dir, exist_ok=True)
-    output_filename = os.path.join(math_dir, "openai_batch_output.json")
+    social_science_dir = os.path.join(script_dir, "social_science")
+    os.makedirs(social_science_dir, exist_ok=True)
+    output_filename = os.path.join(social_science_dir, "openai_batch_output.json")
 
     print(f"--- 开始批量处理 {total_papers} 篇论文 (使用模型: {MODEL_NAME}) ---")
     print(f"--- 正在连接到中转站: {AHM_BASE_URL} ---")
-    print(f"--- 输出目录: {math_dir} ---")
+    print(f"--- 输出目录: {social_science_dir} ---")
 
     for i, paper in enumerate(papers_to_process):
         print(f"\n--- [ 进度: {i + 1} / {total_papers} ] ---")
