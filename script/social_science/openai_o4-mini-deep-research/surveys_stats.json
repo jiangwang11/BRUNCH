@@ -53,5 +53,49 @@
     "references": 52,
     "duration_sec": 359.6842384338379,
     "length_chars": 13977
+  },
+  {
+    "id": 6,
+    "field": "Pedagogical Approaches to Enhance Critical Thinking in Higher Education",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\06_Survey_Pedagogical Approaches to Enhance Critical Thinking in Higher Education.md",
+    "tokens_total": 87476,
+    "tokens_prompt": 64441,
+    "tokens_completion": 23035,
+    "references": 57,
+    "duration_sec": 336.9716372489929,
+    "length_chars": 13784
+  },
+  {
+    "id": 7,
+    "field": "Impact of AI on Educational Pedagogy and Intellectual Development",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\07_Survey_Impact of AI on Educational Pedagogy and Intellectual Development.md",
+    "tokens_total": 106117,
+    "tokens_prompt": 78682,
+    "tokens_completion": 27435,
+    "references": 48,
+    "duration_sec": 461.5970649719238,
+    "length_chars": 12614
+  },
+  {
+    "id": 8,
+    "field": "Comparative Civil Law Systems",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\08_Survey_Comparative Civil Law Systems.md",
+    "tokens_total": 88438,
+    "tokens_prompt": 58192,
+    "tokens_completion": 30246,
+    "references": 60,
+    "duration_sec": 366.60722374916077,
+    "length_chars": 11372
+  },
+  {
+    "id": 9,
+    "field": "Integrating Education Systems to Improve Public Health Outcomes",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\09_Survey_Integrating Education Systems to Improve Public Health Outcomes.md",
+    "tokens_total": 89742,
+    "tokens_prompt": 64311,
+    "tokens_completion": 25431,
+    "references": 43,
+    "duration_sec": 366.1786136627197,
+    "length_chars": 11130
   }
 ]
