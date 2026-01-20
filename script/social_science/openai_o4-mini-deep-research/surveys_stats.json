@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "field": "Instructional Leadership in Technical and Vocational Education and Training (TVET) Institutions",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\01_Survey_Instructional Leadership in Technical and Vocational Education and Training (TVE.md",
+    "tokens_total": 112290,
+    "tokens_prompt": 80185,
+    "tokens_completion": 32105,
+    "references": 55,
+    "duration_sec": 499.52997851371765,
+    "length_chars": 14772
+  },
+  {
+    "id": 2,
+    "field": "The Relationship between Civic Education and National Identity",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\02_Survey_The Relationship between Civic Education and National Identity.md",
+    "tokens_total": 102494,
+    "tokens_prompt": 80940,
+    "tokens_completion": 21554,
+    "references": 26,
+    "duration_sec": 382.46161913871765,
+    "length_chars": 10129
+  },
+  {
+    "id": 3,
+    "field": "Environmental Policy and Agricultural Practices in Maoist China",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\03_Survey_Environmental Policy and Agricultural Practices in Maoist China.md",
+    "tokens_total": 145031,
+    "tokens_prompt": 113949,
+    "tokens_completion": 31082,
+    "references": 22,
+    "duration_sec": 559.1805264949799,
+    "length_chars": 8411
+  },
+  {
+    "id": 4,
+    "field": "Baroque Music Theory and Practice",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\04_Survey_Baroque Music Theory and Practice.md",
+    "tokens_total": 121913,
+    "tokens_prompt": 90863,
+    "tokens_completion": 31050,
+    "references": 43,
+    "duration_sec": 526.5485804080963,
+    "length_chars": 12454
+  },
+  {
+    "id": 5,
+    "field": "Reforms and innovations in the future vocational education and training system.",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\openai_o4-mini-deep-research\\05_Survey_Reforms and innovations in the future vocational education and training system..md",
+    "tokens_total": 83277,
+    "tokens_prompt": 51926,
+    "tokens_completion": 31351,
+    "references": 52,
+    "duration_sec": 359.6842384338379,
+    "length_chars": 13977
+  }
+]
