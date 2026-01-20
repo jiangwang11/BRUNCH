@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "field": "Instructional Leadership in Technical and Vocational Education and Training (TVET) Institutions",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\01_Survey_Instructional Leadership in Technical and Vocational Education and Training (TVE.md",
+    "tokens_total": 258705,
+    "tokens_prompt": 296,
+    "tokens_completion": 258409,
+    "references": 0,
+    "duration_sec": 122.95679473876953,
+    "length_chars": 48696
+  },
+  {
+    "id": 2,
+    "field": "The Relationship between Civic Education and National Identity",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\02_Survey_The Relationship between Civic Education and National Identity.md",
+    "tokens_total": 255077,
+    "tokens_prompt": 289,
+    "tokens_completion": 254788,
+    "references": 35,
+    "duration_sec": 181.43089842796326,
+    "length_chars": 19925
+  },
+  {
+    "id": 3,
+    "field": "Environmental Policy and Agricultural Practices in Maoist China",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\03_Survey_Environmental Policy and Agricultural Practices in Maoist China.md",
+    "tokens_total": 284270,
+    "tokens_prompt": 290,
+    "tokens_completion": 283980,
+    "references": 0,
+    "duration_sec": 160.43575859069824,
+    "length_chars": 14088
+  },
+  {
+    "id": 4,
+    "field": "Baroque Music Theory and Practice",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\04_Survey_Baroque Music Theory and Practice.md",
+    "tokens_total": 268817,
+    "tokens_prompt": 287,
+    "tokens_completion": 268530,
+    "references": 0,
+    "duration_sec": 123.80138325691223,
+    "length_chars": 40905
+  },
+  {
+    "id": 5,
+    "field": "Reforms and innovations in the future vocational education and training system.",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\05_Survey_Reforms and innovations in the future vocational education and training system..md",
+    "tokens_total": 322909,
+    "tokens_prompt": 294,
+    "tokens_completion": 322615,
+    "references": 9,
+    "duration_sec": 154.1803252696991,
+    "length_chars": 15038
+  },
+  {
+    "id": 6,
+    "field": "Pedagogical Approaches to Enhance Critical Thinking in Higher Education",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\06_Survey_Pedagogical Approaches to Enhance Critical Thinking in Higher Education.md",
+    "tokens_total": 337408,
+    "tokens_prompt": 292,
+    "tokens_completion": 337116,
+    "references": 0,
+    "duration_sec": 147.2701301574707,
+    "length_chars": 51256
+  },
+  {
+    "id": 7,
+    "field": "Impact of AI on Educational Pedagogy and Intellectual Development",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\07_Survey_Impact of AI on Educational Pedagogy and Intellectual Development.md",
+    "tokens_total": 287608,
+    "tokens_prompt": 291,
+    "tokens_completion": 287317,
+    "references": 38,
+    "duration_sec": 167.10736536979675,
+    "length_chars": 62682
+  },
+  {
+    "id": 8,
+    "field": "Comparative Civil Law Systems",
+    "md_path": "d:\\GitHub\\DeepResearch_Survey_benchmark\\script\\social_science\\perplexity_sonar-deep-research\\08_Survey_Comparative Civil Law Systems.md",
+    "tokens_total": 303195,
+    "tokens_prompt": 285,
+    "tokens_completion": 302910,
+    "references": 20,
+    "duration_sec": 131.86558485031128,
+    "length_chars": 47517
+  }
+]

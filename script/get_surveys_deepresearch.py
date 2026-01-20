@@ -20,7 +20,7 @@ if not API_KEY:
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # ✅ 使用 Deep Research 模型
-MODEL_NAME = "openai/o4-mini-deep-research"
+MODEL_NAME = "perplexity/sonar-deep-research"
 
 # 便宜模型用于健康检查
 HEALTH_CHECK_MODEL = "openai/gpt-4o-mini"
