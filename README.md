@@ -1,4 +1,4 @@
-# DeepResearch Survey Benchmark
+# BRUNCH
 
 This project provides an automated pipeline to benchmark Large Language Models (LLMs) on their ability to generate academic surveys, answer specific research questions based on those surveys, and accurately recall papers. 
 
